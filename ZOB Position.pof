@@ -24,20 +24,26 @@
 ;
 ; ZOB Enroute Positions
 ;
-ZOB12:Cleveland Center:126.750:12:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB15:Cleveland Center:134.650:15:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB20:Cleveland Center:132.250:20:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB33:Cleveland Center:125.200:33:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB40:Cleveland Center:127.900:40:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB53:Cleveland Center:124.400:53:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB61:Cleveland Center:126.950:61:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB64:Cleveland Center:134.900:64:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB71:Cleveland Center:126.720:71:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB75:Cleveland Center:120.770:75:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB28:Cleveland Center:135.720:28:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB49:Cleveland Center:133.370:49:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB66:Cleveland Center:125.420:66:C:CLE:CTR:CLE:CTR:5701:5777
-ZOB77:Cleveland Center:134.120:77:C:CLE:CTR:CLE:CTR:5701:5777 
+; Low Ref http://www.clevelandcenter.org/files/ZOB_Low_Enroute_Positions.pdf 7/6/19 - SHP
+ZOB12:Cleveland Center:126.750:12:C:CLE:CTR:ZOB:12:5701:5777
+ZOB20:Cleveland Center:132.250:20:C:CLE:CTR:ZOB:20:5701:5777
+ZOB30:Cleveland Center:120.770:30:C:CLE:CTR:ZOB:30:5701:5777
+ZOB40:Cleveland Center:127.900:40:C:CLE:CTR:ZOB:40:5701:5777
+ZOB53:Cleveland Center:124.400:53:C:CLE:CTR:ZOB:53:5701:5777
+ZOB64:Cleveland Center:134.900:64:C:CLE:CTR:ZOB:64:5701:5777
+ZOB71:Cleveland Center:134.470:71:C:CLE:CTR:ZOB:71:5701:5777
+; DEPRECATED - ZOB15:Cleveland Center:134.650:15:C:CLE:CTR:ZOB:15:5701:5777
+; DEPRECATED - ZOB33:Cleveland Center:125.200:33:C:CLE:CTR:ZOB:33:5701:5777
+; DEPRECATED - ZOB49:Cleveland Center:133.370:49:C:CLE:CTR:ZOB:49:5701:5777
+; DEPRECATED - ZOB61:Cleveland Center:126.950:61:C:CLE:CTR:ZOB:61:5701:5777
+; DEPRECATED - ZOB75:Cleveland Center:120.770:75:C:CLE:CTR:ZOB:75:5701:5777
+
+; High Ref http://www.clevelandcenter.org/files/ZOB_High_Enroute_Positons.pdf 7/6/19 - SHP
+ZOB28:Cleveland Center:135.720:28:C:CLE:CTR:ZOB:28:5701:5777
+ZOB46:Cleveland Center:126.970:46:C:CLE:CTR:ZOB:46:5701:5777
+ZOB66:Cleveland Center:125.420:66:C:CLE:CTR:ZOB:66:5701:5777
+ZOB77:Cleveland Center:134.120:77:C:CLE:CTR:ZOB:77:5701:5777 
+
 ;
 ; D21/DTW Positions
 ;
@@ -133,19 +139,19 @@ Niagara Tower:Niagara Tower:118.500:6N:T:IAG:TWR:IAG:TWR:6001:6077
 Flint Clearance:Flint Clearance:121.750:1X:T:FNT:DEL:FNT:DEL:6001:6077
 Flint Ground:Flint Ground:121.900:1Y:T:FNT:GND:FNT:GND:6001:6077
 Flint Tower:Flint Tower:126.300:1Z:T:FNT:TWR:FNT:TWR:6001:6077
-Flint Approach SE:Flint Approach:118.800:1F:F:FNT:APP:FNT:APP:6001:6077
-Flint Approach NW:Flint Approach:128.550:1G:G:FNT:APP:FNT:APP:6001:6077
+Flint Approach SE:Great Lakes Approach:118.800:1F:F:FNT:APP:FNT:APP:6001:6077
+Flint Approach NW:Great Lakes Approach:128.550:1G:G:FNT:APP:FNT:APP:6001:6077
 Lansing Clearance:Lansing Clearance:123.670:7P:T:LAN:DEL:LAN:DEL:6001:6077
 Jackson Ground:Jackson Ground:121.900:7W:T:JXN:GND:JXN:GND:5101:5177
 Jackson Tower:Jackson Tower:128.470:7X:T:JXN:TWR:JXN:TWR:5101:5177
 Lansing Ground:Lansing Ground:121.900:7O:T:LAN:GND:LAN:GND:6001:6077
 Lansing Tower:Lansing Tower:119.900:9N:T:LAN:TWR:LAN:TWR:6001:6077
-Lansing Approach:Lansing Approach:118.650:7L:L:LAN:APP:LAN:APP:6001:6077
+Lansing Approach:Great Lakes Approach:118.650:7L:L:LAN:APP:LAN:APP:6001:6077
 Saginaw Clearance:Saginaw Clearance:121.850:7R:T:MBS:DEL:MBS:DEL:6001:6077
 Saginaw Ground:Saginaw Ground:121.700:7U:T:MBS:GND:MBS:GND:6001:6077
 Saginaw Tower:Saginaw Tower:120.100:7T:T:MBS:TWR:MBS:TWR:6001:6077
-Saginaw Approach Southeast/Combined:Saginaw Approach:120.950:7S:S:MBS:APP:MBS:APP:6001:6077
-Saginaw Approach Northwest:Saginaw Approach:126.450:7V:V:MBS:APP:MBS:APP:6001:6077
+Saginaw Approach Southeast/Combined:Great Lakes Approach:120.950:7S:S:MBS:APP:MBS:APP:6001:6077
+Saginaw Approach Northwest:Great Lakes Approach:126.450:7V:V:MBS:APP:MBS:APP:6001:6077
 ;
 ; TOL Positions
 ;
@@ -201,48 +207,58 @@ Youngstown Approach:Youngstown Approach:133.950:1Y:Y:YNG:APP:YNG:APP:6001:6077
 ;
 ; ZAU
 ;
-Chicago Center:Chicago Center:134.870:G35:C:CHI:CTR:CHI:CTR:0000:0000
-Chicago Center:Chicago Center:133.200:G26:C:CHI:CTR:CHI:CTR:0000:0000
-Chicago Center:Chicago Center:127.620:G88:C:CHI:CTR:CHI:CTR:0000:0000
-Chicago Center:Chicago Center:121.270:G46:C:CHI:CTR:CHI:CTR:0000:0000
-Chicago Center:Chicago Center:135.150:G51:C:CHI:CTR:CHI:CTR:0000:0000
-Chicago Center:Chicago Center:133.350:G74:C:CHI:CTR:CHI:CTR:0000:0000
-Chicago Center:Chicago Center:126.870:G60:C:CHI:CTR:CHI:CTR:0000:0000
-Chicago Center:Chicago Center:125.570:G94:C:CHI:CTR:CHI:CTR:0000:0000
-Kalamazoo Approach:Kalamazoo Approach:121.200:AZ:A:AZO:APP:AZO:APP:0000:0000
+Chicago Center:Chicago Center:133.200:G26:C:CHI:CTR:ZAU:26:0000:0000
+Chicago Center:Chicago Center:134.870:G35:C:CHI:CTR:ZAU:35:0000:0000
+Chicago Center:Chicago Center:121.270:G46:C:CHI:CTR:ZAU:46:0000:0000
+Chicago Center:Chicago Center:135.150:G51:C:CHI:CTR:ZAU:51:0000:0000
+Chicago Center:Chicago Center:126.870:G60:C:CHI:CTR:ZAU:60:0000:0000
+Chicago Center:Chicago Center:133.350:G74:C:CHI:CTR:ZAU:74:0000:0000
+Chicago Center:Chicago Center:127.620:G88:C:CHI:CTR:ZAU:88:0000:0000
+Chicago Center:Chicago Center:125.570:G94:C:CHI:CTR:ZAU:94:0000:0000
+;DEPRECATED - Kalamazoo Approach:Kalamazoo Approach:121.200:AZ:A:AZO:APP:AZO:APP:0000:0000
+;DEPRECATED - Grand Rapids Approach:Grand Rapids Approach:128.400:GR:A:GRR:APP:GRR:APP:0000:0000
 Fort Wayne Approach:Fort Wayne Approach:127.200:FW:A:FWA:APP:FWA:APP:0000:0000
-Grand Rapids Approach:Grand Rapids Approach:128.400:GR:A:GRR:APP:GRR:APP:0000:0000
+Great Lakes Approach (BELLS):AZO_E_APP:119.200:E1:E:AZO:APP:AZO:APP:6240:6257 
+Great Lakes Approach (BRONCO):AZO_R_APP:121.200:R1:R:AZO:APP:AZO:APP:6240:6257
+Great Lakes Approach (GRIFFIN):AZO_G_APP:128.400:G1:G:AZO:APP:AZO:APP:6240:6257
+Great Lakes Approach (WHITECAP):AZO_W_APP:124.600:W1:W:AZO:APP:AZO:APP:6240:6257
+Great Lakes Approach (LUMBERTOWN):AZO_N_APP:119.800:N1:N:AZO:APP:AZO:APP:6240:6257
+Great Lakes Approach (SHORELINE):AZO_S_APP:133.820:S1:S:AZO:APP:AZO:APP:6240:6257
+
 ;
 ; ZBW
 ;
-Boston Center (Concord 37 Low):Boston Center:134.700:B37:C:BOS:CTR:ZBW:CTR:0000:0000
-Boston Center (Cambridge 39 High):Boston Center:128.320:B39:C:BOS:CTR:ZBW:CTR:0000:0000
+Boston Center (Concord 37 Low):Boston Center:134.700:B37:C:BOS:CTR:ZBW:37:0000:0000
+Boston Center (Cambridge 39 High):Boston Center:128.320:B39:C:BOS:CTR:ZBW:39:0000:0000
 Syracuse Approach - Radar:Syracuse Approach:134.270:7A:A:SYR:APP:SYR:APP:0000:0000
 Syracuse Approach - Georgetown:Syracuse Approach:126.120:7B:V:SYR:APP:SYR:APP:0000:0000
 ;
 ; ZDC
 ;
-ZDC Hi- 32 Gordonsville (C):Washington Center:133.720:32:C:DC:CTR:DC:32:0000:0000
-ZDC Lo- 01 Elkins:Washington Center:128.600:01:C:DC:CTR:DC:01:0000:0000
-ZDC Hi- 03 Moorefield:Washington Center:133.270:03:C:DC:CTR:DC:03:0000:0000
-ZDC Hi- 04 Pinion (A):Washington Center:133.970:04:C:DC:CTR:DC:04:0000:0000
-ZDC Hi- 37 Marlinton:Washington Center:133.020:37:C:DC:CTR:DC:37:0000:0000
+ZDC Hi- 32 Gordonsville (C):Washington Center:133.720:32:C:DC:CTR:ZDC:32:0000:0000
+ZDC Lo- 01 Elkins:Washington Center:128.600:01:C:DC:CTR:ZDC:01:0000:0000
+ZDC Hi- 03 Moorefield:Washington Center:133.270:03:C:DC:CTR:ZDC:03:0000:0000
+ZDC Hi- 04 Pinion (A):Washington Center:133.970:04:C:DC:CTR:ZDC:04:0000:0000
+ZDC Hi- 37 Marlinton:Washington Center:133.020:37:C:DC:CTR:ZDC:37:0000:0000
+;*** Potomac App?? 128.65 covering W35 and KHGR
 ;
 ; ZID
 ;
-Indianapolis Center (West Low Combined):Indianapolis Center:119.550:C34:C:IND:CTR:IND:CTR:0000:0000
-Indianapolis Center (East Low):Indianapolis Center:124.800:C30:C:IND:CTR:IND:CTR:0000:0000
-Indianapolis Center (East High):Indianapolis Center:119.520:C85:C:IND:CTR:IND:CTR:0000:0000
+Indianapolis Center (West Low Combined):Indianapolis Center:119.550:C34:C:IND:CTR:ZID:34:0000:0000
+Indianapolis Center (East Low):Indianapolis Center:124.800:C30:C:IND:CTR:ZID:30:0000:0000
+Indianapolis Center (East High):Indianapolis Center:119.520:C85:C:IND:CTR:ZID:85:0000:0000
 Columbus Approach (North Combined):Columbus Approach:125.950:1N:A:CMH:APP:CMH:APP:0000:0000
 Charleston Approach North:Charleston Approach:124.100:6N:N:CRW:APP:CRW:APP:0000:0000
 ;
 ; ZMP
 ;
-Minneapolis Center (Traverse City Low 02):Minneapolis Center:123.720:M02:C:MSP:CTR:MSP:CTR:0000:0000
-Minneapolis Center (Alexandria - Hi 11):Minneapolis Center:133.400:M11:C:MSP:CTR:MSP:CTR:0000:0000
-Minneapolis Center (Iron Mountain - Hi 13):Minneapolis Center:133.400:M13:C:MSP:CTR:MSP:CTR:0000:0000
-Minneapolis Center (Farmington - Low 06):Minneapolis Center:133.400:M06:C:MSP:CTR:MSP:CTR:0000:0000
+Minneapolis Center (Traverse City Low 02):Minneapolis Center:123.720:M02:C:MSP:CTR:ZMP:02:0000:0000
+Minneapolis Center (Alexandria - Hi 11):Minneapolis Center:133.400:M11:C:MSP:CTR:ZMP:11:0000:0000
+Minneapolis Center (Iron Mountain - Hi 13):Minneapolis Center:133.400:M13:C:MSP:CTR:ZMP:13:0000:0000
+Minneapolis Center (Farmington - Low 06):Minneapolis Center:133.400:M06:C:MSP:CTR:ZMP:06:0000:0000
+;
 ; ZNY
+;
 A2 - ZNY South:New York Center:133.470:A2:C:NY:CTR:ZNY:A2:0000:0000
 B4 - ZNY Central:New York Center:125.320:B4:C:NY:CTR:ZNY:B4:0000:0000
 C1 - ZNY North:New York Center:132.170:C1:C:NY:CTR:ZNY:C1:0000:0000
@@ -254,8 +270,8 @@ Harrisburg Approach:Harrisburg Approach:124.100:KA:H:MDT:APP:MDT:APP:0000:0000
 ;
 ; CZYZ
 ;
-Toronto South Center:Toronto Center:132.470:99:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto West Center:Toronto Center:125.770:YZ:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto South Center:Toronto Center:132.470:99:C:TOR:CTR:ZYZ:S:0000:0000
+Toronto West Center:Toronto Center:125.770:YZ:C:TOR:CTR:ZYZ:W:0000:0000
 Toronto North Arrival:Toronto Arrival:124.470:9Z:A:TOR:APP:TOR:APP:0000:0000
 Toronto South Arrival:Toronto Arrival:132.800:9Y:A:TOR:APP:TOR:APP:0000:0000
 ; 
