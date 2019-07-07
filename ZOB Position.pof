@@ -102,19 +102,23 @@ Mansfield Ground:Mansfield Ground:121.800:2L:T:MFD:GND:MFD:GND:5101:5177
 Mansfield Tower:Mansfield Tower:119.800:2N:T:MFD:TWR:MFD:TWR:5101:5177
 Mansfield Approach:Mansfield Approach:124.200:2M:M:MFD:APP:MFD:APP:5101:5177
 ;
-; PIT Positions
+; PIT Positions Verified http://www.clevelandcenter.org/files/PIT_7110.1i0.pdf 7/719
 ;
 Allegheny Ground:Allegheny Ground:121.700:5I:T:AGC:GND:AGC:GND:0701:0777
 Allegheny Tower:Allegheny Tower:121.100:5J:T:AGC:TWR:AGC:TWR:0701:0777
 Beaver County Ground:Beaver County Ground:121.800:5M:T:BVI:GND:BVI:GND:5101:5177
 Beaver County Tower:Beaver County Tower:120.300:5G:T:BVI:TWR:BVI:TWR:5101:5177
-Pittsburgh Clearance:Pittsburgh Clearance:126.750:5J:T:PIT:DEL:PIT:DEL:0701:0777
-Pittsburgh Ground:Pittsburgh Ground:121.900:5Y:T:PIT:GND:PIT:GND:0701:0777
-Pittsburgh Tower:Pittsburgh Tower:128.300:5T:T:PIT:TWR:PIT:TWR:0701:0777
-Pittsburgh Approach South (D)/Combined:Pittsburgh Approach:123.950:5D:D:PIT:APP:PIT:APP:0701:0777
-Pittsburgh Departure South/Combined:Pittsburgh Departure:119.350:5S:S:PIT:DEP:PIT:DEP:0701:0777
-Pittsburgh Departure North (A):Pittsburgh Departure:124.750:5A:A:PIT:DEP:PIT:DEP:0701:0777
-Pittsburgh Approach North:Pittsburgh Approach:124.150:5B:B:PIT:APP:PIT:APP:0701:0777
+Pittsburgh Clearance:Pittsburgh Clearance:126.750:1M:T:PIT:DEL:PIT:1M:0701:0777
+Pittsburgh Ground (South/Combined):Pittsburgh Ground:121.900:1R:T:PIT:GND:PIT:1R:0701:0777
+Pittsburgh Ground (North):Pittsburgh Ground:127.800:1G:T:PIT:GND:PIT:1G:0701:0777
+Pittsburgh Tower (North/Combined):Pittsburgh Tower:128.300:1T:T:PIT:TWR:PIT:1T:0701:0777
+;DEPRECATED - Pittsburgh Tower (South):Pittsburgh Tower:119.100:1L:T:PIT:TWR:PIT:1L:0701:0777
+Pittsburgh Approach South (D)/Combined:Pittsburgh Approach:123.950:1D:D:PIT:APP:PIT:1D:0701:0777
+Pittsburgh Approach North:Pittsburgh Approach:124.150:1B:B:PIT:APP:PIT:1B:0701:0777
+Pittsburgh Departure South/Combined:Pittsburgh Departure:119.350:1S:S:PIT:DEP:PIT:1S:0701:0777
+Pittsburgh Departure North (A):Pittsburgh Departure:124.750:1A:A:PIT:DEP:PIT:1A:0701:0777
+;PIT APP 133.700 Class B SW corridor?
+;PIT APP 121.250 Class B NW corridor?
 Wheeling Ground:Wheeling Ground:121.750:7X:T:HLG:GND:HLG:GND:5101:5177
 Wheeling Tower:Wheeling Tower:118.100:7Z:T:HLG:TWR:HLG:TWR:5101:5177
 ;
