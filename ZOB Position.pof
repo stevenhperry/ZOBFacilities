@@ -103,14 +103,16 @@ Mansfield Tower:Mansfield Tower:119.800:2N:T:MFD:TWR:MFD:TWR:5101:5177
 Mansfield Approach:Mansfield Approach:124.200:2M:M:MFD:APP:MFD:APP:5101:5177
 ;
 ; PIT Positions Verified http://www.clevelandcenter.org/files/PIT_7110.1i0.pdf 7/719
+; - Ref http://www.clevelandcenter.org/files/AGC_71102O.pdf 7/7/19
+; - Ref http://www.clevelandcenter.org/files/PIT%20SOP%20NOTICE.pdf 7/7/19 removes 2nd TWR and 2nd GND
 ;
-Allegheny Ground:Allegheny Ground:121.700:5I:T:AGC:GND:AGC:GND:0701:0777
-Allegheny Tower:Allegheny Tower:121.100:5J:T:AGC:TWR:AGC:TWR:0701:0777
+Allegheny Ground:Allegheny Ground:121.700:2G:X:AGC:GND:AGC:GND:0701:0777
+Allegheny Tower:Allegheny Tower:121.100:2T:T:AGC:TWR:AGC:TWR:0701:0777
 Beaver County Ground:Beaver County Ground:121.800:5M:T:BVI:GND:BVI:GND:5101:5177
 Beaver County Tower:Beaver County Tower:120.300:5G:T:BVI:TWR:BVI:TWR:5101:5177
 Pittsburgh Clearance:Pittsburgh Clearance:126.750:1M:T:PIT:DEL:PIT:1M:0701:0777
 Pittsburgh Ground (South/Combined):Pittsburgh Ground:121.900:1R:T:PIT:GND:PIT:1R:0701:0777
-Pittsburgh Ground (North):Pittsburgh Ground:127.800:1G:T:PIT:GND:PIT:1G:0701:0777
+;DEPRECATED - Pittsburgh Ground (North):Pittsburgh Ground:127.800:1G:T:PIT:GND:PIT:1G:0701:0777
 Pittsburgh Tower (North/Combined):Pittsburgh Tower:128.300:1T:T:PIT:TWR:PIT:1T:0701:0777
 ;DEPRECATED - Pittsburgh Tower (South):Pittsburgh Tower:119.100:1L:T:PIT:TWR:PIT:1L:0701:0777
 Pittsburgh Approach South (D)/Combined:Pittsburgh Approach:123.950:1D:D:PIT:APP:PIT:1D:0701:0777
@@ -122,21 +124,22 @@ Pittsburgh Departure North (A):Pittsburgh Departure:124.750:1A:A:PIT:DEP:PIT:1A:
 Wheeling Ground:Wheeling Ground:121.750:7X:T:HLG:GND:HLG:GND:5101:5177
 Wheeling Tower:Wheeling Tower:118.100:7Z:T:HLG:TWR:HLG:TWR:5101:5177
 ;
-; BUF/ERI Positions
-;
-Buffalo Clearance:Buffalo Clearance:124.700:6C:T:BUF:DEL:BUF:DEL:6001:6077
-Buffalo Ground:Buffalo Ground:133.200:6A:T:BUF:GND:BUF:GND:6001:6077
-Buffalo Tower:Buffalo Tower:120.500:6T:T:BUF:TWR:BUF:TWR:6001:6077
-Buffalo Approach East/Combined:Buffalo Approach:126.150:1E:E:BUF:APP:BUF:APP:6001:6077
-Buffalo Approach West:Buffalo Approach:126.500:1W:W:BUF:APP:BUF:APP:6001:6077
-Buffalo Approach Solo:Buffalo Approach:126.150:1S:S:BUF:APP:BUF:APP:6001:6077;
-Erie Clearance:Erie Clearance:126.800:6R:T:ERI:DEL:ERI:DEL:6001:6077
-Erie Ground:Erie Ground:121.900:6X:T:ERI:GND:ERI:GND:6001:6077
-Erie Tower:Erie Tower:118.100:6Z:T:ERI:TWR:ERI:TWR:6001:6077
-Erie Approach:Erie Approach:121.000:6W:W:ERI:APP:ERI:APP:6001:6077
-Niagara Clearance:Niagara Clearance:119.250:6P:T:IAG:DEL:IAG:DEL:6001:6077
-Niagara Ground:Niagara Ground:121.700:6O:T:IAG:GND:IAG:GND:6001:6077
-Niagara Tower:Niagara Tower:118.500:6N:T:IAG:TWR:IAG:TWR:6001:6077
+; BUF/ERI Positions 
+;    - Verified http://www.clevelandcenter.org/files/BUF_71106H.pdf 7/7/19
+;	 - Verified http://www.clevelandcenter.org/files/ERI_7110.10i.pdf 7/7/19
+Buffalo Clearance:Buffalo Clearance:124.700:1C:X:BUF:DEL:BUF:DEL:6001:6077
+Buffalo Ground:Buffalo Ground:133.200:1G:X:BUF:GND:BUF:GND:6001:6077
+Buffalo Tower:Buffalo Tower:120.500:1T:T:BUF:TWR:BUF:TWR:6001:6077
+Buffalo Approach East/Combined:Buffalo Approach:126.150:1E:E:BUF:APP:BUF:1E:6001:6077
+Buffalo Approach West:Buffalo Approach:126.500:1W:W:BUF:APP:BUF:1W:6001:6077
+Erie Clearance:Erie Clearance:126.800:1C:X:ERI:DEL:ERI:DEL:6001:6077
+Erie Ground:Erie Ground:121.900:1G:X:ERI:GND:ERI:GND:6001:6077
+Erie Tower:Erie Tower:118.100:1T:T:ERI:TWR:ERI:TWR:6001:6077
+Buffalo Approach Erie:Buffalo Approach:121.000:1W:W:BUF:APP:BUF:1W:6001:6077
+;DEPRECATED - Erie Approach East:Erie Approach:126.050:1E:E:ERI:APP:ERI:1E:6001:6077
+Niagara Clearance:Niagara Clearance:119.250:1O:T:IAG:DEL:IAG:DEL:6001:6077
+Niagara Ground:Niagara Ground:121.700:1M:T:IAG:GND:IAG:GND:6001:6077
+Niagara Tower:Niagara Tower:118.500:1N:L:IAG:TWR:IAG:TWR:6001:6077
 ;
 ; Great Lakes Consolidated "East Wall" (FNT/LNN/MBS) Positions
 ;
@@ -157,30 +160,31 @@ Saginaw Tower:Saginaw Tower:120.100:7T:T:MBS:TWR:MBS:TWR:6001:6077
 Saginaw Approach Southeast/Combined:Great Lakes Approach:120.950:7S:S:MBS:APP:MBS:APP:6001:6077
 Saginaw Approach Northwest:Great Lakes Approach:126.450:7V:V:MBS:APP:MBS:APP:6001:6077
 ;
-; TOL Positions
+; TOL Positions - Ref http://airnav.com/airport/ktol 7/7/19
 ;
-Toledo Clearance:Toledo Clearance:121.750:2Z:T:TOL:DEL:TOL:DEL:6001:6077
-Toledo Ground:Toledo Ground:121.900:2Y:T:TOL:GND:TOL:GND:6001:6077
+Toledo Clearance:Toledo Clearance:121.750:2Z:X:TOL:DEL:TOL:DEL:6001:6077
+Toledo Ground:Toledo Ground:121.900:2Y:X:TOL:GND:TOL:GND:6001:6077
 Toledo Tower:Toledo Tower:118.100:2X:T:TOL:TWR:TOL:TWR:6001:6077
-Toledo Approach East/Combined:Toledo Approach:126.100:2T:T:TOL:APP:TOL:APP:6001:6077
+Toledo Approach East/Combined:Toledo Approach:126.100:2T:E:TOL:APP:TOL:APP:6001:6077
 Toledo Approach West:Toledo Approach:134.350:2W:W:TOL:APP:TOL:APP:6001:6077
 ;
-; CKB Positions
+; CKB Positions - Ref http://airnav.com/airport/kckb 7/7/19
 ;
-Clarksburg Ground:Clarksburg Ground:121.900:1A:T:CKB:GND:CKB:GND:5101:5177
-Clarksburg Tower:Clarksburg Tower:126.700:1B:T:CKB:TWR:CKB:TWR:5101:5177
-Clarksburg Approach West:Clarksburg Approach:119.600:1D:W:CKB:APP:CKB:APP:5101:5177
-Clarksburg Approach East/Combined:Clarksburg Approach:121.150:1C:E:CKB:APP:CKB:APP:5101:5177
+Clarksburg Ground:Clarksburg Ground:121.900:1A:X:CKB:GND:CKB:GND:5101:5177
+Clarksburg Tower:Clarksburg Tower:126.700:1B:X:CKB:TWR:CKB:TWR:5101:5177
+Clarksburg Approach West:Clarksburg Approach:119.600:1D:W:CKB:APP:CKB:1D:5101:5177
+Clarksburg Approach East/Combined:Clarksburg Approach:121.150:1C:E:CKB:APP:CKB:1C:5101:5177
 Morgantown Ground:Morgantown Ground:121.700:1N:T:MGW:GND:MGW:GND:5101:5177
 Morgantown Tower:Morgantown Tower:125.100:1M:T:MGW:TWR:MGW:TWR:5101:5177
 ;
-; ROC Positions
+; ROC Positions - Ref http://www.clevelandcenter.org/files/ROC_7110.29s.pdf 7/7/19
 ;
-Rochester Clearance:Rochester Clearance:118.800:6L:T:ROC:DEL:ROC:DEL:6001:6077
-Rochester Ground:Rochester Ground:121.700:6K:T:ROC:GND:ROC:GND:6001:6077
-Rochester Tower:Rochester Tower:118.300:6M:T:ROC:TWR:ROC:TWR:6001:6077
-Rochester Approach East:Rochester Approach:119.550:6R:R:ROC:APP:ROC:APP:6001:6077
-Rochester Approach West/Combined:Rochester Approach:123.700:6S:W:ROC:APP:ROC:APP:6001:6077
+Rochester Clearance:Rochester Clearance:118.800:1C:X:ROC:DEL:ROC:DEL:6001:6077
+Rochester Ground:Rochester Ground:121.700:1G:X:ROC:GND:ROC:GND:6001:6077
+Rochester Tower:Rochester Tower:118.300:1T:T:ROC:TWR:ROC:TWR:6001:6077
+Rochester Approach East:Rochester Approach:119.550:1E:E:ROC:APP:ROC:1E:6001:6077
+Rochester Approach West/Combined:Rochester Approach:123.700:1W:W:ROC:APP:ROC:1W:6001:6077
+;DEPRECATED - Rochester Approach Final:Rochester Approach:127.320:1F:F:ROC:APP:ROC:1F:6001:6077
 ;
 ; JST Positions
 ;
