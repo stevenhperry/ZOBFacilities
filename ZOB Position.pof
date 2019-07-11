@@ -46,63 +46,85 @@ ZOB77:Cleveland Center:134.120:77:C:CLE:CTR:ZOB:77:5701:5777
 
 ;
 ; D21/DTW Positions
-;
+; - DTW Ref http://www.clevelandcenter.org/files/DTW_7110.65B.pdf 7/10/19
+; - D21 Ref http://www.clevelandcenter.org/docs/upload/Edp0gzEMM4j6khH2PKKS71v7bADk0ehWTmrozeVX.pdf 7/10/19
+; - ARB/DET/PTK/YIP frequencies from FAA IAP charts 7/10/19
+; - YQG frequencies from FAA Detroit sectional 7/10/19
 Ann Arbor Ground:Ann Arbor Ground:121.600:8X:T:ARB:GND:ARB:GND:5101:5177
 Ann Arbor Tower:Ann Arbor Tower:120.300:8W:T:ARB:TWR:ARB:TWR:5101:5177
 Detroit City Ground:Detroit City Ground:121.850:4X:T:DET:GND:DET:GND:5101:5177
 Detroit City Tower:Detroit City Tower:121.300:4Z:T:DET:TWR:DET:TWR:5101:5177
-Metro Clearance:Metro Clearance:120.650:4C:T:DTW:DEL:DTW:DEL:4101:4177
-Metro Ground (NE):Metro Ground:119.450:4G:T:DTW:GND:DTW:GNE:4101:4177
-Metro Ground (NW):Metro Ground:121.800:4H:T:DTW:GND:DTW:GNW:4101:4177
-Metro Ground (SE):Metro Ground:119.250:4I:T:DTW:GND:DTW:GSE:4101:4177
-Metro Ground (SW):Metro Ground:132.720:4J:T:DTW:GND:DTW:GSW:4101:4177
-Metro Tower (E):Metro Tower:118.400:4T:L:DTW:TWR:DTW:TWE:4101:4177
-Metro Tower (W)/Combined:Metro Tower:135.000:4U:T:DTW:TWR:DTW:TWW:4101:4177
-Detroit Departure West Jet (W):Detroit Departure:125.520:4W:W:DTW:DEP:DTW:DEP:4101:4177
-Detroit Departure East Jet (E):Detroit Departure:132.020:4E:E:DTW:DEP:DTW:DEP:4101:4177
-Detroit West Feeder (S):Detroit Approach:124.970:4S:S:DTW:APP:DTW:APP:4101:4177
-Detroit East Feeder (F):Detroit Approach:126.220:4F:F:DTW:APP:DTW:APP:4101:4177
-Detroit Third Feeder (R):Detroit Approach:124.250:4R:R:DTW:APP:DTW:APP:4101:4177
-Detroit West Arrival (A):Detroit Approach:124.050:4A:A:DTW:APP:DTW:APP:4101:4177
-Detroit East Arrival (B):Detroit Approach:125.150:4B:B:DTW:APP:DTW:APP:4101:4177
-Detroit Third Arrival (V):Detroit Approach:123.900:4V:VDTW:APP:DTW:APP:4101:4177
-Detroit CRUXX (Y):Detroit Approach:118.950:4Y:Y:DTW:APP:DTW:APP:4101:4177
-Detroit JUNKR (K):Detroit Approach:134.300:4K:K:DTW:APP:DTW:APP:4101:4177
-Detroit Pontiac (P):Detroit Approach:127.500:4P:P:DTW:APP:DTW:APP:4101:4177
-Detroit CITY (D):Detroit Approach:126.850:4D:D:DTW:APP:DTW:APP:4101:4177
+Metro Clearance:Metro Clearance:120.650:4C:X:DTW:DEL:DTW:DEL:4101:4177
+Metro Ground (NE):Metro Ground:119.450:4G:X:DTW:GND:DTW:GNE:4101:4177
+Metro Ground (NW):Metro Ground:121.800:4H:X:DTW:GND:DTW:GNW:4101:4177
+Metro Ground (SE):Metro Ground:119.250:4I:X:DTW:GND:DTW:GSE:4101:4177
+Metro Ground (SW):Metro Ground:132.720:4J:X:DTW:GND:DTW:GSW:4101:4177
+Metro Tower (E):Metro Tower:118.400:4T:L:DTW:TWR:DTW:4T:4101:4177
+Metro Tower (W)/Combined:Metro Tower:135.000:4U:T:DTW:TWR:DTW:4U:4101:4177
+Metro Tower (SE):Metro Tower:128.750:4M:M:DTW:TWR:DTW:DTW:4M:4101:4177
+;DEPRECATED - Metro Tower:128.120 - Not listed on FAA APD 7/10/19
+Detroit Departure West Jet (W):Detroit Departure:125.520:4W:W:DTW:DEP:DTW:4W:4101:4177
+Detroit Departure East Jet (E):Detroit Departure:132.020:4E:E:DTW:DEP:DTW:4E:4101:4177
+Detroit West Feeder (S):Detroit Approach:124.970:4S:S:DTW:APP:DTW:4S:4101:4177
+Detroit East Feeder (F):Detroit Approach:126.220:4F:F:DTW:APP:DTW:4F:4101:4177
+Detroit Third Feeder (R):Detroit Approach:124.250:4R:R:DTW:APP:DTW:4R:4101:4177
+Detroit West Arrival (A):Detroit Approach:124.050:4A:A:DTW:APP:DTW:4A:4101:4177
+Detroit East Arrival (B):Detroit Approach:125.150:4B:B:DTW:APP:DTW:4B:4101:4177
+Detroit Third Arrival (V):Detroit Approach:123.900:4V:DTW:APP:DTW:4V:4101:4177
+Detroit CRUXX (Y):Detroit Approach:118.950:4Y:Y:DTW:APP:DTW:4Y:4101:4177
+Detroit JUNKR (K):Detroit Approach:134.300:4K:K:DTW:APP:DTW:4K:4101:4177
+Detroit Pontiac (P):Detroit Approach:127.500:4P:P:DTW:APP:DTW:4P:4101:4177
+Detroit CITY (D):Detroit Approach:126.850:4D:D:DTW:APP:DTW:4D:4101:4177
 Pontiac Clearance:Pontiac Clearance:118.250:8T:T:PTK:DEL:PTK:DEL:6001:6077
 Pontiac Ground:Pontiac Ground:121.900:8S:T:PTK:GND:PTK:GND:6001:6077
-Pontiac Tower:Pontiac Tower:120.500:8P:T:PTK:TWR:PTK:TWR:6001:6077Windsor Ground:Windsor Ground:121.700:8Z:T:CYQG:GND:CYQG:GND:5101:5177
+Pontiac Tower:Pontiac Tower:120.500:8P:T:PTK:TWR:PTK:TWR:6001:6077
+Windsor Ground:Windsor Ground:121.700:8Z:T:CYQG:GND:CYQG:GND:5101:5177
 Windsor Tower:Windsor Tower:124.700:8Y:T:CYQG:TWR:CYQG:TWR:5101:5177
 Willow Run Ground:Willow Run Ground:119.970:8X:T:YIP:GND:YIP:GND:5101:5177
 Willow Run Tower:Willow Run Tower:125.270:8W:T:YIP:TWR:YIP:TWR:5101:5177
 ;
 ; CLE/CAK/MFD Positions
+; - Ref http://www.clevelandcenter.org/files/CLE_7110.65I.pdf - 7/10/19
+; - Ref http://airnav.com/airport/kcgf - 7/10/19
+; - Ref http://airnav.com/airport/kbkl - 7/10/19
+; - Ref http://airnav.com/airport/kmfd - 7/10/19
+; - Ref http://airnav.com/airport/kmfd - 7/10/19
+; - 
 ;
 Akron-Canton Clearance:Akron Clearance:132.050:3C:T:CAK:DEL:CAK:DEL:6001:6077
 Akron-Canton Ground:Akron Ground:121.700:3G:T:CAK:GND:CAK:GND:6001:6077
 Akron-Canton Tower:Akron Tower:134.750:3T:T:CAK:TWR:CAK:TWR:6001:6077
 Akron-Canton Approach (East):Akron Approach:125.500:3E:E:CAK:APP:CAK:APP:6001:6077
-Akron-Canton Approach (West/Combined):Akron Approach:118.600:3A:A:CAK:APP:CAK:APP:6001:6077County Ground:County Ground:121.850:3Z:T:CGF:GND:CGF:GND:7401:7477
+Akron-Canton Approach (West/Combined):Akron Approach:118.600:3A:A:CAK:APP:CAK:APP:6001:6077
+County Ground:County Ground:121.850:3Z:T:CGF:GND:CGF:GND:7401:7477
 County Tower:County Tower:118.500:3Y:T:CGF:TWR:CGF:TWR:7401:7477
-Cleveland Clearance:Cleveland Clearance:125.050:2C:T:CLE:DEL:CLE:DEL:7401:7477
-Cleveland Ground:Cleveland Ground:121.700:2G:T:CLE:GND:CLE:GND:7401:7477
+Cleveland Clearance:Cleveland Clearance:125.050:CD:D:CLE:DEL:CLE:DEL:7401:7477
+Cleveland Ground:Cleveland Ground:121.700:2G:G:CLE:GND:CLE:GND:7401:7477
+;DEPRECATED - CLE GND 133.600
+;Future deprecate - 120.900
+Cleveland Tower:Cleveland Tower:120.900:2V:T:CLE:TWR:CLE:TWR:7401:7477
 Cleveland Tower:Cleveland Tower:124.500:2V:T:CLE:TWR:CLE:TWR:7401:7477
-Cleveland Departure North/Combined:Cleveland Departure:128.250:2D:D:CLE:DEP:CLE:DEP:7401:7477
-Cleveland Departure South:Cleveland Departure:118.150:2R:R:CLE:DEP:CLE:DEP:7401:7477
-Cleveland Approach East Outer/Combined:Cleveland Approach:124.000:2E:E:CLE:APP:CLE:APP:7401:7477
-Cleveland Approach West Outer:Cleveland Approach:126.550:2W:W:CLE:APP:CLE:APP:7401:7477
-Cleveland Approach Low Inner:Cleveland Approach:119.620:2A:A:CLE:APP:CLE:APP:7401:7477
-Cleveland Approach High Inner:Cleveland Approach:123.850:2H:H:CLE:APP:CLE:APP:7401:7477
-Cleveland Approach Sandusky:Cleveland Approach:126.350:2P:P:CLE:APP:CLE:APP:7401:7477
-Cleveland Approach Satellite:Cleveland Approach:125.350:2F:F:CLE:APP:CLE:APP:7401:7477
+;DEPRECATED - CLE TWR 135.225
+Cleveland Departure North/Combined:Cleveland Departure:128.250:DRN:D:CLE:DEP:CLE:DRN:7401:7477
+;DEPRECATED - Cleveland Departure South:Cleveland Departure:118.150:DRS:R:CLE:DEP:CLE:DRS:7401:7477
+Cleveland Departure South:Cleveland Departure:135.875:DRS:R:CLE:DEP:CLE:DRS:7401:7477
+Cleveland Approach East Outer/Combined:Cleveland Approach:124.000:ARE:E:CLE:APP:CLE:ARE:7401:7477
+; Future deprecate 126.55
+Cleveland Approach West Outer:Cleveland Approach:126.550:ARW:W:CLE:APP:CLE:ARW:7401:7477
+; Future deprecate 119.62
+Cleveland Approach Low Inner:Cleveland Approach:119.620:ARA:A:CLE:APP:CLE:ARA:7401:7477
+; Future deprecate 123.85
+Cleveland Approach High Inner:Cleveland Approach:123.850:ARH:H:CLE:APP:CLE:ARH:7401:7477
+Cleveland Approach Sandusky/Satellite (West):Cleveland Approach:126.350:SAW:P:CLE:APP:CLE:SAW:7401:7477
+Cleveland Approach Satellite (East):Cleveland Approach:125.350:SAE:F:CLE:APP:CLE:SAE:7401:7477
+;DEPRECATED - CLE North Satellite Approach 118.970
 Lakefront Ground:Lakefront Ground:121.900:3X:T:BKL:GND:BKL:GND:7401:7477
 Lakefront Tower:Lakefront Tower:124.300:3B:T:BKL:TWR:BKL:TWR:7401:7477
 Mansfield Ground:Mansfield Ground:121.800:2L:T:MFD:GND:MFD:GND:5101:5177
 Mansfield Tower:Mansfield Tower:119.800:2N:T:MFD:TWR:MFD:TWR:5101:5177
 Mansfield Approach:Mansfield Approach:124.200:2M:M:MFD:APP:MFD:APP:5101:5177
 ;
-; PIT Positions Verified http://www.clevelandcenter.org/files/PIT_7110.1i0.pdf 7/719
+; PIT Positions Verified http://www.clevelandcenter.org/files/PIT_7110.1i0.pdf 7/7/19
 ; - Ref http://www.clevelandcenter.org/files/AGC_71102O.pdf 7/7/19
 ; - Ref http://www.clevelandcenter.org/files/PIT%20SOP%20NOTICE.pdf 7/7/19 removes 2nd TWR and 2nd GND
 ;
@@ -191,18 +213,22 @@ Rochester Approach West/Combined:Rochester Approach:123.700:1W:W:ROC:APP:ROC:1W:
 Johnstwon Clearance:Johnstown Clearance:126.850:6C:T:JST:GND:JST:GND:5101:5177
 Johnstown Ground:Johnstown Ground:121.600:6G:T:JST:GND:JST:GND:5101:5177
 Johnstown Tower:Johnstown Tower:125.750:6T:T:JST:TWR:JST:TWR:5101:5177
-Johnstown East/Combined Approach:Johnstown Approach:135.970:6E:E:JST:APP:JST:APP:5101:5177
-Johnstown West Approach:Johnstown Approach:128.200:6W:W:JST:APP:JST:APP:5101:5177
+;DEPRECATED - Johnstown East/Combined Approach:Johnstown Approach:135.970:6E:E:JST:APP:JST:APP:5101:5177
+;DEPRECATED - Johnstown West Approach:Johnstown Approach:128.200:6W:W:JST:APP:JST:APP:5101:5177
+Johnstown Approach:Johnstown Approach:121.200:6E:E:JST:APP:JST:APP:5101:5177
 Palmer Ground:Palmer Ground:121.800:1Q:T:LBE:GND:LBE:GND:5101:5177
 Palmer Tower:Palmer Tower:125.000:1P:T:LBE:TWR:LBE:TWR:5101:5177
 ;
 ; MTC Positions
+; - Ref http://www.airnav.com/airport/kmtc 7/10/19
+; - real world arr/dep has additional freq 132.35 but appears to be repeater.  Only 119.6 listed on sectional chart.
 ;
 Selfridge Ground:Selfridge Ground:128.300:1U:T:MTC:GND:MTC:GND:6001:6077
 Selfridge Tower:Selfridge Tower:120.150:1T:T:MTC:TWR:MTC:TWR:6001:6077
 Selfridge Approach:Selfridge Approach:119.600:1S:S:MTC:APP:MTC:APP:6001:6077
 ;
 ; YNG Positions
+; - Ref http://www.airnav.com/airport/kyng - 7/10/19
 ;
 Youngstown Clearance:Youngstown Clearance:118.250:1Z:T:YNG:DEL:YNG:DEL:6001:6077
 Youngstown Ground:Youngstown Ground:121.900:1X:T:YNG:GND:YNG:GND:6001:6077
