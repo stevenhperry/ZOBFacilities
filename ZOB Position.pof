@@ -61,7 +61,7 @@ Metro Ground (SE):Metro Ground:119.250:4I:X:DTW:GND:DTW:GSE:4101:4177
 Metro Ground (SW):Metro Ground:132.720:4J:X:DTW:GND:DTW:GSW:4101:4177
 Metro Tower (E):Metro Tower:118.400:4T:L:DTW:TWR:DTW:4T:4101:4177
 Metro Tower (W)/Combined:Metro Tower:135.000:4U:T:DTW:TWR:DTW:4U:4101:4177
-Metro Tower (SE):Metro Tower:128.750:4M:M:DTW:TWR:DTW:DTW:4M:4101:4177
+Metro Tower (SE):Metro Tower:128.750:4M:M:DTW:TWR:DTW:DTW:4101:4177
 ;DEPRECATED - Metro Tower:128.120 - Not listed on FAA APD 7/10/19
 Detroit Departure West Jet (W):Detroit Departure:125.520:4W:W:DTW:DEP:DTW:4W:4101:4177
 Detroit Departure East Jet (E):Detroit Departure:132.020:4E:E:DTW:DEP:DTW:4E:4101:4177
@@ -70,7 +70,7 @@ Detroit East Feeder (F):Detroit Approach:126.220:4F:F:DTW:APP:DTW:4F:4101:4177
 Detroit Third Feeder (R):Detroit Approach:124.250:4R:R:DTW:APP:DTW:4R:4101:4177
 Detroit West Arrival (A):Detroit Approach:124.050:4A:A:DTW:APP:DTW:4A:4101:4177
 Detroit East Arrival (B):Detroit Approach:125.150:4B:B:DTW:APP:DTW:4B:4101:4177
-Detroit Third Arrival (V):Detroit Approach:123.900:4V:DTW:APP:DTW:4V:4101:4177
+Detroit Third Arrival (V):Detroit Approach:123.900:4V:V:DTW:APP:DTW:4V:4101:4177
 Detroit CRUXX (Y):Detroit Approach:118.950:4Y:Y:DTW:APP:DTW:4Y:4101:4177
 Detroit JUNKR (K):Detroit Approach:134.300:4K:K:DTW:APP:DTW:4K:4101:4177
 Detroit Pontiac (P):Detroit Approach:127.500:4P:P:DTW:APP:DTW:4P:4101:4177
@@ -127,6 +127,7 @@ Mansfield Approach:Mansfield Approach:124.200:2M:M:MFD:APP:MFD:APP:5101:5177
 ; PIT Positions Verified http://www.clevelandcenter.org/files/PIT_7110.1i0.pdf 7/7/19
 ; - Ref http://www.clevelandcenter.org/files/AGC_71102O.pdf 7/7/19
 ; - Ref http://www.clevelandcenter.org/files/PIT%20SOP%20NOTICE.pdf 7/7/19 removes 2nd TWR and 2nd GND
+; - Primary ID block - 2x
 ;
 Allegheny Ground:Allegheny Ground:121.700:2G:X:AGC:GND:AGC:GND:0701:0777
 Allegheny Tower:Allegheny Tower:121.100:2T:T:AGC:TWR:AGC:TWR:0701:0777
@@ -154,10 +155,10 @@ Buffalo Ground:Buffalo Ground:133.200:1G:X:BUF:GND:BUF:GND:6001:6077
 Buffalo Tower:Buffalo Tower:120.500:1T:T:BUF:TWR:BUF:TWR:6001:6077
 Buffalo Approach East/Combined:Buffalo Approach:126.150:1E:E:BUF:APP:BUF:1E:6001:6077
 Buffalo Approach West:Buffalo Approach:126.500:1W:W:BUF:APP:BUF:1W:6001:6077
-Erie Clearance:Erie Clearance:126.800:1C:X:ERI:DEL:ERI:DEL:6001:6077
-Erie Ground:Erie Ground:121.900:1G:X:ERI:GND:ERI:GND:6001:6077
-Erie Tower:Erie Tower:118.100:1T:T:ERI:TWR:ERI:TWR:6001:6077
-Buffalo Approach Erie:Buffalo Approach:121.000:1W:W:BUF:APP:BUF:1W:6001:6077
+Erie Clearance:Erie Clearance:126.800:1X:X:ERI:DEL:ERI:DEL:6001:6077
+Erie Ground:Erie Ground:121.900:1Y:X:ERI:GND:ERI:GND:6001:6077
+Erie Tower:Erie Tower:118.100:1Z:T:ERI:TWR:ERI:TWR:6001:6077
+Buffalo Approach Erie:Buffalo Approach:121.000:1S:W:BUF:APP:BUF:1W:6001:6077
 ;DEPRECATED - Erie Approach East:Erie Approach:126.050:1E:E:ERI:APP:ERI:1E:6001:6077
 Niagara Clearance:Niagara Clearance:119.250:1O:T:IAG:DEL:IAG:DEL:6001:6077
 Niagara Ground:Niagara Ground:121.700:1M:T:IAG:GND:IAG:GND:6001:6077
@@ -264,16 +265,16 @@ Great Lakes Approach (SHORELINE):AZO_S_APP:133.820:S1:S:AZO:APP:AZO:APP:6240:625
 ;
 Boston Center (Concord 37 Low):Boston Center:134.700:B37:C:BOS:CTR:ZBW:37:0000:0000
 Boston Center (Cambridge 39 High):Boston Center:128.320:B39:C:BOS:CTR:ZBW:39:0000:0000
-Syracuse Approach - Radar:Syracuse Approach:134.270:7A:A:SYR:APP:SYR:APP:0000:0000
-Syracuse Approach - Georgetown:Syracuse Approach:126.120:7B:V:SYR:APP:SYR:APP:0000:0000
+Syracuse Approach - Radar:Syracuse Approach:134.270:B7A:A:SYR:APP:SYR:APP:0000:0000
+Syracuse Approach - Georgetown:Syracuse Approach:126.120:B7B:V:SYR:APP:SYR:APP:0000:0000
 ;
 ; ZDC
 ;
-ZDC Hi- 32 Gordonsville (C):Washington Center:133.720:32:C:DC:CTR:ZDC:32:0000:0000
-ZDC Lo- 01 Elkins:Washington Center:128.600:01:C:DC:CTR:ZDC:01:0000:0000
-ZDC Hi- 03 Moorefield:Washington Center:133.270:03:C:DC:CTR:ZDC:03:0000:0000
-ZDC Hi- 04 Pinion (A):Washington Center:133.970:04:C:DC:CTR:ZDC:04:0000:0000
-ZDC Hi- 37 Marlinton:Washington Center:133.020:37:C:DC:CTR:ZDC:37:0000:0000
+ZDC Hi- 32 Gordonsville (C):Washington Center:133.720:D32:C:DC:CTR:ZDC:32:0000:0000
+ZDC Lo- 01 Elkins:Washington Center:128.600:D01:C:DC:CTR:ZDC:01:0000:0000
+ZDC Hi- 03 Moorefield:Washington Center:133.270:D03:C:DC:CTR:ZDC:03:0000:0000
+ZDC Hi- 04 Pinion (A):Washington Center:133.970:D04:C:DC:CTR:ZDC:04:0000:0000
+ZDC Hi- 37 Marlinton:Washington Center:133.020:D37:C:DC:CTR:ZDC:37:0000:0000
 ;*** Potomac App?? 128.65 covering W35 and KHGR
 ;
 ; ZID
@@ -281,8 +282,8 @@ ZDC Hi- 37 Marlinton:Washington Center:133.020:37:C:DC:CTR:ZDC:37:0000:0000
 Indianapolis Center (West Low Combined):Indianapolis Center:119.550:C34:C:IND:CTR:ZID:34:0000:0000
 Indianapolis Center (East Low):Indianapolis Center:124.800:C30:C:IND:CTR:ZID:30:0000:0000
 Indianapolis Center (East High):Indianapolis Center:119.520:C85:C:IND:CTR:ZID:85:0000:0000
-Columbus Approach (North Combined):Columbus Approach:125.950:1N:A:CMH:APP:CMH:APP:0000:0000
-Charleston Approach North:Charleston Approach:124.100:6N:N:CRW:APP:CRW:APP:0000:0000
+Columbus Approach (North Combined):Columbus Approach:125.950:C1N:A:CMH:APP:CMH:APP:0000:0000
+Charleston Approach North:Charleston Approach:124.100:C6N:N:CRW:APP:CRW:APP:0000:0000
 ;
 ; ZMP
 ;
@@ -295,9 +296,9 @@ Minneapolis Center (Farmington - Low 06):Minneapolis Center:133.400:M06:C:MSP:CT
 ;
 ZNY - A2 - South:New York Center:133.470:NA2:C:NY:CTR:ZNY:A2:0000:0000
 ZNY - B4 - Central:New York Center:125.320:NB4:C:NY:CTR:ZNY:B4:0000:0000
-ZNY - C1 - North:New York Center:132.170:C1:C:NY:CTR:ZNY:NC1:0000:0000
-ZNY - D8 - West:New York Center:123.620:D8:C:NY:CTR:ZNY:ND8:0000:0000
-ZNY - E1 - East:New York Center:128.300:E1:C:NY:CTR:ZNY:NE1:0000:0000
+ZNY - C1 - North:New York Center:132.170:NC1:C:NY:CTR:ZNY:NC1:0000:0000
+ZNY - D8 - West:New York Center:123.620:ND8:C:NY:CTR:ZNY:ND8:0000:0000
+ZNY - E1 - East:New York Center:128.300:NE1:C:NY:CTR:ZNY:NE1:0000:0000
 Elmira Approach South Combined:Elmire Approach:119.450:NJA:S:ELM:APP:ELM:APP:0000:0000
 Elmira Approach North:Elmire Approach:118.150:NJB:N:ELM:APP:ELM:APP:0000:0000
 Harrisburg Southwest (K):Harrisburg Approach:124.100:NHK:H:MDT:APP:MDT:APP:0000:0000
@@ -307,10 +308,10 @@ Harrisburg North (G):Harrisburg Approach:118.250:NHG:G:MDT:APP:MDT:HG:0000:0000
 ;
 ; CZYZ
 ;
-Toronto South Center:Toronto Center:132.470:99:C:TOR:CTR:ZYZ:S:0000:0000
-Toronto West Center:Toronto Center:125.770:YZ:C:TOR:CTR:ZYZ:W:0000:0000
-Toronto North Arrival:Toronto Arrival:124.470:9Z:A:TOR:APP:TOR:APP:0000:0000
-Toronto South Arrival:Toronto Arrival:132.800:9Y:A:TOR:APP:TOR:APP:0000:0000
+Toronto South Center:Toronto Center:132.470:Y99:C:TOR:CTR:ZYZ:S:0000:0000
+Toronto West Center:Toronto Center:125.770:Y88:C:TOR:CTR:ZYZ:W:0000:0000
+Toronto North Arrival:Toronto Arrival:124.470:Y9Z:A:TOR:APP:TOR:APP:0000:0000
+Toronto South Arrival:Toronto Arrival:132.800:Y9Y:A:TOR:APP:TOR:APP:0000:0000
 ; 
 ; **** SPECIALS ***
 ;
