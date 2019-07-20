@@ -291,16 +291,19 @@ Minneapolis Center (Alexandria - Hi 11):Minneapolis Center:133.400:M11:C:MSP:CTR
 Minneapolis Center (Iron Mountain - Hi 13):Minneapolis Center:133.400:M13:C:MSP:CTR:ZMP:13:0000:0000
 Minneapolis Center (Farmington - Low 06):Minneapolis Center:133.400:M06:C:MSP:CTR:ZMP:06:0000:0000
 ;
-; ZNY
+; ZNY - ref email with Amin Abrahem 12JULY19
 ;
-A2 - ZNY South:New York Center:133.470:A2:C:NY:CTR:ZNY:A2:0000:0000
-B4 - ZNY Central:New York Center:125.320:B4:C:NY:CTR:ZNY:B4:0000:0000
-C1 - ZNY North:New York Center:132.170:C1:C:NY:CTR:ZNY:C1:0000:0000
-D8 - ZNY West:New York Center:123.620:D8:C:NY:CTR:ZNY:D8:0000:0000
-E1 - ZNY East:New York Center:128.300:E1:C:NY:CTR:ZNY:E1:0000:0000
-Elmira Approach South Combined:Elmire Approach:119.450:JA:S:ELM:APP:ELM:APP:0000:0000
-Elmira Approach North:Elmire Approach:118.150:JB:N:ELM:APP:ELM:APP:0000:0000
-Harrisburg Approach:Harrisburg Approach:124.100:KA:H:MDT:APP:MDT:APP:0000:0000
+ZNY - A2 - South:New York Center:133.470:NA2:C:NY:CTR:ZNY:A2:0000:0000
+ZNY - B4 - Central:New York Center:125.320:NB4:C:NY:CTR:ZNY:B4:0000:0000
+ZNY - C1 - North:New York Center:132.170:C1:C:NY:CTR:ZNY:NC1:0000:0000
+ZNY - D8 - West:New York Center:123.620:D8:C:NY:CTR:ZNY:ND8:0000:0000
+ZNY - E1 - East:New York Center:128.300:E1:C:NY:CTR:ZNY:NE1:0000:0000
+Elmira Approach South Combined:Elmire Approach:119.450:NJA:S:ELM:APP:ELM:APP:0000:0000
+Elmira Approach North:Elmire Approach:118.150:NJB:N:ELM:APP:ELM:APP:0000:0000
+Harrisburg Southwest (K):Harrisburg Approach:124.100:NHK:H:MDT:APP:MDT:APP:0000:0000
+Harrisburg Southeast (S):Harrisburg Approach:126.450:NHS:S:MDT:APP:MDT:HS:0000:0000
+Harrisburg North (G):Harrisburg Approach:118.250:NHG:G:MDT:APP:MDT:HG:0000:0000
+
 ;
 ; CZYZ
 ;
