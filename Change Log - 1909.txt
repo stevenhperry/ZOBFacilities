@@ -16,14 +16,14 @@ OH
 https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dtpp/search/results/?cycle=1909&state=OH&filterAdded=1&filterChanged=1&filterDeleted=1&sort=ident&dir=asc&page=1
 Various Airports - General - New CLE APP frequencies reflecting MFD and CAK rolling in to CLE TRACON.
 KBKL - GTLKE2 -> GTLKE3 = Remove top altitude.  Add restriction to maintain 2,000 until advised by ATC.  Add BRNIN at or below 14,000.
-KBKL - ZAAPA2 -> ZAAPA3 = Remove top altitude.  Add restriction to maintain 2,000 until advised by ATC.  Moved MOHUM southwest by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
+KBKL - ZAAPA2 -> ZAAPA3 = Remove top altitude.  Add restriction to maintain 2,000 until advised by ATC.  Moved MOHUM southeast by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
 KCGF - GTLKE2 -> GTLKE3 = Remove top altitude.  Add BRNIN at or below 14,000.
-KCGF - ZAAPA2 -> ZAAPA3 = Remove top altitude.  Moved MOHUM southwest by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
+KCGF - ZAAPA2 -> ZAAPA3 = Remove top altitude.  Moved MOHUM southeast by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
 KCLE - Airport Diagram - Significant taxiway designation changes around 6L/24R.
 KCLE - GTLKE2 -> GTLKE3 = Added BRNIN at or below 14,000.
-KCLE - ZAAPA2 -> ZAAPA3 = Moved MOHUM southwest by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
+KCLE - ZAAPA2 -> ZAAPA3 = Moved MOHUM southeast by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
 KLPR - GTLKE2 -> GTLKE3 = Remove top altitude.  Add BRNIN at or below 14,000.
-KCGF - ZAAPA2 -> ZAAPA3 = Remove top altitude.  Moved MOHUM southwest by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
+KCGF - ZAAPA2 -> ZAAPA3 = Remove top altitude.  Moved MOHUM southeast by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
 
 MI
 https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dtpp/search/results/?cycle=1909&state=MI&filterAdded=1&filterChanged=1&filterDeleted=1&sort=ident&dir=asc&page=1
@@ -56,7 +56,7 @@ KDTW - HHOWE1 -> HHOWE2 = Add top altitude 17000.  Add and revise crossing restr
 KDTW - KAYLN1 -> KAYLN2 = Add top altitude 17000.  Replace radar vectors with pilot nav segments.  Remove KAINR transition.  Remove WILZZ transition.  Move MTRCT, KAYLN, SMUUV.
 KDTW - LIDDS1 -> LIDDS2 = Add top altitude 17000.  Replace south flow radar vectors with pilot nav segments.  Add crossing restrictions.  Tweak waypoint locations.
 KDTW - METRO1 -> METRO2 = Removed ANNTS transition.  Add ILLIE transition.  Add restriction for non-RNAV aircraft only.  N.B. No top altitude.
-KDTW - MIGGY1 -> MIGGY2 = Add top altitude 17000.  Tweak waypoint locations.  Add restriction to GETCH transition for KMKE arrivals only or as assigned by ATC.
+KDTW - MIGGY1 -> MIGGY2 = Add top altitude 17000.  Rework north flow waypoints.  Tweak waypoint locations.  Add restriction to GETCH transition for KMKE arrivals only or as assigned by ATC.
 KDTW - PAVYL1 -> PAVYL2 = Add top altitude 17000.  Add and revise crossing restrictions.  Replace radar vectors with pilot nav segments.
 KDTW - SNDRS1 -> SNDRS2 = Add top altitude 17000.  Add crossing restrictions.  Tweaked waypoints for north flow.  Replace FEZIK transition with BGHRT transition.  Add restriction to TORRR transition for KIND and KCVG arrivals only or as assigned by ATC.
 KDTW - TRMML1 -> TRMML2 = Add top altitude 17000.  Add crossing restrictions.  Tweaked waypoints for south flow.  Moved TRAMML.  Added DDEEZ waypoint.
