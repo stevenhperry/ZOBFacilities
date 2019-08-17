@@ -1,0 +1,63 @@
+NY
+https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dtpp/search/results/?cycle=1909&state=NY&filterAdded=1&filterChanged=1&filterDeleted=1&sort=ident&dir=asc&page=1
+KBUF - ILS 23 - inconsequential
+KBUF - Airport Diagram - inconsequential
+9G0 - Various approaches - inconsequential
+
+PA
+https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dtpp/search/results/?cycle=1909&state=PA&filterAdded=1&filterChanged=1&filterDeleted=1&sort=ident&dir=asc&page=1
+
+KERI - LAHSO Available Landing Distance increased - Rwy 24 LAHSO 02/20 - was 6000 now 6550
+KJST - General - JST converted from VORTAC to VOR/DME
+KJST - General - Approach hold altitudes now limited to max of 6000'
+KPJC - Various approaches - inconsequential
+
+OH
+https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dtpp/search/results/?cycle=1909&state=OH&filterAdded=1&filterChanged=1&filterDeleted=1&sort=ident&dir=asc&page=1
+Various Airports - General - New CLE APP frequencies reflecting MFD and CAK rolling in to CLE TRACON.
+KBKL - GTLKE2 -> GTLKE3 = Remove top altitude.  Add restriction to maintain 2,000 until advised by ATC.  Add BRNIN at or below 14,000.
+KBKL - ZAAPA2 -> ZAAPA3 = Remove top altitude.  Add restriction to maintain 2,000 until advised by ATC.  Moved MOHUM southeast by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
+KCGF - GTLKE2 -> GTLKE3 = Remove top altitude.  Add BRNIN at or below 14,000.
+KCGF - ZAAPA2 -> ZAAPA3 = Remove top altitude.  Moved MOHUM southeast by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
+KCLE - Airport Diagram - Significant taxiway designation changes around 6L/24R.
+KCLE - GTLKE2 -> GTLKE3 = Added BRNIN at or below 14,000.
+KCLE - ZAAPA2 -> ZAAPA3 = Moved MOHUM southeast by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
+KLPR - GTLKE2 -> GTLKE3 = Remove top altitude.  Add BRNIN at or below 14,000.
+KCGF - ZAAPA2 -> ZAAPA3 = Remove top altitude.  Moved MOHUM southeast by a smidge.  Add ZAAPA at or below 14,000.  Replace AYRTN transition with SINKR transition.
+
+MI
+https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dtpp/search/results/?cycle=1909&state=MI&filterAdded=1&filterChanged=1&filterDeleted=1&sort=ident&dir=asc&page=1
+
+KARB - BARII1 -> BARII2 = Replace AYRTN transition with SINKR transition.
+KARB - CCOBB1 -> CCOBB2 = Replace BLURZ transition with ZEGBI transition.  Add restriction for final alt FL220 or below or as assigned by ATC.
+KARB - CLVIN1 -> CLVIN2 = Move CLVIN waypoint.  Reworked STAZE transition.
+KARB - HHOWE1 -> HHOWE2 = Replace LWEMA transition with LNCON transition.  Add restriction for BROKK transition to final alt FL270 or below or as assigned by ATC.
+KARB - KAYLN1 -> KAYLN2 = Remove KAINR transition.  Remove WILZZ transition.  Move MTRCT, KAYLN, SMUUV.
+KARB - LIDDS1 -> LIDDS2 = Tweak waypoint locations.
+KARB - METRO1 -> METRO2 = Removed ANNTS transition.  Add ILLIE transition.  Add restriction for non-RNAV aircraft only.
+KARB - MIGGY1 -> MIGGY2 = Tweak waypoint locations.  Add restriction to GETCH transition for KMKE arrivals only or as assigned by ATC.
+KARB - PAVYL1 -> PAVYL2 = inconsequential
+KARB - SNDRS1 -> SNDRS2 = Replace FEZIK transition with BGHRT transition.  Add restriction to TORRR transition for KIND and KCVG arrivals only or as assigned by ATC.
+KARB - TRMML1 -> TRMML2 = Move TRMML waypoint.  Add DDEEZ waypoint.
+KARB - ZETTR1 -> ZETTR2 = Tweak waypoint locations.  Add restriction to TANKO transition for CYYZ arrivals or as assigned by ATC.
+KDET - ditto KARB
+KMTC - ditto KARB
+KONZ - ditto KARB
+KOZW - ditto KARB
+KPTK - ditto KARB
+KTTF - ditto KARB
+KVVL - ditto KARB
+KYIP - ditto KARB
+KDTW - RNAV RNP X 22R - Inconsequential
+KDTW - BARII1 -> BARII2 = Add top altitude 17000.  Added crossing restrictions.  Tweaked waypoints for north flow.
+KDTW - CCOBB1 -> CCOBB2 = Add top altitude 17000.  Added crossing restrictions.  Replace south flow radar vectors with pilot nav segment.  Replace BLURZ transition with ZEGBI transition.  Add restriction for final alt FL220 or below or as assigned by ATC.
+KDTW - CLVIN1 -> CLVIN2 = Add top altitude 17000.  Move CLVIN waypoint.  Added crossing restrictions.  Tweaked waypoints for north flow.  Reworked STAZE transition.
+KDTW - HHOWE1 -> HHOWE2 = Add top altitude 17000.  Add and revise crossing restrictions.  Replace radar vectors with pilot nav segments.  Replace LWEMA transition with LNCON transition.  Add restriction for BROKK transition to final alt FL270 or below or as assigned by ATC.
+KDTW - KAYLN1 -> KAYLN2 = Add top altitude 17000.  Replace radar vectors with pilot nav segments.  Remove KAINR transition.  Remove WILZZ transition.  Move MTRCT, KAYLN, SMUUV.
+KDTW - LIDDS1 -> LIDDS2 = Add top altitude 17000.  Replace south flow radar vectors with pilot nav segments.  Add crossing restrictions.  Tweak waypoint locations.
+KDTW - METRO1 -> METRO2 = Removed ANNTS transition.  Add ILLIE transition.  Add restriction for non-RNAV aircraft only.  N.B. No top altitude.
+KDTW - MIGGY1 -> MIGGY2 = Add top altitude 17000.  Rework north flow waypoints.  Tweak waypoint locations.  Add restriction to GETCH transition for KMKE arrivals only or as assigned by ATC.
+KDTW - PAVYL1 -> PAVYL2 = Add top altitude 17000.  Add and revise crossing restrictions.  Replace radar vectors with pilot nav segments.
+KDTW - SNDRS1 -> SNDRS2 = Add top altitude 17000.  Add crossing restrictions.  Tweaked waypoints for north flow.  Replace FEZIK transition with BGHRT transition.  Add restriction to TORRR transition for KIND and KCVG arrivals only or as assigned by ATC.
+KDTW - TRMML1 -> TRMML2 = Add top altitude 17000.  Add crossing restrictions.  Tweaked waypoints for south flow.  Moved TRAMML.  Added DDEEZ waypoint.
+KDTW - ZETTR1 -> ZETTR2 = Add top altitude 17000.  Add crossing restrictions.  Tweak waypoint locations.  Add restriction to TANKO transition for CYYZ arrivals or as assigned by ATC.
