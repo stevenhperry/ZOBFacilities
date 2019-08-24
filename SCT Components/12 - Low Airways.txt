@@ -1,0 +1,1392 @@
+[LOW AIRWAY]        
+;===========================================================================
+T212                      RASHE          RASHE          SEG            SEG 
+T212                      SEG            SEG            KIACK          KIACK
+T212                      KIACK          KIACK          BLESS          BLESS
+T212                      BLESS          BLESS          DIANO          DIANO
+T212                      DIANO          DIANO          LVZ            LVZ 
+T212                      LVZ            LVZ            LAAYK          LAAYK
+
+T216                      PSB            PSB            SWISS          SWISS
+T216                      SWISS          SWISS          ZAGTI          ZAGTI
+T216                      ZAGTI          ZAGTI          FQM            FQM 
+T216                      FQM            FQM            ORDMO          ORDMO
+T216                      ORDMO          ORDMO          ELEXY          ELEXY
+T216                      ELEXY          ELEXY          LOPEZ          LOPEZ
+T216                      LOPEZ          LOPEZ          LECOR          LECOR
+T216                      LECOR          LECOR          LAAYK          LAAYK
+
+T217                      BOSTR          BOSTR          HEDEN          HEDEN
+T217                      HEDEN          HEDEN          PRUDE          PRUDE
+T217                      PRUDE          PRUDE          SGH            SGH 
+T217                      SGH            SGH            BONEE          BONEE
+
+T218                      SFK            SFK            GUYED          GUYED
+T218                      GUYED          GUYED          LACIE          LACIE
+T218                      LACIE          LACIE          SCOFF          SCOFF
+T218                      SCOFF          SCOFF          LAAYK          LAAYK
+
+T221                      TROXL          TROXL          FJC            FJC 
+T221                      FJC            FJC            BEERS          BEERS
+T221                      BEERS          BEERS          ROCOY          ROCOY
+T221                      ROCOY          ROCOY          RITTY          RITTY
+T221                      RITTY          RITTY          LAAYK          LAAYK
+T221                      LAAYK          LAAYK          TYYLR          TYYLR
+T221                      TYYLR          TYYLR          CFB            CFB 
+
+T287                      DENNN          DENNN          CAARY          CAARY
+T287                      CAARY          CAARY          WILMY          WILMY
+T287                      WILMY          WILMY          KAIJE          KAIJE
+T287                      KAIJE          KAIJE          BAMMY          BAMMY
+T287                      BAMMY          BAMMY          REEES          REEES
+T287                      REEES          REEES          TOMYD          TOMYD
+
+T291                      BAABS          BAABS          HAR            HAR 
+T291                      HAR            HAR            MORTO          MORTO
+T291                      MORTO          MORTO          SEG            SEG 
+T291                      SEG            SEG            MIP            MIP 
+T291                      MIP            MIP            MEGSS          MEGSS
+T291                      MEGSS          MEGSS          LAAYK          LAAYK
+
+T295                      BAABS          BAABS          LRP            LRP 
+T295                      LRP            LRP            DUMMR          DUMMR
+T295                      DUMMR          DUMMR          HAILS          HAILS
+T295                      HAILS          HAILS          SNOWY          SNOWY
+T295                      SNOWY          SNOWY          KRAZE          KRAZE
+T295                      KRAZE          KRAZE          LYTEL          LYTEL
+T295                      LYTEL          LYTEL          LVZ            LVZ 
+T295                      LVZ            LVZ            LAAYK          LAAYK
+
+T299                      UCREK          UCREK          KAIJE          KAIJE
+T299                      KAIJE          KAIJE          BAMMY          BAMMY
+T299                      BAMMY          BAMMY          REEES          REEES
+T299                      REEES          REEES          SCAPE          SCAPE
+
+T608                      WOZEE          WOZEE          UKNIX          UKNIX
+T608                      UKNIX          UKNIX          BIMRO          BIMRO
+T608                      BIMRO          BIMRO          DERLO          DERLO
+T608                      DERLO          DERLO          HAVOK          HAVOK
+T608                      HAVOK          HAVOK          BOSEP          BOSEP
+T608                      BOSEP          BOSEP          KATNO          KATNO
+T608                      KATNO          KATNO          HOCKE          HOCKE
+
+T616                      FNT            FNT            URSSA          URSSA
+T616                      URSSA          URSSA          HOCKE          HOCKE
+T616                      HOCKE          HOCKE          RAKAP          RAKAP
+T616                      RAKAP          RAKAP          LEPOS          LEPOS
+
+T781                      FNT            FNT            KATTY          KATTY
+T781                      KATTY          KATTY          HANKY          HANKY
+T781                      HANKY          HANKY          ADRIE          ADRIE
+T781                      ADRIE          ADRIE          MARGN          MARGN
+T781                      MARGN          MARGN          BLUEZ          BLUEZ
+T781                      BLUEZ          BLUEZ          AXOBU          AXOBU
+
+TK502                     EMI            EMI            TAYLO          TAYLO
+TK502                     TAYLO          TAYLO          WINGO          WINGO
+TK502                     WINGO          WINGO          SINON          SINON
+TK502                     SINON          SINON          RUSEY          RUSEY
+TK504                     RUSEY          RUSEY          CIDOB          CIDOB
+TK504                     CIDOB          CIDOB          HAMOR          HAMOR
+
+V2                        BUF            BUF            CLUNG          CLUNG
+V2                        CLUNG          CLUNG          MONCK          MONCK
+V2                        MONCK          MONCK          ROC            ROC 
+V2                        ROC            ROC            LORTH          LORTH
+V2                        LORTH          LORTH          MAGEN          MAGEN
+V2                        MAGEN          MAGEN          KONDO          KONDO
+V2                        KONDO          KONDO          WIFFY          WIFFY
+V2                        WIFFY          WIFFY          SYR            SYR 
+V2                        SYR            SYR            FAYET          FAYET
+V2                        FAYET          FAYET          STODA          STODA
+
+V3                        GVE            GVE            WITTO          WITTO
+V3                        WITTO          WITTO          LURAY          LURAY
+V3                        LURAY          LURAY          KERRE          KERRE
+V3                        KERRE          KERRE          AANTS          AANTS
+V3                        AANTS          AANTS          HOAGE          HOAGE
+V3                        HOAGE          HOAGE          MRB            MRB 
+V3                        MRB            MRB            RUANE          RUANE
+V3                        RUANE          RUANE          EMI            EMI 
+V3                        EMI            EMI            VINNY          VINNY
+V3                        VINNY          VINNY          KITHE          KITHE
+V3                        KITHE          KITHE          GLOMO          GLOMO
+V3                        GLOMO          GLOMO          MXE            MXE 
+V3                        MXE            MXE            FROSE          FROSE
+V3                        FROSE          FROSE          MUDNE          MUDNE
+
+V4                        MASSE          MASSE          CICKE          CICKE ; removed 1909
+V4                        CICKE          CICKE          ECB            ECB   ; removed 1909
+V4                        MASSE          MASSE          ECB            ECB   ; added 1909
+V4                        ECB            ECB            RODIC          RODIC
+V4                        RODIC          RODIC          HAITI          HAITI
+V4                        HAITI          HAITI          SALTY          SALTY
+V4                        SALTY          SALTY          HVQ            HVQ 
+V4                        HVQ            HVQ            CAMMA          CAMMA
+V4                        CAMMA          CAMMA          ITALY          ITALY
+V4                        ITALY          ITALY          FILES          FILES
+V4                        FILES          FILES          REACH          REACH
+V4                        REACH          REACH          EKN            EKN 
+V4                        EKN            EKN            OMIYO          OMIYO
+V4                        OMIYO          OMIYO          ESL            ESL 
+V4                        ESL            ESL            SOGBE          SOGBE
+V4                        SOGBE          SOGBE          DRUZZ          DRUZZ
+V4                        DRUZZ          DRUZZ          TRIXY          TRIXY
+V4                        TRIXY          TRIXY          HOAGE          HOAGE
+V4                        HOAGE          HOAGE          JASEN          JASEN
+V4                        JASEN          JASEN          MANNE          MANNE
+V4                        MANNE          MANNE          GILBY          GILBY
+V4                        GILBY          GILBY          AML            AML 
+
+V5                        WARSA          WARSA          CVG            CVG 
+V5                        CVG            CVG            WUSPU          WUSPU
+V5                        WUSPU          WUSPU          BRNIE          BRNIE
+V5                        BRNIE          BRNIE          MOAKS          MOAKS
+V5                        MOAKS          MOAKS          JENEY          JENEY
+V5                        JENEY          JENEY          PRUDE          PRUDE
+V5                        PRUDE          PRUDE          FODAN          FODAN
+V5                        FODAN          FODAN          SHIRT          SHIRT
+V5                        SHIRT          SHIRT          JOGER          JOGER
+V5                        JOGER          JOGER          LIMPS          LIMPS
+V5                        LIMPS          LIMPS          GOBVE          GOBVE
+V5                        GOBVE          GOBVE          GLOOM          GLOOM
+V5                        GLOOM          GLOOM          TIYOY          TIYOY
+V5                        TIYOY          TIYOY          FABDO          FABDO
+V5                        FABDO          FABDO          APE            APE 
+
+V6                        SEWTO          SEWTO          BRYTO          BRYTO
+V6                        BRYTO          BRYTO          MODEM          MODEM
+V6                        MODEM          MODEM          CIP            CIP 
+V6                        CIP            CIP            DBEAM          DBEAM
+V6                        DBEAM          DBEAM          LATEC          LATEC
+V6                        LATEC          LATEC          PSB            PSB 
+V6                        PSB            PSB            SEG            SEG 
+V6                        SEG            SEG            SNOWY          SNOWY
+V6                        SNOWY          SNOWY          SLATT          SLATT
+V6                        SLATT          SLATT          FJC            FJC 
+
+V8                        GSH            GSH            RABBT          RABBT
+V8                        RABBT          RABBT          GAREN          GAREN
+V8                        GAREN          GAREN          GRABI          GRABI
+V8                        GRABI          GRABI          TWERP          TWERP
+V8                        TWERP          TWERP          FBC            FBC 
+V8                        FBC            FBC            BSV            BSV 
+V8                        BSV            BSV            ATWOO          ATWOO
+V8                        ATWOO          ATWOO          AIR            AIR 
+V8                        AIR            AIR            AHTIY          AHTIY
+V8                        AHTIY          AHTIY          OBEID          OBEID
+V8                        OBEID          OBEID          GALLS          GALLS
+V8                        GALLS          GALLS          GRV            GRV 
+V8                        GRV            GRV            ELGEE          ELGEE
+V8                        ELGEE          ELGEE          MRB            MRB 
+V8                        MRB            MRB            LUCKE          LUCKE
+V8                        LUCKE          LUCKE          RAYEE          RAYEE
+V8                        RAYEE          RAYEE          DCA            DCA 
+
+V10                       LINGS          LINGS          VENTU          VENTU
+V10                       VENTU          VENTU          YURUD          YURUD
+V10                       YURUD          YURUD          JONES          JONES
+V10                       JONES          JONES          GEEBE          GEEBE
+V10                       GEEBE          GEEBE          NUPGE          NUPGE
+V10                       NUPGE          NUPGE          LFD            LFD 
+V10                       LFD            LFD            YNG            YNG 
+V10                       YNG            YNG            VOLAN          VOLAN
+V10                       VOLAN          VOLAN          EARED          EARED
+V10                       EARED          EARED          TALLS          TALLS
+V10                       TALLS          TALLS          REC            REC 
+V10                       REC            REC            JUNEY          JUNEY
+V10                       JUNEY          JUNEY          WILSS          WILSS
+V10                       WILSS          WILSS          LRP            LRP 
+
+V11                       DEEKS          DEEKS          MZZ            MZZ 
+V11                       MZZ            MZZ            LATES          LATES
+V11                       LATES          LATES          CHMLY          CHMLY
+V11                       CHMLY          CHMLY          CRETE          CRETE
+V11                       CRETE          CRETE          FWA            FWA 
+V11                       FWA            FWA            ZOLNR          ZOLNR
+V11                       ZOLNR          ZOLNR          GRABI          GRABI
+V11                       GRABI          GRABI          EDGEE          EDGEE
+
+V12                       AGC            AGC            FURIX          FURIX
+V12                       FURIX          FURIX          MILWO          MILWO
+V12                       MILWO          MILWO          JST            JST 
+V12                       JST            JST            ZOTBI          ZOTBI
+V12                       ZOTBI          ZOTBI          COFAX          COFAX
+V12                       COFAX          COFAX          JUNEY          JUNEY
+V12                       JUNEY          JUNEY          POLLS          POLLS
+V12                       POLLS          POLLS          LOMON          LOMON
+V12                       LOMON          LOMON          HAR            HAR 
+V12                       HAR            HAR            KUPPS          KUPPS
+V12                       KUPPS          KUPPS          BOYER          BOYER
+V12                       BOYER          BOYER          WEPNA          WEPNA
+V12                       WEPNA          WEPNA          PTW            PTW 
+
+V14                       PENDS          PENDS          MIE            MIE 
+V14                       MIE            MIE            FAXIG          FAXIG
+V14                       FAXIG          FAXIG          REDKE          REDKE
+V14                       REDKE          REDKE          BOOKS          BOOKS
+V14                       BOOKS          BOOKS          NADIR          NADIR
+V14                       NADIR          NADIR          HINES          HINES
+V14                       HINES          HINES          LINZZ          LINZZ
+V14                       LINZZ          LINZZ          FBC            FBC 
+V14                       FBC            FBC            BUF            BUF 
+V14                       BUF            BUF            GEE            GEE 
+V14                       GEE            GEE            UMAGY          UMAGY
+V14                       UMAGY          UMAGY          BEEPS          BEEPS
+V14                       BEEPS          BEEPS          SCIPO          SCIPO
+V14                       SCIPO          SCIPO          BOCKS          BOCKS
+V14                       BOCKS          BOCKS          VESPE          VESPE
+V14                       VESPE          VESPE          GGT            GGT 
+V14                       GGT            GGT            SHERB          SHERB
+
+V16                       BUFIY          BUFIY          ROA            ROA 
+V16                       ROA            ROA            GOOZE          GOOZE
+V16                       GOOZE          GOOZE          HEMEV          HEMEV
+
+V19                       CVG            CVG            HEDEN          HEDEN
+V19                       HEDEN          HEDEN          MARTZ          MARTZ
+V19                       MARTZ          MARTZ          GAILL          GAILL
+V19                       GAILL          GAILL          JORUV          JORUV
+V19                       JORUV          JORUV          APE            APE 
+
+V20                       JUDED          JUDED          DAILY          DAILY
+V20                       DAILY          DAILY          OTT            OTT 
+
+V29                       MXE            MXE            PTW            PTW 
+V29                       PTW            PTW            HIKES          HIKES
+V29                       HIKES          HIKES          ETX            ETX 
+V29                       ETX            ETX            SLATT          SLATT
+V29                       SLATT          SLATT          WHITT          WHITT
+V29                       WHITT          WHITT          LVZ            LVZ 
+V29                       LVZ            LVZ            LECOR          LECOR
+V29                       LECOR          LECOR          SCOFF          SCOFF
+V29                       SCOFF          SCOFF          WONGS          WONGS
+V29                       WONGS          WONGS          NOSEE          NOSEE
+V29                       NOSEE          NOSEE          CFB            CFB 
+V29                       CFB            CFB            CORTA          CORTA
+V29                       CORTA          CORTA          VESPE          VESPE
+V29                       VESPE          VESPE          TUMPS          TUMPS
+V29                       TUMPS          TUMPS          SYR            SYR 
+V29                       SYR            SYR            PAGER          PAGER
+V29                       PAGER          PAGER          BRUIN          BRUIN
+
+V30                       BRONZ          BRONZ          LEROY          LEROY
+V30                       LEROY          LEROY          LFD            LFD 
+V30                       LFD            LFD            CIP            CIP 
+V30                       CIP            CIP            DBEAM          DBEAM
+V30                       DBEAM          DBEAM          LATEC          LATEC
+V30                       LATEC          LATEC          PSB            PSB 
+V30                       PSB            PSB            SEG            SEG 
+V30                       SEG            SEG            PINNA          PINNA
+V30                       PINNA          PINNA          ETX            ETX 
+V30                       ETX            ETX            TROXL          TROXL
+
+V31                       OTT            OTT            BAL            BAL 
+V31                       BAL            BAL            MEHAN          MEHAN
+V31                       MEHAN          MEHAN          SKILS          SKILS
+V31                       SKILS          SKILS          TAFFI          TAFFI
+V31                       TAFFI          TAFFI          SHILO          SHILO
+V31                       SHILO          SHILO          VINNY          VINNY
+V31                       VINNY          VINNY          SUEDE          SUEDE
+V31                       SUEDE          SUEDE          GRAMO          GRAMO
+V31                       GRAMO          GRAMO          HAR            HAR 
+V31                       HAR            HAR            MORTO          MORTO
+V31                       MORTO          MORTO          SEG            SEG 
+V31                       SEG            SEG            WATSO          WATSO
+V31                       WATSO          WATSO          FQM            FQM 
+V31                       FQM            FQM            GUYED          GUYED
+V31                       GUYED          GUYED          ULW            ULW 
+V31                       ULW            ULW            GIBBE          GIBBE
+V31                       GIBBE          GIBBE          BEEPS          BEEPS
+V31                       BEEPS          BEEPS          FAULT          FAULT
+V31                       FAULT          FAULT          ROC            ROC 
+V31                       ROC            ROC            AIRCO          AIRCO
+
+V33                       JUDED          JUDED          DAILY          DAILY
+V33                       DAILY          DAILY          OTT            OTT 
+V33                       OTT            OTT            BAL            BAL 
+V33                       BAL            BAL            MEHAN          MEHAN
+V33                       MEHAN          MEHAN          SKILS          SKILS
+V33                       SKILS          SKILS          TAFFI          TAFFI
+V33                       TAFFI          TAFFI          SHILO          SHILO
+V33                       SHILO          SHILO          VINNY          VINNY
+V33                       VINNY          VINNY          GRAMO          GRAMO
+V33                       GRAMO          GRAMO          HAR            HAR 
+V33                       HAR            HAR            PYCAT          PYCAT
+V33                       PYCAT          PYCAT          MCMAN          MCMAN
+V33                       MCMAN          MCMAN          RASHE          RASHE
+V33                       RASHE          RASHE          PSB            PSB 
+V33                       PSB            PSB            ETG            ETG 
+V33                       ETG            ETG            CLERO          CLERO
+V33                       CLERO          CLERO          BFD            BFD 
+V33                       BFD            BFD            VAIRS          VAIRS
+V33                       VAIRS          VAIRS          BUF            BUF 
+V33                       BUF            BUF            ROC            ROC 
+
+V34                       FAULT          FAULT          BEEPS          BEEPS
+V34                       BEEPS          BEEPS          PTAKI          PTAKI
+V34                       PTAKI          PTAKI          HNK            HNK 
+V34                       HNK            HNK            STACY          STACY
+
+V35                       SLINK          SLINK          MACET          MACET
+V35                       MACET          MACET          DIPUH          DIPUH
+V35                       DIPUH          DIPUH          HVQ            HVQ 
+V35                       HVQ            HVQ            GLAZE          GLAZE
+V35                       GLAZE          GLAZE          WARDO          WARDO
+V35                       WARDO          WARDO          CARLA          CARLA
+V35                       CARLA          CARLA          BENZO          BENZO
+V35                       BENZO          BENZO          CKB            CKB 
+V35                       CKB            CKB            MGW            MGW 
+V35                       MGW            MGW            PSB            PSB 
+V35                       PSB            PSB            BLAZE          BLAZE
+V35                       BLAZE          BLAZE          SFK            SFK 
+V35                       SFK            SFK            WUDUL          WUDUL
+V35                       WUDUL          WUDUL          ULW            ULW 
+V35                       ULW            ULW            XUCCO          XUCCO
+V35                       XUCCO          XUCCO          VAFKU          VAFKU
+V35                       VAFKU          VAFKU          PTAKI          PTAKI
+V35                       PTAKI          PTAKI          SCIPO          SCIPO
+V35                       SCIPO          SCIPO          SYR            SYR 
+
+V36                       BUF            BUF            DALEE          DALEE
+V36                       DALEE          DALEE          BURST          BURST
+V36                       BURST          BURST          HORNE          HORNE
+V36                       HORNE          HORNE          THINK          THINK
+V36                       THINK          THINK          ULW            ULW 
+V36                       ULW            ULW            SAYRE          SAYRE
+V36                       SAYRE          SAYRE          TIVUC          TIVUC
+V36                       TIVUC          TIVUC          OKZUS          OKZUS
+V36                       OKZUS          OKZUS          DOMVY          DOMVY
+V36                       DOMVY          DOMVY          TYYLR          TYYLR
+
+V37                       ZOOMS          ZOOMS          PEEBE          PEEBE
+V37                       PEEBE          PEEBE          FRETT          FRETT
+V37                       FRETT          FRETT          OAKLE          OAKLE
+V37                       OAKLE          OAKLE          HAWKI          HAWKI
+V37                       HAWKI          HAWKI          EKN            EKN 
+V37                       EKN            EKN            CKB            CKB 
+V37                       CKB            CKB            METZE          METZE
+V37                       METZE          METZE          TEDDS          TEDDS
+V37                       TEDDS          TEDDS          AKSAR          AKSAR
+V37                       AKSAR          AKSAR          CETPU          CETPU
+V37                       CETPU          CETPU          EWC            EWC 
+V37                       EWC            EWC            MERCY          MERCY
+V37                       MERCY          MERCY          HAGAR          HAGAR
+V37                       HAGAR          HAGAR          ERI            ERI 
+V37                       ERI            ERI            FOWEL          FOWEL
+V37                       FOWEL          FOWEL          JARVS          JARVS
+
+V38                       CLEFT          CLEFT          TELEY          TELEY
+V38                       TELEY          TELEY          OYIDU          OYIDU
+V38                       OYIDU          OYIDU          FWA            FWA 
+V38                       FWA            FWA            CHIZM          CHIZM
+V38                       CHIZM          CHIZM          WINES          WINES
+V38                       WINES          WINES          APE            APE 
+V38                       APE            APE            CINAB          CINAB
+V38                       CINAB          CINAB          ZZV            ZZV 
+V38                       ZZV            ZZV            CUMBA          CUMBA
+V38                       CUMBA          CUMBA          RAVES          RAVES
+V38                       RAVES          RAVES          BROCH          BROCH
+V38                       BROCH          BROCH          JPU            JPU 
+V38                       JPU            JPU            TRION          TRION
+V38                       TRION          TRION          SACKY          SACKY
+V38                       SACKY          SACKY          JULEA          JULEA
+V38                       JULEA          JULEA          ZOBIG          ZOBIG
+V38                       ZOBIG          ZOBIG          BENZO          BENZO
+V38                       BENZO          BENZO          PAGVE          PAGVE
+V38                       PAGVE          PAGVE          EKN            EKN 
+V38                       EKN            EKN            BUGEL          BUGEL
+V38                       BUGEL          BUGEL          DEKAY          DEKAY
+V38                       DEKAY          DEKAY          CEROL          CEROL
+V38                       CEROL          CEROL          ZEDPA          ZEDPA
+V38                       ZEDPA          ZEDPA          MITER          MITER
+V38                       MITER          MITER          GVE            GVE 
+V38                       GVE            GVE            EMMIE          EMMIE
+
+V39                       COLAB          COLAB          ARVON          ARVON
+V39                       ARVON          ARVON          GVE            GVE 
+V39                       GVE            GVE            WITTO          WITTO
+V39                       WITTO          WITTO          LURAY          LURAY
+V39                       LURAY          LURAY          KERRE          KERRE
+V39                       KERRE          KERRE          AANTS          AANTS
+V39                       AANTS          AANTS          HOAGE          HOAGE
+V39                       HOAGE          HOAGE          MRB            MRB 
+V39                       MRB            MRB            MAPEL          MAPEL
+V39                       MAPEL          MAPEL          ROBRT          ROBRT
+V39                       ROBRT          ROBRT          MULRR          MULRR
+V39                       MULRR          MULRR          HYPER          HYPER
+V39                       HYPER          HYPER          BINNS          BINNS
+V39                       BINNS          BINNS          DELRO          DELRO
+V39                       DELRO          DELRO          JOANE          JOANE
+V39                       JOANE          JOANE          LRP            LRP 
+V39                       LRP            LRP            BOYER          BOYER
+V39                       BOYER          BOYER          FLOAT          FLOAT
+V39                       FLOAT          FLOAT          ETX            ETX 
+
+V41                       CUTTA          CUTTA          CAMES          CAMES
+V41                       CAMES          CAMES          YNG            YNG 
+
+V43                       YNG            YNG            BARLY          BARLY
+V43                       BARLY          BARLY          ERI            ERI 
+
+V44                       FLM            FLM            HAFTU          HAFTU
+V44                       HAFTU          HAFTU          YRK            YRK 
+V44                       YRK            YRK            NABLE          NABLE
+V44                       NABLE          NABLE          JPU            JPU 
+V44                       JPU            JPU            BENDS          BENDS
+V44                       BENDS          BENDS          RANDE          RANDE
+V44                       RANDE          RANDE          STORE          STORE
+V44                       STORE          STORE          METZE          METZE
+V44                       METZE          METZE          MGW            MGW 
+V44                       MGW            MGW            PINIC          PINIC
+V44                       PINIC          PINIC          BAABY          BAABY
+V44                       BAABY          BAABY          LIZIO          LIZIO
+V44                       LIZIO          LIZIO          KEYER          KEYER
+V44                       KEYER          KEYER          MUMSY          MUMSY
+V44                       MUMSY          MUMSY          MRB            MRB 
+V44                       MRB            MRB            WOOLY          WOOLY
+V44                       WOOLY          WOOLY          YANNI          YANNI
+V44                       YANNI          YANNI          BAL            BAL 
+V44                       BAL            BAL            PALEO          PALEO
+
+V45                       ERATH          ERATH          HECKE          HECKE
+V45                       HECKE          HECKE          BLF            BLF 
+V45                       BLF            BLF            KEGLY          KEGLY
+V45                       KEGLY          KEGLY          CINDO          CINDO
+V45                       CINDO          CINDO          TERRN          TERRN
+V45                       TERRN          TERRN          HVQ            HVQ 
+V45                       HVQ            HVQ            HNN            HNN 
+V45                       HNN            HNN            TASKE          TASKE
+V45                       TASKE          TASKE          LARIC          LARIC
+V45                       LARIC          LARIC          NIKLS          NIKLS
+V45                       NIKLS          NIKLS          BREMN          BREMN
+V45                       BREMN          BREMN          FAIRF          FAIRF
+V45                       FAIRF          FAIRF          APE            APE 
+V45                       APE            APE            MBS            MBS 
+V45                       MBS            MBS            SEEKS          SEEKS
+V45                       SEEKS          SEEKS          SNOWW          SNOWW
+V45                       SNOWW          SNOWW          WHOOP          WHOOP
+V45                       WHOOP          WHOOP          TUSYU          TUSYU
+V45                       TUSYU          TUSYU          AILES          AILES
+
+V47                       CVG            CVG            MOWED          MOWED
+V47                       MOWED          MOWED          MIZZA          MIZZA
+V47                       MIZZA          MIZZA          CINPA          CINPA
+V47                       CINPA          CINPA          ELIHO          ELIHO
+V47                       ELIHO          ELIHO          ZAKIT          ZAKIT
+V47                       ZAKIT          ZAKIT          TRUNC          TRUNC
+V47                       TRUNC          TRUNC          ROD            ROD 
+V47                       ROD            ROD            KINDE          KINDE
+V47                       KINDE          KINDE          FBC            FBC 
+
+V50                       HOMAR          HOMAR          NEWTO          NEWTO
+V50                       NEWTO          NEWTO          MOTTS          MOTTS
+V50                       MOTTS          MOTTS          ARBAS          ARBAS
+V50                       ARBAS          ARBAS          LEEDS          LEEDS
+V50                       LEEDS          LEEDS          DQN            DQN 
+
+V55                       DQN            DQN            ROSSY          ROSSY
+V55                       ROSSY          ROSSY          HIGLA          HIGLA
+V55                       HIGLA          HIGLA          BOOKS          BOOKS
+V55                       BOOKS          BOOKS          BERNE          BERNE
+V55                       BERNE          BERNE          FWA            FWA 
+V55                       FWA            FWA            WERBU          WERBU
+V55                       WERBU          WERBU          GSH            GSH 
+V55                       GSH            GSH            ELX            ELX 
+
+
+V58                       GRACE          GRACE          EARED          EARED
+V58                       EARED          EARED          PSB            PSB 
+V58                       PSB            PSB            SWISS          SWISS
+V58                       SWISS          SWISS          ZAGTI          ZAGTI
+V58                       ZAGTI          ZAGTI          FQM            FQM 
+
+V59                       WAKIS          WAKIS          SOFTY          SOFTY
+V59                       SOFTY          SOFTY          ESTEM          ESTEM
+V59                       ESTEM          ESTEM          BKW            BKW 
+V59                       BKW            BKW            GAULE          GAULE
+V59                       GAULE          GAULE          ITALY          ITALY
+V59                       ITALY          ITALY          WARDO          WARDO
+V59                       WARDO          WARDO          EDSOE          EDSOE
+V59                       EDSOE          EDSOE          JPU            JPU 
+V59                       JPU            JPU            CADRE          CADRE
+V59                       CADRE          CADRE          LORES          LORES
+V59                       LORES          LORES          CTW            CTW 
+
+V75                       MGW            MGW            LEFSO          LEFSO
+V75                       LEFSO          LEFSO          AIR            AIR 
+V75                       AIR            AIR            ATWOO          ATWOO
+V75                       ATWOO          ATWOO          BSV            BSV 
+
+V78                       BANJO          BANJO          WELVI          WELVI
+V78                       WELVI          WELVI          BENNY          BENNY
+V78                       BENNY          BENNY          MBS            MBS 
+
+V84                       BUF            BUF            GEE            GEE 
+V84                       GEE            GEE            UMAGY          UMAGY
+V84                       UMAGY          UMAGY          BEEPS          BEEPS
+V84                       BEEPS          BEEPS          RODAN          RODAN
+V84                       RODAN          RODAN          SYR            SYR 
+
+V92                       GSH            GSH            CTW            CTW 
+V92                       CTW            CTW            WISVA          WISVA
+V92                       WISVA          WISVA          AIR            AIR 
+V92                       AIR            AIR            AHTIY          AHTIY
+V92                       AHTIY          AHTIY          OBEID          OBEID
+V92                       OBEID          OBEID          GALLS          GALLS
+V92                       GALLS          GALLS          GRV            GRV 
+V92                       GRV            GRV            KEYER          KEYER
+V92                       KEYER          KEYER          CAPON          CAPON
+V92                       CAPON          CAPON          TRIXY          TRIXY
+V92                       TRIXY          TRIXY          HOAGE          HOAGE
+V92                       HOAGE          HOAGE          JASEN          JASEN
+V92                       JASEN          JASEN          MANNE          MANNE
+V92                       MANNE          MANNE          GILBY          GILBY
+V92                       GILBY          GILBY          AML            AML 
+
+V93                       PALEO          PALEO          BAL            BAL 
+V93                       BAL            BAL            MEHAN          MEHAN
+V93                       MEHAN          MEHAN          SKILS          SKILS
+V93                       SKILS          SKILS          TAFFI          TAFFI
+V93                       TAFFI          TAFFI          SHILO          SHILO
+V93                       SHILO          SHILO          VINNY          VINNY
+V93                       VINNY          VINNY          ROAST          ROAST
+V93                       ROAST          ROAST          LRP            LRP 
+V93                       LRP            LRP            DUMMR          DUMMR
+V93                       DUMMR          DUMMR          HAILS          HAILS
+V93                       HAILS          HAILS          SNOWY          SNOWY
+V93                       SNOWY          SNOWY          KRAZE          KRAZE
+V93                       KRAZE          KRAZE          LYTEL          LYTEL
+V93                       LYTEL          LYTEL          LVZ            LVZ 
+V93                       LVZ            LVZ            LAAYK          LAAYK
+
+V96                       OKK            OKK            FORCE          FORCE
+V96                       FORCE          FORCE          YAVUS          YAVUS
+V96                       YAVUS          YAVUS          FWA            FWA 
+V96                       FWA            FWA            NATTY          NATTY
+V96                       NATTY          NATTY          TWERP          TWERP
+
+V97                       DARKS          DARKS          ZIRKE          ZIRKE
+V97                       ZIRKE          ZIRKE          CUCJU          CUCJU
+V97                       CUCJU          CUCJU          CVG            CVG 
+V97                       CVG            CVG            MILAN          MILAN
+
+V100                      ELX            ELX            RESGY          RESGY
+V100                      RESGY          RESGY          LFD            LFD 
+V100                      LFD            LFD            ROA            ROA 
+
+V103                      COVEY          COVEY          CAXWO          CAXWO ; removed 1909
+V103                      CAXWO          CAXWO          NATTS          NATTS ; removed 1909
+V103                      COVEY          COVEY          NATTS          NATTS ; added 1909
+V103                      NATTS          NATTS          VELLI          VELLI
+V103                      VELLI          VELLI          AHCIN          AHCIN
+V103                      AHCIN          AHCIN          EKN            EKN 
+V103                      EKN            EKN            CKB            CKB 
+V103                      CKB            CKB            STORE          STORE
+V103                      STORE          STORE          BURGS          BURGS
+V103                      BURGS          BURGS          KIVGE          KIVGE
+V103                      KIVGE          KIVGE          AIR            AIR 
+V103                      AIR            AIR            ATWOO          ATWOO
+V103                      ATWOO          ATWOO          MINER          MINER
+V103                      MINER          MINER          ACO            ACO 
+
+V106                      JST            JST            WILTT          WILTT
+V106                      WILTT          WILTT          HUDON          HUDON
+V106                      HUDON          HUDON          RASHE          RASHE
+V106                      RASHE          RASHE          SEG            SEG 
+V106                      SEG            SEG            KIACK          KIACK
+V106                      KIACK          KIACK          BLESS          BLESS
+V106                      BLESS          BLESS          DIANO          DIANO
+V106                      DIANO          DIANO          LVZ            LVZ 
+V106                      LVZ            LVZ            LAAYK          LAAYK
+
+V115                      CELLI          CELLI          WHIRL          WHIRL
+V115                      WHIRL          WHIRL          HVQ            HVQ 
+V115                      HVQ            HVQ            GAYED          GAYED
+V115                      GAYED          GAYED          MORAN          MORAN
+V115                      MORAN          MORAN          JPU            JPU 
+V115                      JPU            JPU            CADRE          CADRE
+V115                      CADRE          CADRE          LORES          LORES
+V115                      LORES          LORES          CTW            CTW 
+V115                      CTW            CTW            ATWOO          ATWOO
+V115                      ATWOO          ATWOO          ZUTIV          ZUTIV
+V115                      ZUTIV          ZUTIV          CAPEL          CAPEL
+V115                      CAPEL          CAPEL          MERCY          MERCY
+V115                      MERCY          MERCY          FKL            FKL 
+V115                      FKL            FKL            TDT            TDT 
+V115                      TDT            TDT            JHW            JHW 
+V115                      JHW            JHW            LANGS          LANGS
+V115                      LANGS          LANGS          BUF            BUF 
+
+V116                      ERI            ERI            BFD            BFD 
+V116                      BFD            BFD            DECOY          DECOY
+V116                      DECOY          DECOY          SFK            SFK 
+V116                      SFK            SFK            GUYED          GUYED
+V116                      GUYED          GUYED          LACIE          LACIE
+V116                      LACIE          LACIE          LOPEZ          LOPEZ
+V116                      LOPEZ          LOPEZ          LVZ            LVZ 
+V116                      LVZ            LVZ            EXAGE          EXAGE
+
+V117                      JPU            JPU            PYRAT          PYRAT
+V117                      PYRAT          PYRAT          WEELD          WEELD
+V117                      WEELD          WEELD          BEALL          BEALL
+V117                      BEALL          BEALL          AIR            AIR 
+V117                      AIR            AIR            WISKE          WISKE
+
+V119                      ECB            ECB            MILLK          MILLK
+V119                      MILLK          MILLK          CROUP          CROUP
+V119                      CROUP          CROUP          HNN            HNN 
+V119                      HNN            HNN            UJOYU          UJOYU
+V119                      UJOYU          UJOYU          JACEE          JACEE
+V119                      JACEE          JACEE          JPU            JPU 
+V119                      JPU            JPU            ANTIO          ANTIO
+V119                      ANTIO          ANTIO          BURGS          BURGS
+V119                      BURGS          BURGS          GALLS          GALLS
+V119                      GALLS          GALLS          JOHNB          JOHNB
+V119                      JOHNB          JOHNB          OTOWN          OTOWN
+V119                      OTOWN          OTOWN          IHD            IHD 
+V119                      IHD            IHD            QUARY          QUARY
+V119                      QUARY          QUARY          MILWO          MILWO
+V119                      MILWO          MILWO          HOMEE          HOMEE
+V119                      HOMEE          HOMEE          UDUSE          UDUSE
+V119                      UDUSE          UDUSE          TALLS          TALLS
+V119                      TALLS          TALLS          CIP            CIP 
+V119                      CIP            CIP            COOBE          COOBE
+V119                      COOBE          COOBE          DETPE          DETPE
+V119                      DETPE          DETPE          SCENT          SCENT
+V119                      SCENT          SCENT          BFD            BFD 
+V119                      BFD            BFD            ELZ            ELZ 
+V119                      ELZ            ELZ            BURST          BURST
+V119                      BURST          BURST          GEE            GEE 
+V119                      GEE            GEE            ROC            ROC 
+
+V123                      MITCH          MITCH          GEEMO          GEEMO
+V123                      GEEMO          GEEMO          SWANN          SWANN
+
+V126                      GSH            GSH            ILTON          ILTON
+V126                      ILTON          ILTON          ERI            ERI 
+V126                      ERI            ERI            BFD            BFD 
+V126                      BFD            BFD            DECOY          DECOY
+V126                      DECOY          DECOY          SFK            SFK 
+
+V128                      JADRO          JADRO          CVG            CVG 
+V128                      CVG            CVG            CALIF          CALIF
+V128                      CALIF          CALIF          BOSTR          BOSTR
+V128                      BOSTR          BOSTR          GIPLE          GIPLE
+V128                      GIPLE          GIPLE          RHOMM          RHOMM
+V128                      RHOMM          RHOMM          YRK            YRK 
+V128                      YRK            YRK            ILILE          ILILE
+V128                      ILILE          ILILE          CROUP          CROUP
+V128                      CROUP          CROUP          RULEY          RULEY
+V128                      RULEY          RULEY          HVQ            HVQ 
+V128                      HVQ            HVQ            SWIFT          SWIFT
+V128                      SWIFT          SWIFT          BITES          BITES
+V128                      BITES          BITES          HAWKI          HAWKI
+V128                      HAWKI          HAWKI          VELLI          VELLI
+V128                      VELLI          VELLI          BOIER          BOIER
+V128                      BOIER          BOIER          DEKAY          DEKAY
+V128                      DEKAY          DEKAY          TTUMS          TTUMS
+V128                      TTUMS          TTUMS          LURAY          LURAY
+V128                      LURAY          LURAY          CSN            CSN 
+
+V133                      KENYA          KENYA          PINEE          PINEE
+V133                      PINEE          PINEE          FEDEX          FEDEX
+V133                      FEDEX          FEDEX          HVQ            HVQ 
+V133                      HVQ            HVQ            LIVES          LIVES
+V133                      LIVES          LIVES          CUSTO          CUSTO
+V133                      CUSTO          CUSTO          UJOYU          UJOYU
+V133                      UJOYU          UJOYU          FARLN          FARLN
+V133                      FARLN          FARLN          STURR          STURR
+V133                      STURR          STURR          GAZED          GAZED
+V133                      GAZED          GAZED          ZZV            ZZV 
+V133                      ZZV            ZZV            MBS            MBS 
+V133                      MBS            MBS            WHIPP          WHIPP
+
+V140                      STACY          STACY          KENYA          KENYA
+V140                      KENYA          KENYA          BLF            BLF 
+V140                      BLF            BLF            OBERS          OBERS
+V140                      OBERS          OBERS          SOFTY          SOFTY
+V140                      SOFTY          SOFTY          ZOOMS          ZOOMS
+V140                      ZOOMS          ZOOMS          CASTE          CASTE
+V140                      CASTE          CASTE          COVEY          COVEY
+V140                      COVEY          COVEY          HOBOS          HOBOS
+V140                      HOBOS          HOBOS          RELEE          RELEE
+V140                      RELEE          RELEE          MOL            MOL 
+V140                      MOL            MOL            TURGA          TURGA
+V140                      TURGA          TURGA          MITER          MITER
+V140                      MITER          MITER          WITTO          WITTO
+V140                      WITTO          WITTO          HOODE          HOODE
+V140                      HOODE          HOODE          CSN            CSN 
+
+V143                      ELLON          ELLON          CLYFF          CLYFF
+V143                      CLYFF          CLYFF          MOL            MOL 
+V143                      MOL            MOL            CEROL          CEROL
+V143                      CEROL          CEROL          LURAY          LURAY
+V143                      LURAY          LURAY          KERRE          KERRE
+V143                      KERRE          KERRE          AANTS          AANTS
+V143                      AANTS          AANTS          HOAGE          HOAGE
+V143                      HOAGE          HOAGE          MRB            MRB 
+V143                      MRB            MRB            MAPEL          MAPEL
+V143                      MAPEL          MAPEL          ROBRT          ROBRT
+V143                      ROBRT          ROBRT          MULRR          MULRR
+V143                      MULRR          MULRR          HYPER          HYPER
+V143                      HYPER          HYPER          BINNS          BINNS
+V143                      BINNS          BINNS          SUEDE          SUEDE
+V143                      SUEDE          SUEDE          DELRO          DELRO
+V143                      DELRO          DELRO          JOANE          JOANE
+V143                      JOANE          JOANE          LRP            LRP 
+V143                      LRP            LRP            PTW            PTW 
+
+V144                      CLEFT          CLEFT          TELEY          TELEY
+V144                      TELEY          TELEY          OYIDU          OYIDU
+V144                      OYIDU          OYIDU          FWA            FWA 
+V144                      FWA            FWA            TORRR          TORRR
+V144                      TORRR          TORRR          UCAYU          UCAYU
+V144                      UCAYU          UCAYU          BUZZI          BUZZI
+V144                      BUZZI          BUZZI          ZEDIN          ZEDIN
+V144                      ZEDIN          ZEDIN          GUNNE          GUNNE
+V144                      GUNNE          GUNNE          APE            APE 
+V144                      APE            APE            CINAB          CINAB
+V144                      CINAB          CINAB          ZZV            ZZV 
+V144                      ZZV            ZZV            MUNOE          MUNOE
+V144                      MUNOE          MUNOE          HISOM          HISOM
+V144                      HISOM          HISOM          BEALL          BEALL
+V144                      BEALL          BEALL          BURGS          BURGS
+V144                      BURGS          BURGS          TEDDS          TEDDS
+V144                      TEDDS          TEDDS          MGW            MGW 
+V144                      MGW            MGW            MOTME          MOTME
+V144                      MOTME          MOTME          ESL            ESL 
+V144                      ESL            ESL            LDN            LDN 
+
+V145                      WEEPY          WEEPY          FLOOR          FLOOR
+
+V147                      SPUDS          SPUDS          ETX            ETX 
+V147                      ETX            ETX            SLATT          SLATT
+V147                      SLATT          SLATT          WHITT          WHITT
+V147                      WHITT          WHITT          LVZ            LVZ 
+V147                      LVZ            LVZ            LOPEZ          LOPEZ
+V147                      LOPEZ          LOPEZ          LACIE          LACIE
+V147                      LACIE          LACIE          TWIIN          TWIIN
+V147                      TWIIN          TWIIN          BIPOD          BIPOD
+V147                      BIPOD          BIPOD          ULW            ULW 
+V147                      ULW            ULW            ATTAR          ATTAR
+V147                      ATTAR          ATTAR          GEE            GEE 
+V147                      GEE            GEE            ROC            ROC 
+
+V149                      FJC            FJC            BEERS          BEERS
+V149                      BEERS          BEERS          ROCOY          ROCOY
+V149                      ROCOY          ROCOY          RITTY          RITTY
+V149                      RITTY          RITTY          LAAYK          LAAYK
+V149                      LAAYK          LAAYK          TYYLR          TYYLR
+V149                      TYYLR          TYYLR          CFB            CFB 
+
+V155                      COATT          COATT          OGATE          OGATE
+V155                      OGATE          OGATE          FALKO          FALKO
+V155                      FALKO          FALKO          BRV            BRV 
+
+V156                      JJANN          JJANN          AZO            AZO 
+
+V162                      HAR            HAR            BOBSS          BOBSS
+V162                      BOBSS          BOBSS          HWANG          HWANG
+V162                      HWANG          HWANG          DUMMR          DUMMR
+V162                      DUMMR          DUMMR          ETX            ETX 
+V162                      ETX            ETX            FJC            FJC 
+
+V164                      BUF            BUF            BIZON          BIZON
+V164                      BIZON          BIZON          BENEE          BENEE
+V164                      BENEE          BENEE          ELZ            ELZ 
+V164                      ELZ            ELZ            DMACK          DMACK
+V164                      DMACK          DMACK          SFK            SFK 
+V164                      SFK            SFK            FQM            FQM 
+V164                      FQM            FQM            DIANO          DIANO
+V164                      DIANO          DIANO          ETX            ETX 
+
+V166                      JPU            JPU            MOSIC          MOSIC
+V166                      MOSIC          MOSIC          CASOP          CASOP
+V166                      CASOP          CASOP          CKB            CKB 
+V166                      CKB            CKB            TYGAR          TYGAR
+V166                      TYGAR          TYGAR          UGJOB          UGJOB
+V166                      UGJOB          UGJOB          ESL            ESL 
+V166                      ESL            ESL            CAPON          CAPON
+V166                      CAPON          CAPON          MEPEW          MEPEW
+V166                      MEPEW          MEPEW          MRB            MRB 
+V166                      MRB            MRB            RUANE          RUANE
+V166                      RUANE          RUANE          EMI            EMI 
+V166                      EMI            EMI            TAFFI          TAFFI
+V166                      TAFFI          TAFFI          FEGOZ          FEGOZ
+V166                      FEGOZ          FEGOZ          BELAY          BELAY
+V166                      BELAY          BELAY          SUDOY          SUDOY
+V166                      SUDOY          SUDOY          CURVY          CURVY
+V166                      CURVY          CURVY          BAINS          BAINS
+V166                      BAINS          BAINS          ELUDE          ELUDE
+
+V170                      OSEGO          OSEGO          HEBEL          HEBEL
+V170                      HEBEL          HEBEL          BEJAE          BEJAE
+V170                      BEJAE          BEJAE          POSIE          POSIE
+V170                      POSIE          POSIE          LESSY          LESSY
+V170                      LESSY          LESSY          DUNKS          DUNKS
+V170                      DUNKS          DUNKS          SVM            SVM 
+V170                      SVM            SVM            BFD            BFD 
+V170                      BFD            BFD            SLT            SLT 
+V170                      SLT            SLT            FAVUM          FAVUM
+V170                      FAVUM          FAVUM          SWISS          SWISS
+V170                      SWISS          SWISS          COVOB          COVOB
+V170                      COVOB          COVOB          SEG            SEG 
+V170                      SEG            SEG            RAV            RAV 
+V170                      RAV            RAV            HWANG          HWANG
+V170                      HWANG          HWANG          KERYN          KERYN
+V170                      KERYN          KERYN          BOYER          BOYER
+V170                      BOYER          BOYER          DETTE          DETTE
+V170                      DETTE          DETTE          MXE            MXE 
+V170                      MXE            MXE            KIRKK          KIRKK
+V170                      KIRKK          KIRKK          ODESA          ODESA
+V170                      ODESA          ODESA          KERNO          KERNO
+V170                      KERNO          KERNO          GATBY          GATBY
+V170                      GATBY          GATBY          SWANN          SWANN
+V170                      SWANN          SWANN          PALEO          PALEO
+V170                      PALEO          PALEO          POLLA          POLLA
+
+V174                      YRK            YRK            HNN            HNN 
+V174                      HNN            HNN            GAYED          GAYED
+V174                      GAYED          GAYED          CARLA          CARLA
+V174                      CARLA          CARLA          EKN            EKN 
+
+V178                      SLINK          SLINK          BLF            BLF 
+
+V184                      ERI            ERI            MUGOE          MUGOE
+V184                      MUGOE          MUGOE          TDT            TDT 
+V184                      TDT            TDT            DETPE          DETPE
+V184                      DETPE          DETPE          DAAAV          DAAAV
+V184                      DAAAV          DAAAV          PSB            PSB 
+V184                      PSB            PSB            RASHE          RASHE
+V184                      RASHE          RASHE          MCMAN          MCMAN
+V184                      MCMAN          MCMAN          PYCAT          PYCAT
+V184                      PYCAT          PYCAT          HAR            HAR 
+V184                      HAR            HAR            FAMAV          FAMAV
+V184                      FAMAV          FAMAV          DELRO          DELRO
+V184                      DELRO          DELRO          ROAST          ROAST
+V184                      ROAST          ROAST          GEERI          GEERI
+V184                      GEERI          GEERI          RICKF          RICKF
+V184                      RICKF          RICKF          PADRE          PADRE
+V184                      PADRE          PADRE          MXE            MXE 
+
+V188                      TDT            TDT            SCENT          SCENT
+V188                      SCENT          SCENT          CLERO          CLERO
+V188                      CLERO          CLERO          SLT            SLT 
+V188                      SLT            SLT            BLAZE          BLAZE
+V188                      BLAZE          BLAZE          TRUER          TRUER
+V188                      TRUER          TRUER          FQM            FQM 
+V188                      FQM            FQM            MUNCI          MUNCI
+V188                      MUNCI          MUNCI          SWANK          SWANK
+V188                      SWANK          SWANK          LVZ            LVZ 
+V188                      LVZ            LVZ            EXAGE          EXAGE
+
+V192                      PENDS          PENDS          MIE            MIE 
+V192                      MIE            MIE            WINNO          WINNO
+V192                      WINNO          WINNO          DQN            DQN 
+
+V193                      JAKES          JAKES          CLOCK          CLOCK
+V193                      CLOCK          CLOCK          KENTS          KENTS
+
+V210                      PENDS          PENDS          MIE            MIE 
+V210                      MIE            MIE            DEBAR          DEBAR
+V210                      DEBAR          DEBAR          ROSSY          ROSSY
+V210                      ROSSY          ROSSY          RUSIA          RUSIA
+V210                      RUSIA          RUSIA          ROD            ROD 
+V210                      ROD            ROD            REC            REC 
+V210                      REC            REC            WILTT          WILTT
+V210                      WILTT          WILTT          BLINK          BLINK
+V210                      BLINK          BLINK          FANSI          FANSI
+V210                      FANSI          FANSI          MARTT          MARTT
+V210                      MARTT          MARTT          HAR            HAR 
+V210                      HAR            HAR            WILEN          WILEN
+V210                      WILEN          WILEN          BOUHN          BOUHN
+V210                      BOUHN          BOUHN          LRP            LRP 
+V210                      LRP            LRP            TRAGG          TRAGG
+V210                      TRAGG          TRAGG          BUNTS          BUNTS
+V210                      BUNTS          BUNTS          SPERY          SPERY
+
+V214                      OKK            OKK            MZZ            MZZ 
+V214                      MZZ            MZZ            FOOTE          FOOTE
+V214                      FOOTE          FOOTE          MIE            MIE 
+V214                      MIE            MIE            GLOOM          GLOOM
+V214                      GLOOM          GLOOM          AMALE          AMALE
+V214                      AMALE          AMALE          ZZV            ZZV 
+V214                      ZZV            ZZV            SABGE          SABGE
+V214                      SABGE          SABGE          LORES          LORES
+V214                      LORES          LORES          AIR            AIR 
+V214                      AIR            AIR            AHTIY          AHTIY
+V214                      AHTIY          AHTIY          OBEID          OBEID
+V214                      OBEID          OBEID          GALLS          GALLS
+V214                      GALLS          GALLS          GRV            GRV 
+V214                      GRV            GRV            ELGEE          ELGEE
+V214                      ELGEE          ELGEE          MRB            MRB 
+V214                      MRB            MRB            WOOLY          WOOLY
+V214                      WOOLY          WOOLY          YANNI          YANNI
+V214                      YANNI          YANNI          BAL            BAL 
+V214                      BAL            BAL            SWANN          SWANN
+V214                      SWANN          SWANN          GATBY          GATBY
+V214                      GATBY          GATBY          KERNO          KERNO
+V214                      KERNO          KERNO          ODESA          ODESA
+V214                      ODESA          ODESA          KIRKK          KIRKK
+
+V221                      HOMAR          HOMAR          MIE            MIE 
+V221                      MIE            MIE            HAROD          HAROD
+V221                      HAROD          HAROD          AJAYS          AJAYS
+V221                      AJAYS          AJAYS          WGNER          WGNER
+V221                      WGNER          WGNER          FWA            FWA 
+V221                      FWA            FWA            GAREN          GAREN
+V221                      GAREN          GAREN          TAZCE          TAZCE
+V221                      TAZCE          TAZCE          ILTON          ILTON
+
+V223                      EMMIE          EMMIE          HANEY          HANEY
+V223                      HANEY          HANEY          FLUKY          FLUKY
+
+V226                      GRACE          GRACE          EARED          EARED
+V226                      EARED          EARED          CIP            CIP 
+V226                      CIP            CIP            PARDY          PARDY
+V226                      PARDY          PARDY          HONLU          HONLU
+V226                      HONLU          HONLU          DAAAV          DAAAV
+V226                      DAAAV          DAAAV          ETG            ETG 
+V226                      ETG            ETG            FAVUM          FAVUM
+V226                      FAVUM          FAVUM          ZIMEL          ZIMEL
+V226                      ZIMEL          ZIMEL          FQM            FQM 
+V226                      FQM            FQM            MUNCI          MUNCI
+V226                      MUNCI          MUNCI          SWANK          SWANK
+V226                      SWANK          SWANK          LVZ            LVZ 
+
+V232                      ETG            ETG            WATSO          WATSO
+V232                      WATSO          WATSO          MIP            MIP 
+V232                      MIP            MIP            LYTEL          LYTEL
+V232                      LYTEL          LYTEL          BEERS          BEERS
+V232                      BEERS          BEERS          HOPPS          HOPPS
+
+V233                      GSH            GSH            SEWTO          SEWTO
+V233                      SEWTO          SEWTO          LFD            LFD 
+V233                      LFD            LFD            MOP            MOP 
+V233                      MOP            MOP            JOMID          JOMID
+
+V252                      AIRCO          AIRCO          EHMAN          EHMAN
+V252                      EHMAN          EHMAN          FIXUS          FIXUS
+V252                      FIXUS          FIXUS          WELTI          WELTI
+V252                      WELTI          WELTI          GEE            GEE 
+V252                      GEE            GEE            RITCH          RITCH
+V252                      RITCH          RITCH          GIBBE          GIBBE
+V252                      GIBBE          GIBBE          XUCCO          XUCCO
+V252                      XUCCO          XUCCO          VILCU          VILCU
+V252                      VILCU          VILCU          MESTE          MESTE
+V252                      MESTE          MESTE          CFB            CFB 
+V252                      CFB            CFB            LATTY          LATTY
+V252                      LATTY          LATTY          HUGIE          HUGIE
+V252                      HUGIE          HUGIE          ORSON          ORSON
+
+V258                      HVQ            HVQ            SCRIB          SCRIB
+V258                      SCRIB          SCRIB          NUTTR          NUTTR
+V258                      NUTTR          NUTTR          BKW            BKW 
+V258                      BKW            BKW            ZOOMS          ZOOMS
+V258                      ZOOMS          ZOOMS          ROA            ROA 
+
+V260                      HVQ            HVQ            MONTS          MONTS
+V260                      MONTS          MONTS          GAULE          GAULE
+V260                      GAULE          GAULE          LAFOR          LAFOR
+V260                      LAFOR          LAFOR          RNL            RNL 
+V260                      RNL            RNL            VUTCU          VUTCU
+V260                      VUTCU          VUTCU          TILFO          TILFO
+V260                      TILFO          TILFO          PEEBE          PEEBE
+V260                      PEEBE          PEEBE          CASTE          CASTE
+V260                      CASTE          CASTE          ROA            ROA 
+V260                      ROA            ROA            GOOZE          GOOZE
+V260                      GOOZE          GOOZE          HEMEV          HEMEV
+
+V265                      KRANT          KRANT          BELTS          BELTS
+V265                      BELTS          BELTS          CUTOP          CUTOP
+V265                      CUTOP          CUTOP          CLEAT          CLEAT
+V265                      CLEAT          CLEAT          DATED          DATED
+V265                      DATED          DATED          YANNI          YANNI
+V265                      YANNI          YANNI          EMI            EMI 
+V265                      EMI            EMI            BINNS          BINNS
+V265                      BINNS          BINNS          PIFER          PIFER
+V265                      PIFER          PIFER          KOLBY          KOLBY
+V265                      KOLBY          KOLBY          HAR            HAR 
+V265                      HAR            HAR            PYCAT          PYCAT
+V265                      PYCAT          PYCAT          MCMAN          MCMAN
+V265                      MCMAN          MCMAN          RASHE          RASHE
+V265                      RASHE          RASHE          PSB            PSB 
+V265                      PSB            PSB            ETG            ETG 
+V265                      ETG            ETG            CLERO          CLERO
+V265                      CLERO          CLERO          BFD            BFD 
+V265                      BFD            BFD            ATAME          ATAME
+V265                      ATAME          ATAME          JHW            JHW 
+
+V268                      NESTO          NESTO          PLEEZ          PLEEZ
+V268                      PLEEZ          PLEEZ          NIDGY          NIDGY
+V268                      NIDGY          NIDGY          IHD            IHD 
+V268                      IHD            IHD            HGR            HGR 
+V268                      HGR            HGR            KEMAR          KEMAR
+V268                      KEMAR          KEMAR          EMI            EMI 
+V268                      EMI            EMI            SLOAF          SLOAF
+V268                      SLOAF          SLOAF          BAL            BAL 
+V268                      BAL            BAL            SWANN          SWANN
+V268                      SWANN          SWANN          GOLDA          GOLDA
+
+V270                      ERI            ERI            WABOR          WABOR
+V270                      WABOR          WABOR          HERMA          HERMA
+V270                      HERMA          HERMA          JHW            JHW 
+V270                      JHW            JHW            VAIRS          VAIRS
+V270                      VAIRS          VAIRS          ELZ            ELZ 
+V270                      ELZ            ELZ            WOMAN          WOMAN
+V270                      WOMAN          WOMAN          ULW            ULW 
+V270                      ULW            ULW            CFB            CFB 
+
+V273                      HNK            HNK            OXFOR          OXFOR
+V273                      OXFOR          OXFOR          PITCH          PITCH
+V273                      PITCH          PITCH          GGT            GGT 
+V273                      GGT            GGT            POMPY          POMPY
+V273                      POMPY          POMPY          FATUP          FATUP
+V273                      FATUP          FATUP          SYR            SYR 
+
+V274                      SAMME          SAMME          BLBBY          BLBBY
+V274                      BLBBY          BLBBY          VIO            VIO 
+V274                      VIO            VIO            SARAN          SARAN
+V274                      SARAN          SARAN          ORIEN          ORIEN
+V274                      ORIEN          ORIEN          PALOW          PALOW
+V274                      PALOW          PALOW          POMPE          POMPE
+V274                      POMPE          POMPE          INDEX          INDEX
+V274                      INDEX          INDEX          MBS            MBS 
+
+V275                      CVG            CVG            NEATS          NEATS
+V275                      NEATS          NEATS          IZZOF          IZZOF
+V275                      IZZOF          IZZOF          CAMMS          CAMMS
+V275                      CAMMS          CAMMS          FRAAM          FRAAM
+V275                      FRAAM          FRAAM          DQN            DQN 
+V275                      DQN            DQN            CUBOB          CUBOB
+V275                      CUBOB          CUBOB          JINAK          JINAK
+V275                      JINAK          JINAK          KLOEE          KLOEE
+
+V276                      RASHE          RASHE          HERDA          HERDA
+V276                      HERDA          HERDA          MORTO          MORTO
+V276                      MORTO          MORTO          RAV            RAV 
+V276                      RAV            RAV            VAYRE          VAYRE
+V276                      VAYRE          VAYRE          OUTLT          OUTLT
+V276                      OUTLT          OUTLT          DUMMR          DUMMR
+V276                      DUMMR          DUMMR          FLOAT          FLOAT
+V276                      FLOAT          FLOAT          KATVE          KATVE
+V276                      KATVE          KATVE          HIKES          HIKES
+
+V277                      ROD            ROD            BUTYN          BUTYN
+V277                      BUTYN          BUTYN          NADIR          NADIR
+V277                      NADIR          NADIR          OSBER          OSBER
+V277                      OSBER          OSBER          FWA            FWA 
+V277                      FWA            FWA            RABBT          RABBT
+V277                      RABBT          RABBT          BAGEL          BAGEL
+V277                      BAGEL          BAGEL          AYUYI          AYUYI
+V277                      AYUYI          AYUYI          LINGS          LINGS
+V277                      LINGS          LINGS          JJANN          JJANN
+V277                      JJANN          JJANN          ELX            ELX 
+
+V279                      GUNNE          GUNNE          ESSIE          ESSIE
+V279                      ESSIE          ESSIE          OJACE          OJACE
+V279                      OJACE          OJACE          YOGGI          YOGGI
+V279                      YOGGI          YOGGI          FBC            FBC 
+
+V285                      OKK            OKK            CLEFT          CLEFT
+V285                      CLEFT          CLEFT          WATSN          WATSN
+V285                      WATSN          WATSN          GSH            GSH 
+V285                      GSH            GSH            VENTU          VENTU
+V285                      VENTU          VENTU          RESGY          RESGY
+V285                      RESGY          RESGY          AZO            AZO 
+V285                      AZO            AZO            BOHRR          BOHRR
+V285                      BOHRR          BOHRR          VIO            VIO 
+V285                      VIO            VIO            WALKS          WALKS
+V285                      WALKS          WALKS          CLOCK          CLOCK
+V285                      CLOCK          CLOCK          KENTS          KENTS
+
+V286                      EKN            EKN            DERIN          DERIN
+V286                      DERIN          DERIN          TEAKK          TEAKK
+V286                      TEAKK          TEAKK          AANTS          AANTS
+V286                      AANTS          AANTS          CSN            CSN 
+V286                      CSN            CSN            FLUKY          FLUKY
+V286                      FLUKY          FLUKY          ANTNY          ANTNY
+V286                      ANTNY          ANTNY          BRV            BRV 
+V286                      BRV            BRV            GRUBY          GRUBY
+
+V290                      RNL            RNL            FRETT          FRETT
+V290                      FRETT          FRETT          NATTS          NATTS
+V290                      NATTS          NATTS          BOOME          BOOME
+V290                      BOOME          BOOME          OBEPE          OBEPE
+V290                      OBEPE          OBEPE          MOL            MOL 
+V290                      MOL            MOL            ROMAN          ROMAN
+V290                      ROMAN          ROMAN          BRAIL          BRAIL
+V290                      BRAIL          BRAIL          ARVON          ARVON
+
+V309                      HVQ            HVQ            KETTA          KETTA
+V309                      KETTA          KETTA          JULEA          JULEA
+V309                      JULEA          JULEA          RANDE          RANDE
+V309                      RANDE          RANDE          BURGS          BURGS
+V309                      BURGS          BURGS          KIVGE          KIVGE
+V309                      KIVGE          KIVGE          AIR            AIR 
+
+V312                      POLLA          POLLA          PALEO          PALEO
+V312                      PALEO          PALEO          GOLDA          GOLDA
+
+V320                      ICADA          ICADA          MOP            MOP 
+V320                      MOP            MOP            MBS            MBS 
+
+V339                      MASSE          MASSE          SPROW          SPROW
+V339                      SPROW          SPROW          FLM            FLM 
+
+V340                      CUDRU          CUDRU          FWA            FWA 
+
+V375                      ROA            ROA            FOSER          FOSER
+V375                      FOSER          FOSER          PROSE          PROSE
+V375                      PROSE          PROSE          RADIA          RADIA
+V375                      RADIA          RADIA          CLYFF          CLYFF
+V375                      CLYFF          CLYFF          ROMAN          ROMAN
+V375                      ROMAN          ROMAN          KENNI          KENNI
+V375                      KENNI          KENNI          GVE            GVE 
+V375                      GVE            GVE            MAZKO          MAZKO
+V375                      MAZKO          MAZKO          HANEY          HANEY
+V375                      HANEY          HANEY          FLUKY          FLUKY
+
+V376                      GRUBY          GRUBY          OJAAY          OJAAY
+V376                      OJAAY          OJAAY          SABBI          SABBI
+V376                      SABBI          SABBI          IRONS          IRONS
+
+V377                      MOL            MOL            TTUMS          TTUMS
+V377                      TTUMS          TTUMS          TEAKK          TEAKK
+V377                      TEAKK          TEAKK          ESL            ESL 
+V377                      ESL            ESL            ELGEE          ELGEE
+V377                      ELGEE          ELGEE          TOMAC          TOMAC
+V377                      TOMAC          TOMAC          HGR            HGR 
+V377                      HGR            HGR            SCAPE          SCAPE
+V377                      SCAPE          SCAPE          HAR            HAR 
+
+V378                      BAL            BAL            ENSUE          ENSUE
+V378                      ENSUE          ENSUE          DLUCA          DLUCA
+V378                      DLUCA          DLUCA          CLIPR          CLIPR
+V378                      CLIPR          CLIPR          TRISH          TRISH
+V378                      TRISH          TRISH          BELAY          BELAY
+V378                      BELAY          BELAY          TROYZ          TROYZ
+V378                      TROYZ          TROYZ          NUGGY          NUGGY
+V378                      NUGGY          NUGGY          MXE            MXE 
+
+V379                      OTT            OTT            RAVNN          RAVNN
+V379                      RAVNN          RAVNN          JETTA          JETTA
+
+V403                      BELAY          BELAY          GLOMO          GLOMO
+V403                      GLOMO          GLOMO          SPERY          SPERY
+V403                      SPERY          SPERY          PTW            PTW 
+
+V405                      BELAY          BELAY          GLOMO          GLOMO
+V405                      GLOMO          GLOMO          SPERY          SPERY
+V405                      SPERY          SPERY          PTW            PTW 
+
+V408                      ROBRT          ROBRT          GATHR          GATHR
+V408                      GATHR          GATHR          VINNY          VINNY
+V408                      VINNY          VINNY          KITHE          KITHE
+V408                      KITHE          KITHE          GLOMO          GLOMO
+V408                      GLOMO          GLOMO          MXE            MXE 
+V408                      MXE            MXE            PTW            PTW 
+V408                      PTW            PTW            HIKES          HIKES
+V408                      HIKES          HIKES          ETX            ETX 
+V408                      ETX            ETX            FJC            FJC 
+
+V419                      EMI            EMI            HERES          HERES
+V419                      HERES          HERES          MXE            MXE 
+V419                      MXE            MXE            FROSE          FROSE
+V419                      FROSE          FROSE          MUDNE          MUDNE
+
+V422                      WATSN          WATSN          OLK            OLK 
+V422                      OLK            OLK            TWERP          TWERP
+V422                      TWERP          TWERP          FBC            FBC 
+
+V423                      FQM            FQM            TWIIN          TWIIN
+V423                      TWIIN          TWIIN          CFB            CFB 
+V423                      CFB            CFB            ITH            ITH 
+V423                      ITH            ITH            BOCKS          BOCKS
+V423                      BOCKS          BOCKS          SYR            SYR 
+
+V428                      ULW            ULW            WIKKI          WIKKI
+V428                      WIKKI          WIKKI          VILCU          VILCU
+V428                      VILCU          VILCU          ITH            ITH 
+V428                      ITH            ITH            CORTA          CORTA
+V428                      CORTA          CORTA          GGT            GGT 
+V428                      GGT            GGT            EATEN          EATEN
+
+V433                      OTT            OTT            PALEO          PALEO
+V433                      PALEO          PALEO          SWANN          SWANN
+V433                      SWANN          SWANN          GATBY          GATBY
+V433                      GATBY          GATBY          KERNO          KERNO
+V433                      KERNO          KERNO          ODESA          ODESA
+V433                      ODESA          ODESA          KIRKK          KIRKK
+V433                      KIRKK          KIRKK          SHERB          SHERB
+V433                      SHERB          SHERB          EATEN          EATEN
+V433                      EATEN          EATEN          DINNO          DINNO
+V433                      DINNO          DINNO          TEBOR          TEBOR
+V433                      TEBOR          TEBOR          STODA          STODA
+V433                      STODA          STODA          FAYET          FAYET
+V433                      FAYET          FAYET          SYR            SYR 
+
+V438                      GRV            GRV            FLINT          FLINT
+V438                      FLINT          FLINT          TOMAC          TOMAC
+V438                      TOMAC          TOMAC          HGR            HGR 
+V438                      HGR            HGR            LUCKE          LUCKE
+
+V445                      MITCH          MITCH          GEEMO          GEEMO
+V445                      GEEMO          GEEMO          SWANN          SWANN
+V445                      SWANN          SWANN          GATBY          GATBY
+V445                      GATBY          GATBY          KERNO          KERNO
+V445                      KERNO          KERNO          ODESA          ODESA
+V445                      ODESA          ODESA          KIRKK          KIRKK
+
+V450                      CLOCK          CLOCK          GIBER          GIBER
+V450                      GIBER          GIBER          PALOW          PALOW
+V450                      PALOW          PALOW          CUTTY          CUTTY
+V450                      CUTTY          CUTTY          LUGGS          LUGGS
+V450                      LUGGS          LUGGS          OWOSO          OWOSO
+V450                      OWOSO          OWOSO          FNT            FNT 
+
+V453                      GVE            GVE            BUVBE          BUVBE
+V453                      BUVBE          BUVBE          CSN            CSN 
+V453                      CSN            CSN            LDN            LDN 
+
+V457                      TOWIN          TOWIN          KATVE          KATVE
+V457                      KATVE          KATVE          HOUTN          HOUTN
+V457                      HOUTN          HOUTN          WEPNA          WEPNA
+V457                      WEPNA          WEPNA          DETTE          DETTE
+V457                      DETTE          DETTE          LRP            LRP 
+V457                      LRP            LRP            ROAST          ROAST
+V457                      ROAST          ROAST          VINNY          VINNY
+V457                      VINNY          VINNY          EMI            EMI 
+V457                      EMI            EMI            RUANE          RUANE
+V457                      RUANE          RUANE          MRB            MRB 
+
+V469                      LUCLI          LUCLI          RADIA          RADIA
+V469                      RADIA          RADIA          RELEE          RELEE
+V469                      RELEE          RELEE          BOOME          BOOME
+V469                      BOOME          BOOME          IFAVU          IFAVU
+V469                      IFAVU          IFAVU          EXRAS          EXRAS
+V469                      EXRAS          EXRAS          BRUCY          BRUCY
+V469                      BRUCY          BRUCY          BOIER          BOIER
+V469                      BOIER          BOIER          EKN            EKN 
+V469                      EKN            EKN            TYGAR          TYGAR
+V469                      TYGAR          TYGAR          MGW            MGW 
+V469                      MGW            MGW            ZETGA          ZETGA
+V469                      ZETGA          ZETGA          OTOWN          OTOWN
+V469                      OTOWN          OTOWN          NESTO          NESTO
+V469                      NESTO          NESTO          JST            JST 
+V469                      JST            JST            YEDUS          YEDUS
+V469                      YEDUS          YEDUS          TATES          TATES
+V469                      TATES          TATES          THS            THS 
+V469                      THS            THS            GRAHM          GRAHM
+V469                      GRAHM          GRAHM          BADDI          BADDI
+V469                      BADDI          BADDI          HAR            HAR 
+V469                      HAR            HAR            JOANE          JOANE
+V469                      JOANE          JOANE          RICKF          RICKF
+
+V473                      ROA            ROA            SPRAT          SPRAT
+V473                      SPRAT          SPRAT          HOBOS          HOBOS
+V473                      HOBOS          HOBOS          RELEE          RELEE
+V473                      RELEE          RELEE          MOL            MOL 
+V473                      MOL            MOL            GVE            GVE 
+
+V474                      NESTO          NESTO          PLEEZ          PLEEZ
+V474                      PLEEZ          PLEEZ          NIDGY          NIDGY
+V474                      NIDGY          NIDGY          IHD            IHD 
+V474                      IHD            IHD            ASUTE          ASUTE
+V474                      ASUTE          ASUTE          THS            THS 
+V474                      THS            THS            AMISH          AMISH
+V474                      AMISH          AMISH          SCAPE          SCAPE
+V474                      SCAPE          SCAPE          NOENO          NOENO
+V474                      NOENO          NOENO          PIFER          PIFER
+V474                      PIFER          PIFER          GRAMO          GRAMO
+V474                      GRAMO          GRAMO          DELRO          DELRO
+V474                      DELRO          DELRO          ROAST          ROAST
+V474                      ROAST          ROAST          GEERI          GEERI
+V474                      GEERI          GEERI          PADRE          PADRE
+V474                      PADRE          PADRE          MXE            MXE 
+
+V476                      SWARM          SWARM          BRAIL          BRAIL
+V476                      BRAIL          BRAIL          TURCO          TURCO
+V476                      TURCO          TURCO          GVE            GVE 
+
+V478                      FLM            FLM            ECB            ECB 
+V478                      ECB            ECB            CELLI          CELLI
+V478                      CELLI          CELLI          BIVDY          BIVDY
+V478                      BIVDY          BIVDY          TERRN          TERRN
+V478                      TERRN          TERRN          BKW            BKW 
+V478                      BKW            BKW            SHERB          SHERB
+V483                      SHERB          SHERB          EATEN          EATEN
+V483                      EATEN          EATEN          DINNO          DINNO
+V483                      DINNO          DINNO          TEBOR          TEBOR
+V483                      TEBOR          TEBOR          STODA          STODA
+V483                      STODA          STODA          FAYET          FAYET
+V483                      FAYET          FAYET          SYR            SYR 
+V483                      SYR            SYR            WACOR          WACOR
+V483                      WACOR          WACOR          LYSAN          LYSAN
+V483                      LYSAN          LYSAN          DINES          DINES
+V483                      DINES          DINES          ROC            ROC 
+
+V493                      NOUNS          NOUNS          SPROW          SPROW
+V493                      SPROW          SPROW          BEAER          BEAER
+V493                      BEAER          BEAER          YRK            YRK 
+V493                      YRK            YRK            ROHDE          ROHDE
+V493                      ROHDE          ROHDE          TARTO          TARTO
+V493                      TARTO          TARTO          VADUY          VADUY
+V493                      VADUY          VADUY          APE            APE 
+
+V499                      BAL            BAL            ENSUE          ENSUE
+V499                      ENSUE          ENSUE          DLUCA          DLUCA
+V499                      DLUCA          DLUCA          CLIPR          CLIPR
+V499                      CLIPR          CLIPR          TRISH          TRISH
+V499                      TRISH          TRISH          BELAY          BELAY
+V499                      BELAY          BELAY          KITHE          KITHE
+V499                      KITHE          KITHE          GEERI          GEERI
+V499                      GEERI          GEERI          LRP            LRP 
+V499                      LRP            LRP            KERYN          KERYN
+V499                      KERYN          KERYN          JUPAS          JUPAS
+V499                      JUPAS          JUPAS          CHLSE          CHLSE
+V499                      CHLSE          CHLSE          MARRC          MARRC
+V499                      MARRC          MARRC          MEGSS          MEGSS
+V499                      MEGSS          MEGSS          MEATS          MEATS
+V499                      MEATS          MEATS          OYUCA          OYUCA
+V499                      OYUCA          OYUCA          CFB            CFB 
+
+V501                      MRB            MRB            HGR            HGR 
+V501                      HGR            HGR            THS            THS 
+V501                      THS            THS            COFAX          COFAX
+V501                      COFAX          COFAX          BLINK          BLINK
+V501                      BLINK          BLINK          PSB            PSB 
+V501                      PSB            PSB            ELZ            ELZ 
+V501                      ELZ            ELZ            HORNE          HORNE
+V501                      HORNE          HORNE          ATTAR          ATTAR
+V501                      ATTAR          ATTAR          RITCH          RITCH
+V501                      RITCH          RITCH          BEEPS          BEEPS
+
+V510                      BUF            BUF            EHMAN          EHMAN
+V510                      EHMAN          EHMAN          ROC            ROC 
+
+V517                      NOUNS          NOUNS          FLM            FLM 
+V517                      FLM            FLM            CVG            CVG 
+
+V519                      BLF            BLF            BKW            BKW 
+
+V542                      TDT            TDT            BFD            BFD 
+V542                      BFD            BFD            EXALL          EXALL
+V542                      EXALL          EXALL          ULW            ULW 
+V542                      ULW            ULW            CFB            CFB 
+V542                      CFB            CFB            GROWS          GROWS
+V542                      GROWS          GROWS          OXFOR          OXFOR
+
+V576                      PSB            PSB            SWISS          SWISS
+V576                      SWISS          SWISS          ZAGTI          ZAGTI
+V576                      ZAGTI          ZAGTI          FQM            FQM 
+V576                      FQM            FQM            NOSEE          NOSEE
+V576                      NOSEE          NOSEE          HNK            HNK 
+
+V609                      MBS            MBS            BENNY          BENNY
+V609                      BENNY          BENNY          WELVI          WELVI
+V609                      WELVI          WELVI          BANJO          BANJO
+
+V613                      FJC            FJC            RACKI          RACKI
+V613                      RACKI          RACKI          LVZ            LVZ 

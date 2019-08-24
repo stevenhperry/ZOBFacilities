@@ -1,0 +1,416 @@
+[HIGH AIRWAY]
+;===========================================================================
+J30                       TRAKK          TRAKK          APE            APE 
+J30                       APE            APE            OTMAN          OTMAN
+J30                       OTMAN          OTMAN          KARYL          KARYL
+J30                       KARYL          KARYL          LUISE          LUISE
+J30                       LUISE          LUISE          BUCKO          BUCKO
+J30                       BUCKO          BUCKO          SHAAR          SHAAR
+J30                       SHAAR          SHAAR          ESL            ESL 
+J30                       ESL            ESL            DRUZZ          DRUZZ
+J30                       DRUZZ          DRUZZ          TRIXY          TRIXY
+
+J34                       VIO            VIO            HASTE          HASTE
+J34                       HASTE          HASTE          ALPHE          ALPHE
+J34                       ALPHE          ALPHE          CRL            CRL 
+J34                       CRL            CRL            WOOST          WOOST
+J34                       WOOST          WOOST          RIEKE          RIEKE
+J34                       RIEKE          RIEKE          DJB            DJB 
+J34                       DJB            DJB            GAABE          GAABE
+J34                       GAABE          GAABE          MAINE          MAINE
+J34                       MAINE          MAINE          SPOOL          SPOOL
+J34                       SPOOL          SPOOL          AIR            AIR 
+J34                       AIR            AIR            BUCKO          BUCKO
+J34                       BUCKO          BUCKO          SHAAR          SHAAR
+J34                       SHAAR          SHAAR          ESL            ESL 
+J34                       ESL            ESL            DRUZZ          DRUZZ
+J34                       DRUZZ          DRUZZ          TRIXY          TRIXY
+
+J43                       DACOS          DACOS          FLM            FLM 
+J43                       FLM            FLM            ROD            ROD 
+J43                       ROD            ROD            JECKA          JECKA
+J43                       JECKA          JECKA          MAYZE          MAYZE
+J43                       MAYZE          MAYZE          ANEWA          ANEWA
+J43                       ANEWA          ANEWA          IDEAS          IDEAS
+J43                       IDEAS          IDEAS          NELLS          NELLS
+J43                       NELLS          NELLS          CRL            CRL 
+
+J59                       PSB            PSB            ZUUCS          ZUUCS
+J59                       ZUUCS          ZUUCS          CNTER          CNTER
+J59                       CNTER          CNTER          EXTOL          EXTOL
+J59                       EXTOL          EXTOL          AUDIL          AUDIL
+J59                       AUDIL          AUDIL          SYR            SYR 
+
+J60                       GSH            GSH            ASHEN          ASHEN
+J60                       ASHEN          ASHEN          NAPOL          NAPOL
+J60                       NAPOL          NAPOL          MAYZE          MAYZE
+J60                       MAYZE          MAYZE          JERRI          JERRI
+J60                       JERRI          JERRI          DJB            DJB 
+J60                       DJB            DJB            CANCR          CANCR
+J60                       CANCR          CANCR          HAGUD          HAGUD
+J60                       HAGUD          HAGUD          TYSUN          TYSUN
+J60                       TYSUN          TYSUN          MIDST          MIDST
+J60                       MIDST          MIDST          PSB            PSB 
+J60                       PSB            PSB            DOOTH          DOOTH
+J60                       DOOTH          DOOTH          FORTT          FORTT
+J60                       FORTT          FORTT          DANNR          DANNR
+J60                       DANNR          DANNR          GYNTS          GYNTS
+J60                       GYNTS          GYNTS          NEWEL          NEWEL
+
+J61                       DAILY          DAILY          OTT            OTT 
+J61                       OTT            OTT            EMI            EMI 
+J61                       EMI            EMI            LARRI          LARRI
+J61                       LARRI          LARRI          MICAH          MICAH
+J61                       MICAH          MICAH          BURNI          BURNI
+J61                       BURNI          BURNI          PSB            PSB 
+
+J64                       FWA            FWA            GONER          GONER
+J64                       GONER          GONER          CASIO          CASIO
+J64                       CASIO          CASIO          MAINE          MAINE
+J64                       MAINE          MAINE          LEPEW          LEPEW
+J64                       LEPEW          LEPEW          EWC            EWC 
+J64                       EWC            EWC            BURNI          BURNI
+J64                       BURNI          BURNI          MCMAN          MCMAN
+J64                       MCMAN          MCMAN          VALLO          VALLO
+J64                       VALLO          VALLO          RAV            RAV 
+J64                       RAV            RAV            SUZIE          SUZIE
+J64                       SUZIE          SUZIE          SARAA          SARAA
+
+J70                       ALPHE          ALPHE          DUNKS          DUNKS
+J70                       DUNKS          DUNKS          SVM            SVM 
+J70                       SVM            SVM            DAFLU          DAFLU
+J70                       DAFLU          DAFLU          BROKK          BROKK
+J70                       BROKK          BROKK          BEWEL          BEWEL
+J70                       BEWEL          BEWEL          JHW            JHW 
+J70                       JHW            JHW            HOXIE          HOXIE
+J70                       HOXIE          HOXIE          DMACK          DMACK
+J70                       DMACK          DMACK          STENT          STENT
+J70                       STENT          STENT          MAGIO          MAGIO
+J70                       MAGIO          MAGIO          LVZ            LVZ 
+J70                       LVZ            LVZ            JENNO          JENNO
+
+J80                       FYLLS          FYLLS          CREEP          CREEP
+J80                       CREEP          CREEP          EMPTY          EMPTY
+J80                       EMPTY          EMPTY          BOWRR          BOWRR
+J80                       BOWRR          BOWRR          ZANDR          ZANDR
+J80                       ZANDR          ZANDR          CORVS          CORVS
+J80                       CORVS          CORVS          AIR            AIR 
+
+J83                       SPAYD          SPAYD          APE            APE 
+J83                       APE            APE            WAAHU          WAAHU
+J83                       WAAHU          WAAHU          DJB            DJB 
+
+J85                       NEALS          NEALS          HVQ            HVQ 
+J85                       HVQ            HVQ            LAYED          LAYED
+J85                       LAYED          LAYED          JAMOX          JAMOX
+J85                       JAMOX          JAMOX          OTMAN          OTMAN
+J85                       OTMAN          OTMAN          BLISS          BLISS
+J85                       BLISS          BLISS          BIGLE          BIGLE
+J85                       BIGLE          BIGLE          BOBCT          BOBCT
+J85                       BOBCT          BOBCT          DJB            DJB 
+
+J94                       HASTE          HASTE          DEWIT          DEWIT
+J94                       DEWIT          DEWIT          FNT            FNT 
+
+J110                      FYLLS          FYLLS          CREEP          CREEP
+J110                      CREEP          CREEP          EMPTY          EMPTY
+J110                      EMPTY          EMPTY          BOWRR          BOWRR
+J110                      BOWRR          BOWRR          ZANDR          ZANDR
+J110                      ZANDR          ZANDR          CORVS          CORVS
+J110                      CORVS          CORVS          AIR            AIR 
+J110                      AIR            AIR            LEJOY          LEJOY
+J110                      LEJOY          LEJOY          VINSE          VINSE
+J110                      VINSE          VINSE          GRAHM          GRAHM
+J110                      GRAHM          GRAHM          BEETS          BEETS
+J110                      BEETS          BEETS          LARRI          LARRI
+J110                      LARRI          LARRI          KIPPI          KIPPI
+J110                      KIPPI          KIPPI          FLIRT          FLIRT
+J110                      FLIRT          FLIRT          PENSY          PENSY
+
+J146                      PLAIN          PLAIN          GERBS          GERBS
+J146                      GERBS          GERBS          IDEAS          IDEAS
+J146                      IDEAS          IDEAS          WOOST          WOOST
+J146                      WOOST          WOOST          CXR            CXR 
+J146                      CXR            CXR            TEESY          TEESY
+J146                      TEESY          TEESY          MIGET          MIGET
+J146                      MIGET          MIGET          WEVEL          WEVEL
+J146                      WEVEL          WEVEL          ETG            ETG 
+J146                      ETG            ETG            MIP            MIP 
+J146                      MIP            MIP            FJC            FJC 
+
+J149                      AML            AML            GINYA          GINYA
+J149                      GINYA          GINYA          RAMAY          RAMAY
+J149                      RAMAY          RAMAY          EYTEE          EYTEE
+J149                      EYTEE          EYTEE          SINDE          SINDE
+J149                      SINDE          SINDE          GEFFS          GEFFS
+J149                      GEFFS          GEFFS          HACKS          HACKS
+J149                      HACKS          HACKS          SUMET          SUMET
+J149                      SUMET          SUMET          VLADY          VLADY
+J149                      VLADY          VLADY          EMPTY          EMPTY
+J149                      EMPTY          EMPTY          MECAN          MECAN
+J149                      MECAN          MECAN          ROD            ROD 
+J149                      ROD            ROD            FWA            FWA 
+
+J152                      ROD            ROD            TRAKK          TRAKK
+J152                      TRAKK          TRAKK          BLISS          BLISS
+J152                      BLISS          BLISS          AVERE          AVERE
+J152                      AVERE          AVERE          JST            JST 
+J152                      JST            JST            MIROY          MIROY
+J152                      MIROY          MIROY          COFAX          COFAX
+J152                      COFAX          COFAX          LOMON          LOMON
+J152                      LOMON          LOMON          HAR            HAR 
+J152                      HAR            HAR            DJB            DJB 
+
+J162                      DJB            DJB            GAABE          GAABE
+J162                      GAABE          GAABE          MAINE          MAINE
+J162                      MAINE          MAINE          SPOOL          SPOOL
+J162                      SPOOL          SPOOL          AIR            AIR 
+J162                      AIR            AIR            MGW            MGW 
+J162                      MGW            MGW            BAABY          BAABY
+J162                      BAABY          BAABY          LIZIO          LIZIO
+J162                      LIZIO          LIZIO          MRB            MRB 
+
+J190                      CRL            CRL            KEEHO          KEEHO
+J190                      KEEHO          KEEHO          DORET          DORET
+J190                      DORET          DORET          ZORBO          ZORBO
+J190                      ZORBO          ZORBO          SLT            SLT 
+J190                      SLT            SLT            KONJE          KONJE
+J190                      KONJE          KONJE          REBBL          REBBL
+J190                      REBBL          REBBL          CFB            CFB 
+J190                      CFB            CFB            KODEY          KODEY
+
+J211                      YNG            YNG            HAGUD          HAGUD
+J211                      HAGUD          HAGUD          GRACE          GRACE
+J211                      GRACE          GRACE          JST            JST 
+J211                      JST            JST            LEONI          LEONI
+J211                      LEONI          LEONI          BUSTR          BUSTR
+J211                      BUSTR          BUSTR          JERES          JERES
+J211                      JERES          JERES          EMI            EMI 
+
+J217                      HNK            HNK            ZUUCS          ZUUCS
+J217                      ZUUCS          ZUUCS          ETG            ETG 
+
+J230                      BYRDD          BYRDD          SAAME          SAAME
+J230                      SAAME          SAAME          LARRI          LARRI
+J230                      LARRI          LARRI          BEETS          BEETS
+J230                      BEETS          BEETS          GRAHM          GRAHM
+J230                      GRAHM          GRAHM          VINSE          VINSE
+J230                      VINSE          VINSE          LEJOY          LEJOY
+J230                      LEJOY          LEJOY          AIR            AIR 
+
+J518                      DJB            DJB            SRPEN          SRPEN
+J518                      SRPEN          SRPEN          LEPEW          LEPEW
+J518                      LEPEW          LEPEW          LIVER          LIVER
+J518                      LIVER          LIVER          KOZAR          KOZAR
+J518                      KOZAR          KOZAR          KODIE          KODIE
+J518                      KODIE          KODIE          AVERE          AVERE
+J518                      AVERE          AVERE          LEJOY          LEJOY
+J518                      LEJOY          LEJOY          IHD            IHD 
+J518                      IHD            IHD            MCRAY          MCRAY
+J518                      MCRAY          MCRAY          BUFFR          BUFFR
+J518                      BUFFR          BUFFR          LINSE          LINSE
+J518                      LINSE          LINSE          BAL            BAL 
+
+J547                      HASTE          HASTE          DEWIT          DEWIT
+J547                      DEWIT          DEWIT          FNT            FNT 
+
+J554                      BENJO          BENJO          CRL            CRL 
+J554                      CRL            CRL            COHOW          COHOW
+J554                      COHOW          COHOW          SURLY          SURLY
+J554                      SURLY          SURLY          JHW            JHW 
+
+J584                      UNBAR          UNBAR          CRL            CRL 
+J584                      CRL            CRL            KEEHO          KEEHO
+J584                      KEEHO          KEEHO          DORET          DORET
+J584                      DORET          DORET          ZORBO          ZORBO
+J584                      ZORBO          ZORBO          SLT            SLT 
+J584                      SLT            SLT            DDUBS          DDUBS
+J584                      DDUBS          DDUBS          FQM            FQM 
+J584                      FQM            FQM            MEGSS          MEGSS
+J584                      MEGSS          MEGSS          HAYED          HAYED
+
+Q29                       CREEP          CREEP          KLYNE          KLYNE
+Q29                       KLYNE          KLYNE          DUTSH          DUTSH
+Q29                       DUTSH          DUTSH          WWSHR          WWSHR
+Q29                       WWSHR          WWSHR          DORET          DORET
+Q29                       DORET          DORET          JHW            JHW 
+Q29                       JHW            JHW            HANKK          HANKK
+Q29                       HANKK          HANKK          GONZZ          GONZZ
+
+Q42                       MIE            MIE            HIDON          HIDON
+Q42                       HIDON          HIDON          BUBAA          BUBAA
+Q42                       BUBAA          BUBAA          PSYKO          PSYKO
+Q42                       PSYKO          PSYKO          BRNAN          BRNAN
+Q42                       BRNAN          BRNAN          HOTEE          HOTEE
+Q42                       HOTEE          HOTEE          MIKYG          MIKYG
+Q42                       MIKYG          MIKYG          SPOTZ          SPOTZ
+
+Q62                       WATSN          WATSN          DAIFE          DAIFE
+Q62                       DAIFE          DAIFE          NOLNN          NOLNN
+Q62                       NOLNN          NOLNN          WEEVR          WEEVR
+Q62                       WEEVR          WEEVR          PSKUR          PSKUR
+Q62                       PSKUR          PSKUR          FAALS          FAALS
+Q62                       FAALS          FAALS          ALEEE          ALEEE
+Q62                       ALEEE          ALEEE          QUARM          QUARM
+Q62                       QUARM          QUARM          BURNI          BURNI
+Q62                       BURNI          BURNI          MCMAN          MCMAN
+Q62                       MCMAN          MCMAN          VALLO          VALLO
+Q62                       VALLO          VALLO          RAV            RAV 
+Q62                       RAV            RAV            SUZIE          SUZIE
+Q62                       SUZIE          SUZIE          SARAA          SARAA
+
+Q71                       KONGO          KONGO          WISTA          WISTA
+Q71                       WISTA          WISTA          ASERY          ASERY
+Q71                       ASERY          ASERY          GEFFS          GEFFS
+Q71                       GEFFS          GEFFS          EMNEM          EMNEM
+Q71                       EMNEM          EMNEM          PSYKO          PSYKO
+Q71                       PSYKO          PSYKO          PSB            PSB 
+
+Q82                       WWSHR          WWSHR          DORET          DORET
+Q82                       DORET          DORET          JHW            JHW 
+Q82                       JHW            JHW            WAYLA          WAYLA
+Q82                       WAYLA          WAYLA          VIEEW          VIEEW
+Q82                       VIEEW          VIEEW          TYROD          TYROD
+Q82                       TYROD          TYROD          MEMMS          MEMMS
+Q82                       MEMMS          MEMMS          LOXXE          LOXXE
+
+Q84                       JHW            JHW            AUDIL          AUDIL
+
+Q103                      ASBUR          ASBUR          OAKLE          OAKLE
+Q103                      OAKLE          OAKLE          PERRI          PERRI
+Q103                      PERRI          PERRI          PERKS          PERKS
+Q103                      PERKS          PERKS          RICCS          RICCS
+Q103                      RICCS          RICCS          EMNEM          EMNEM
+Q103                      EMNEM          EMNEM          AIRRA          AIRRA
+
+Q118                      MZZ            MZZ            HEVAN          HEVAN
+Q118                      HEVAN          HEVAN          ROYYZ          ROYYZ
+Q118                      ROYYZ          ROYYZ          DAYYY          DAYYY
+
+Q140                      DAYYY          DAYYY          RUBKI          RUBKI
+Q140                      RUBKI          RUBKI          MEDAV          MEDAV
+Q140                      MEDAV          MEDAV          AHPAH          AHPAH
+Q140                      AHPAH          AHPAH          HANKK          HANKK
+Q140                      HANKK          HANKK          BEEPS          BEEPS
+Q140                      BEEPS          BEEPS          EXTOL          EXTOL
+Q140                      EXTOL          EXTOL          MEMMS          MEMMS
+Q140                      MEMMS          MEMMS          KODEY          KODEY
+Q140                      KODEY          KODEY          ARKKK          ARKKK
+
+Q145                      KONGO          KONGO          HVQ            HVQ 
+Q145                      HVQ            HVQ            CLNTN          CLNTN
+Q145                      CLNTN          CLNTN          FOXEE          FOXEE
+
+Q436                      EMMMA          EMMMA          DIXSN          DIXSN
+Q436                      DIXSN          DIXSN          BOOTT          BOOTT
+Q436                      BOOTT          BOOTT          RRONS          RRONS
+Q436                      RRONS          RRONS          YARRK          YARRK
+Q436                      YARRK          YARRK          CHAAP          CHAAP
+Q436                      CHAAP          CHAAP          RAAKK          RAAKK
+Q436                      RAAKK          RAAKK          HERBA          HERBA
+Q436                      HERBA          HERBA          REXXY          REXXY
+Q436                      REXXY          REXXY          REBBL          REBBL
+Q436                      REBBL          REBBL          MTCAF          MTCAF
+Q436                      MTCAF          MTCAF          DGRAF          DGRAF
+Q436                      DGRAF          DGRAF          YYOST          YYOST
+Q436                      YYOST          YYOST          LAAYK          LAAYK
+
+Q438                      RUBYY          RUBYY          BERYS          BERYS
+Q438                      BERYS          BERYS          TWIGS          TWIGS
+Q438                      TWIGS          TWIGS          JAAJA          JAAJA
+Q438                      JAAJA          JAAJA          ICHOL          ICHOL
+Q438                      ICHOL          ICHOL          FARGN          FARGN
+Q438                      FARGN          FARGN          RAAKK          RAAKK
+
+Q440                      SLLAP          SLLAP          BERYS          BERYS
+Q440                      BERYS          BERYS          TWIGS          TWIGS
+Q440                      TWIGS          TWIGS          JAAJA          JAAJA
+Q440                      JAAJA          JAAJA          ICHOL          ICHOL
+Q440                      ICHOL          ICHOL          FARGN          FARGN
+Q440                      FARGN          FARGN          RAAKK          RAAKK
+
+Q480                      ZANDR          ZANDR          AIR            AIR 
+Q480                      AIR            AIR            LEJOY          LEJOY
+Q480                      LEJOY          LEJOY          VINSE          VINSE
+Q480                      VINSE          VINSE          BEETS          BEETS
+Q480                      BEETS          BEETS          HOTEE          HOTEE
+Q480                      HOTEE          HOTEE          MIKYG          MIKYG
+Q480                      MIKYG          MIKYG          SPOTZ          SPOTZ
+
+Q812                      ZOHAN          ZOHAN          NOSIK          NOSIK
+Q812                      NOSIK          NOSIK          AGDOX          AGDOX
+Q812                      AGDOX          AGDOX          KELTI          KELTI
+Q812                      KELTI          KELTI          AHPAH          AHPAH
+Q812                      AHPAH          AHPAH          GOATR          GOATR
+Q812                      GOATR          GOATR          SYR            SYR 
+Q812                      SYR            SYR            FABEN          FABEN
+Q812                      FABEN          FABEN          LOXXE          LOXXE
+Q812                      LOXXE          LOXXE          ARKKK          ARKKK
+
+Q816                      HOCKE          HOCKE          OMRAK          OMRAK
+Q816                      OMRAK          OMRAK          AGDOX          AGDOX
+Q816                      AGDOX          AGDOX          KELTI          KELTI
+Q816                      KELTI          KELTI          AHPAH          AHPAH
+Q816                      AHPAH          AHPAH          GOATR          GOATR
+
+Q818                      FNT            FNT            TANKO          TANKO
+Q818                      TANKO          TANKO          KITOK          KITOK
+Q818                      KITOK          KITOK          DERLO          DERLO
+Q818                      DERLO          DERLO          IKNAV          IKNAV
+Q818                      IKNAV          IKNAV          WOZEE          WOZEE
+Q818                      WOZEE          WOZEE          KELIE          KELIE
+Q818                      KELIE          KELIE          VIEEW          VIEEW
+Q818                      VIEEW          VIEEW          CFB            CFB 
+Q818                      CFB            CFB            BUFFY          BUFFY
+
+Q822                      FNT            FNT            TANKO          TANKO
+Q822                      TANKO          TANKO          KITOK          KITOK
+Q822                      KITOK          KITOK          DERLO          DERLO
+Q822                      DERLO          DERLO          HOZIR          HOZIR
+Q822                      HOZIR          HOZIR          GONZZ          GONZZ
+
+Q824                      FNT            FNT            HOCKE          HOCKE
+Q824                      HOCKE          HOCKE          TAGUM          TAGUM
+
+Q844                      SYR            SYR            SAEZE          SAEZE
+
+Q848                      SLLAP          SLLAP          HHIPP          HHIPP
+Q848                      HHIPP          HHIPP          KARIT          KARIT
+Q848                      KARIT          KARIT          MENKO          MENKO
+
+Q905                      HOCKE          HOCKE          DASIR          DASIR
+Q905                      DASIR          DASIR          SIKBO          SIKBO
+
+Q907                      POSTS          POSTS          PADDE          PADDE
+Q907                      PADDE          PADDE          SVM            SVM 
+Q907                      SVM            SVM            GADAV          GADAV
+Q907                      GADAV          GADAV          DERLO          DERLO
+
+Q913                      DERLO          DERLO          DEDKI          DEDKI
+Q913                      DEDKI          DEDKI          RAKAM          RAKAM 
+
+Q917                      DUTEL          DUTEL          PEPLA          PEPLA
+Q917                      PEPLA          PEPLA          PIKSA          PIKSA
+Q917                      PIKSA          PIKSA          HOZIR          HOZIR
+Q917                      HOZIR          HOZIR          WOZEE          WOZEE
+
+Q923                      HOCKE          HOCKE          KARIT          KARIT
+Q923                      KARIT          KARIT          DUTEL          DUTEL
+
+Q935                      MONEE          MONEE          HOCKE          HOCKE
+Q935                      HOCKE          HOCKE          OMRAK          OMRAK
+Q935                      OMRAK          OMRAK          DERLO          DERLO
+Q935                      DERLO          DERLO          IKNAV          IKNAV
+Q935                      IKNAV          IKNAV          WOZEE          WOZEE
+Q935                      WOZEE          WOZEE          HANKK          HANKK
+Q935                      HANKK          HANKK          JOSSY          JOSSY
+Q935                      JOSSY          JOSSY          AUDIL          AUDIL
+Q935                      AUDIL          AUDIL          FABEN          FABEN
+
+Q937                      DEDKI          DEDKI          TULEG          TULEG
+Q937                      TULEG          TULEG          WAYGO          WAYGO
+
+Q951                      POSTS          POSTS          PADDE          PADDE
+Q951                      PADDE          PADDE          SVM            SVM 
+Q951                      SVM            SVM            GADAV          GADAV
+Q951                      GADAV          GADAV          DERLO          DERLO
