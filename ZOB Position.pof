@@ -45,8 +45,8 @@ Warren High Sector 77:Cleveland Center:134.120:77:C:CLE:CTR:CLE:CTR:5701:5777
 Geauga Super High Sector 45:Cleveland Center:120.320:45:C:CLE:CTR:CLE:CTR:5701:5777
 ;
 ; D21/DTW Positions
-Ann Arbor Ground:Ann Arbor Ground:121.600:4S:-:ARB:GND:ARB:GND:5101:5177
-Ann Arbor Tower:Ann Arbor Tower:120.300:4W:T:ARB:TWR:ARB:TWR:5101:5177
+Ann Arbor Ground:Ann Arbor Ground:121.600:5A:-:ARB:GND:ARB:GND:5101:5177
+Ann Arbor Tower:Ann Arbor Tower:120.300:5B:T:ARB:TWR:ARB:TWR:5101:5177
 Detroit City Ground:Detroit City Ground:121.850:4X:-:DET:GND:DET:GND:5101:5177
 Detroit City Tower:Detroit City Tower:121.300:4Z:T:DET:TWR:DET:TWR:5101:5177
 Metro Clearance:Metro Clearance:120.650:4C:-:DTW:DEL:DTW:DEL:4101:4177
@@ -101,8 +101,8 @@ Cleveland North Departure:Cleveland Departure:128.250:2D:D:CLE:DEP:CLE:DEP:7401:
 Cleveland South Departure:Cleveland Departure:135.870:2R:R:CLE:DEP:CLE:DEP:7401:7477
 Cleveland North Satellite Approach:Cleveland Approach:125.350:2F:F:CLE:APP:CLE:APP:7401:7477
 Cleveland Sandusky Basin Approach:Cleveland Approach:126.350:2P:P:CLE:APP:CLE:APP:7401:7477
-Lakefront Ground:Lakefront Ground:121.900:3X:T:BKL:GND:BKL:GND:7401:7477
-Lakefront Tower:Lakefront Tower:124.300:3B:T:BKL:TWR:BKL:TWR:7401:7477
+Lakefront Ground:Lakefront Ground:121.900:2X:T:BKL:GND:BKL:GND:7401:7477
+Lakefront Tower:Lakefront Tower:124.300:2B:T:BKL:TWR:BKL:TWR:7401:7477
 Mansfield Ground:Mansfield Ground:121.800:2P:-:MFD:GND:MFD:GND:5101:5177
 Mansfield Tower:Mansfield Tower:119.800:2O:T:MFD:TWR:MFD:TWR:5101:5177
 Mansfield Approach:Cleveland Approach:124.200:2M:M:MFD:APP:MFD:APP:5101:5177
@@ -112,7 +112,7 @@ Mansfield Approach:Cleveland Approach:124.200:2M:M:MFD:APP:MFD:APP:5101:5177
 Allegheny Ground:Allegheny Ground:121.700:3H:-:AGC:GND:AGC:GND:0701:0777
 Allegheny Tower:Allegheny Tower:121.100:3F:T:AGC:TWR:AGC:TWR:0701:0777
 Beaver County Ground:Beaver County Ground:121.800:3M:-:BVI:GND:BVI:GND:5101:5177
-Beaver County Tower:Beaver County Tower:120.300:3L:T:BVI:TWR:BVI:TWR:5101:5177
+Beaver County Tower:Beaver County Tower:120.300:3K:T:BVI:TWR:BVI:TWR:5101:5177
 Pittsburgh Clearance:Pittsburgh Clearance:126.750:3C:-:PIT:DEL:PIT:DEL:0701:0777
 Pittsburgh South Ground:Pittsburgh Ground:121.900:3S:-:PIT:GND:PIT:GND:0701:0777
 Pittsburgh North Ground:Pittsburgh Ground:127.800:3G:-:PIT:GND:PIT:GND:0701:0777
@@ -439,13 +439,13 @@ Swissdale Sector 93:New York Center:123.620:N93:C:NY:CTR:ZNY:93:0000:0000
 ZNY AREA E
 ;
 ZNY East Sector:New York Center:128.300:E1:C:NY:CTR:ZNY:E1:0000:0000
-MANTA Sector 66:New York Center:128.300:66:C:NY:CTR:ZNY:66:0000:0000
-CHAMP Sector 87:New York Center:122.600:87:C:NY:CTR:ZNY:87:0000:0000
-BACUS Sector 88:New York Center:122.620:88:C:NY:CTR:ZNY:88:0000:0000
-KRAFT Sector 89:New York Center:122.700:89:C:NY:CTR:ZNY:89:0000:0000
-GRATX Sector 90:New York Center:122.720:90:C:NY:CTR:ZNY:90:0000:0000
-PAEPR Sector 82:New York Center:126.020:82:C:NY:CTR:ZNY:82:0000:0000
-HANRI Sector 83:New York Center:133.520:83:C:NY:CTR:ZNY:83:0000:0000
+MANTA Sector 66:New York Center:128.300:N66:C:NY:CTR:ZNY:66:0000:0000
+CHAMP Sector 87:New York Center:122.600:N87:C:NY:CTR:ZNY:87:0000:0000
+BACUS Sector 88:New York Center:122.620:N88:C:NY:CTR:ZNY:88:0000:0000
+KRAFT Sector 89:New York Center:122.700:N89:C:NY:CTR:ZNY:89:0000:0000
+GRATX Sector 90:New York Center:122.720:N90:C:NY:CTR:ZNY:90:0000:0000
+PAEPR Sector 82:New York Center:126.020:N82:C:NY:CTR:ZNY:82:0000:0000
+HANRI Sector 83:New York Center:133.520:N83:C:NY:CTR:ZNY:83:0000:0000
 ;
 ZNY TRACONS
 ;
@@ -495,24 +495,24 @@ Syracuse Approach (North Radar):Syracuse Approach:134.270:B1B:N:SYR:APP:SYR:XG:0
 ;
 ZYZ SECTORS
 ;
-Toronto Centralia Sector:Toronto Centre:125.770:CE:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Lucan Sector:Toronto Centre:135.820:LU:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Midland Sector:Toronto Centre:124.370:MI:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Wiarton Sector:Toronto Centre:132.570:VV:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Sault Ste Marie High Sector:Toronto Centre:124.070:SH:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Killaloe Sector:Toronto Centre:121.220:XI:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Picton Sector:Toronto Centre:124.670:PI:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Barrie Sector:Toronto Centre:134.570:BA:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto London Sector:Toronto Centre:135.300:KF:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Hamilton Sector:Toronto Centre:128.270:HM:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Grimsby Sector:Toronto Centre:133.300:GR:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Simcoe Sector:Toronto Centre:127.000:SI:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto East Radar Sector:Toronto Centre:124.920:ER:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto North Bay Sector:Toronto Centre:127.250:YB:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Sault Ste Marie Low Sector:Toronto Centre:132.650:SL:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Cobalt Sector:Toronto Centre:133.050:CB:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Timmins Sector:Toronto Centre:128.300:TS:C:TOR:CTR:TOR:CTR:0000:0000
-Toronto Oakville Sector:Toronto Centre:134.920:OV:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Centralia Sector:Toronto Centre:125.770:YZ:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Lucan Sector:Toronto Centre:135.820:YLU:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Midland Sector:Toronto Centre:124.370:YMI:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Wiarton Sector:Toronto Centre:132.570:YVV:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Sault Ste Marie High Sector:Toronto Centre:124.070:YSH:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Killaloe Sector:Toronto Centre:121.220:YXI:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Picton Sector:Toronto Centre:124.670:YPI:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Barrie Sector:Toronto Centre:134.570:YBA:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto London Sector:Toronto Centre:135.300:YKF:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Hamilton Sector:Toronto Centre:128.270:YHM:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Grimsby Sector:Toronto Centre:133.300:YGR:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Simcoe Sector:Toronto Centre:127.000:YSI:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto East Radar Sector:Toronto Centre:124.920:YER:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto North Bay Sector:Toronto Centre:127.250:YYB:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Sault Ste Marie Low Sector:Toronto Centre:132.650:YSL:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Cobalt Sector:Toronto Centre:133.050:YCB:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Timmins Sector:Toronto Centre:128.300:YTS:C:TOR:CTR:TOR:CTR:0000:0000
+Toronto Oakville Sector:Toronto Centre:134.920:YOV:C:TOR:CTR:TOR:CTR:0000:0000
 ;
 ZYZ TRACON
 ;
