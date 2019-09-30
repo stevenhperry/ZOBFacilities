@@ -26,22 +26,17 @@
 ;
 Mansfield Low Sector 04:Cleveland Center:134.900:04:C:CLE:CTR:CLE:CTR:5701:5777
 Lansing Low Sector 12:Cleveland Center:126.750:12:C:CLE:CTR:CLE:CTR:5701:5777
-Litchfield Low Sector 15:Cleveland Center:134.650:15:C:CLE:CTR:CLE:CTR:5701:5777
 Dresden Low Sector 20:Cleveland Center:132.250:20:C:CLE:CTR:CLE:CTR:5701:5777
 Buffalo Low Sector 33:Cleveland Center:125.200:33:C:CLE:CTR:CLE:CTR:5701:5777
 Carleton Low Sector 40:Cleveland Center:127.900:40:C:CLE:CTR:CLE:CTR:5701:5777
 Indian Head Low Sector 53:Cleveland Center:124.400:53:C:CLE:CTR:CLE:CTR:5701:5777
 Morgantown Low Sector 61:Cleveland Center:126.950:61:C:CLE:CTR:CLE:CTR:5701:5777
-Clarion Low Sector 71:Cleveland Center:126.720:71:C:CLE:CTR:CLE:CTR:5701:5777
 Youngstown Low Sector 75:Cleveland Center:120.770:75:C:CLE:CTR:CLE:CTR:5701:5777
 ;
 Sandusky High Sector 07:Cleveland Center:127.670:07:C:CLE:CTR:CLE:CTR:5701:5777
 Peck High Sector 18:Cleveland Center:133.870:18:C:CLE:CTR:CLE:CTR:5701:5777
-Detroit High Sector 28:Cleveland Center:135.270:28:C:CLE:CTR:CLE:CTR:5701:5777
 Geneseo High Sector 37:Cleveland Center:128.020:37:C:CLE:CTR:CLE:CTR:5701:5777
-Lorain High Sector 49:Cleveland Center:133.370:49:C:CLE:CTR:CLE:CTR:5701:5777
 Bellaire High Sector 66:Cleveland Center:125.420:66:C:CLE:CTR:CLE:CTR:5701:5777
-Warren High Sector 77:Cleveland Center:134.120:77:C:CLE:CTR:CLE:CTR:5701:5777
 Geauga Super High Sector 45:Cleveland Center:120.320:45:C:CLE:CTR:CLE:CTR:5701:5777
 ;
 ; D21/DTW Positions
@@ -534,4 +529,3 @@ Deputy Air Traffic Manager:-:199.998:DM:D:ZOB:DATM:ZOB:DATM:0000:0000
 Training Administrator:-:199.998:TA:A:ZOB:TA:ZOB:TA:0000:0000
 Event Coordinator:-:199.998:EC:E:ZOB:EC:ZOB:EC:0000:0000
 Facility Engineer:-:199.998:FE:F:ZOB:FE:ZOB:FE:0000:0000
-Assistant Facility Engineer:-:199.998:AFE:N:ZOB:AFE:ZOB:AFE:0000:0000
