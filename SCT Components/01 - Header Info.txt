@@ -1,0 +1,31 @@
+#define ARTCCH 8421376 
+#define ARTCCL 325441
+;GEO
+#define runway 65280
+#define apron 5395026
+#define taxiway 16776960
+#define c_coast 8388608
+;LABELS
+#define rwy 65290
+#define term 16777215
+#define taxi 16777215
+#define text 255
+
+[INFO]
+ZOB V1909
+CLE_04_CTR
+KDTW
+N041.19.51.676
+W080.40.28.760
+60.000
+46.000
+9.200
+1.000
+
+; ****
+;
+;
+; END INFO
+;
+;
+; ****
