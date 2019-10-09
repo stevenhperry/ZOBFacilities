@@ -1,0 +1,542 @@
+; VATSIM Cleveland (ZOB) Position File
+; www.clevelandcenter.org
+;
+; FE Notes - SHP - 28SEP19
+; Maintained in ZOB_POF_FILE.xlsx.  "WorkingSheet" is parsed for ease of data handling.  "ExportSheet" is concatenated and ready for copy-paste of values to a POF file
+; Use caution when adding/remove lines to the WorkingSheet.  Ensure a matching move is made on the export sheet and no "#REF" pop up
+; When ready to export, suggesting auditing the formula on the first line, then copy-pasting the formula down through the max line number required.
+;
+; POF File Formatting
+;   - from ASRC documentation (retrieved 7/6/2019) www.asrc.info/ASRC%20Documentation/Configuration.html
+;   - comment prefix ;
+;   - Entry line
+;     NAME:RNAME:FREQ:SECID:ARTSTAG:CALLPREFIX:CALLSUFFIX:LINE1:LINE2:LSQUAWK:HSQUAWK
+;       where
+;        NAME = The name you wish to see in drop down lists.
+;        RNAME = The name you wish to be displayed on the radio for this position.
+;        FREQ = The unique valid frequency for this position.
+;        SECID = The two digit sector ID that you wish to use for identifying this controller for handoffs, pointouts, comms, etc."
+;        ARTSTAG = The single letter or number that you wish to use as an aircraft position indicator for aircraft owned by this controller when in ARTS-III mode.
+;        CALLPREFIX = The callsign prefix that this controller must be using.
+;        CALLSUFFIX = The callsign suffix that this controller must be using.
+;        LINE1 = The first line to display on VSCS ground-to-ground buttons created for this controller.
+;        LINE2 = The second line to display on VSCS ground-to-ground buttons created for this controller.
+;        LSQUAWK = LOW END OF SQUAWK RANGE FOR THIS POSITION
+;        HSQUAWK = HIGH END OF SQUAWK RANGE FOR THIS POSITION
+;
+;
+;     NAME:RNAME:FREQ:SECID:ARTSTAG:CALLPREFIX:CALLSUFFIX:LINE1:LINE2:LSQUAWK:HSQUAWK
+;
+; ZOB Enroute Positions
+;
+Mansfield Low Sector 04:Cleveland Center:134.900:4:C:CLE:CTR:ZOB:4:5701:5777
+Lansing Low Sector 12:Cleveland Center:126.750:12:C:CLE:CTR:ZOB:12:5701:5777
+; DEPRECATED - Litchfield Low Sector 15:Cleveland Center:134.650:15:C:CLE:CTR:ZOB:15:5701:5777
+Dresden Low Sector 20:Cleveland Center:132.250:20:C:CLE:CTR:ZOB:20:5701:5777
+; DEPRECATED - Buffalo Low Sector 33:Cleveland Center:125.200:33:C:CLE:CTR:ZOB:33:5701:5777
+Carleton Low Sector 40:Cleveland Center:127.900:40:C:CLE:CTR:ZOB:40:5701:5777
+Indian Head Low Sector 53:Cleveland Center:124.400:53:C:CLE:CTR:ZOB:53:5701:5777
+; DEPRECATED - Morgantown Low Sector 61:Cleveland Center:126.950:61:C:CLE:CTR:ZOB:61:5701:5777
+Clarion Low Sector 71:Cleveland Center:126.720:71:C:CLE:CTR:ZOB:71:5701:5777
+; DEPRECATED - Youngstown Low Sector 75:Cleveland Center:120.770:75:C:CLE:CTR:ZOB:75:5701:5777
+;
+Sandusky High Sector 07:Cleveland Center:127.670:7:C:CLE:CTR:ZOB:7:5701:5777
+Peck High Sector 18:Cleveland Center:133.870:18:C:CLE:CTR:ZOB:18:5701:5777
+Detroit High Sector 28:Cleveland Center:135.270:28:C:CLE:CTR:ZOB:28:5701:5777
+Geneseo High Sector 37:Cleveland Center:128.020:37:C:CLE:CTR:ZOB:37:5701:5777
+; DEPRECATED - Lorain High Sector 49:Cleveland Center:133.370:49:C:CLE:CTR:ZOB:49:5701:5777
+Bellaire High Sector 66:Cleveland Center:125.420:66:C:CLE:CTR:ZOB:66:5701:5777
+Warren High Sector 77:Cleveland Center:134.120:77:C:CLE:CTR:ZOB:77:5701:5777
+Geauga Super High Sector 45:Cleveland Center:120.320:45:C:CLE:CTR:ZOB:45:5701:5777
+;
+; D21/DTW Positions
+Ann Arbor Ground:Ann Arbor Ground:121.600:4AG:-:ARB:GND:ARB:GND:5101:5177
+Ann Arbor Tower:Ann Arbor Tower:120.300:4AT:T:ARB:TWR:ARB:TWR:5101:5177
+Detroit City Ground:Detroit City Ground:121.850:4CG:-:DET:GND:DET:GND:5101:5177
+Detroit City Tower:Detroit City Tower:121.300:4CT:T:DET:TWR:DET:TWR:5101:5177
+Metro Clearance:Metro Clearance:120.650:4C:-:DTW:DEL:DTW:DEL:4101:4177
+Delta Ramp A1, A2-A74 (Even) Control: Delta Ramp Control:130.750:DWA:-:DTW:GND:DTW:DRW:4101:4177
+Delta Ramp A3-A35 (Odd) Control: Delta Ramp Control:121.120:DSW:-:DTW:GND:DTW:DSW:4101:4177
+Delta Ramp A41-A75 (Odd) Control: Delta Ramp Control:123.670:DNE:-:DTW:GND:DTW:DNE:4101:4177
+Delta Ramp B1-B21 (Odd), C1-39 (Odd) Control: Delta Ramp Control:127.820:DWB:-:DTW:GND:DTW:DWR:4101:4177
+North Ramp Control:North Ramp Control:130.800:DNA:-:DTW:GND:DTW:DRA:4101:4177
+North Ramp Control:North Ramp Control:130.150:DNB:-:DTW:GND:DTW:DRB:4101:4177
+Metro Ground Northwest:Metro Ground:121.800:4G:-:DTW:GND:DTW:GNW:4101:4177
+Metro Ground Northeast:Metro Ground:119.450:4H:-:DTW:GND:DTW:GNE:4101:4177
+Metro Ground Southwest:Metro Ground:132.720:4J:-:DTW:GND:DTW:GSW:4101:4177
+Metro Ground Southeast:Metro Ground:119.250:4I:-:DTW:GND:DTW:GSE:4101:4177
+Metro Tower (3L/R, 21L/R, 27R):Metro Tower:118.400:4T:T:DTW:TWR:DTW:TNE:4101:4177
+; DEPRECATED - Metro Tower (4R/22L):Metro Tower:128.120:4L:L:DTW:TWR:DTW:TSW:4101:4177
+Metro Tower (27L):Metro Tower:128.750:4M:M:DTW:TWR:DTW:TSE:4101:4177
+Metro Tower (4L/22R):Metro Tower:135.000:4U:U:DTW:TWR:DTW:TSW:4101:4177
+Detroit East Jet Departure:Detroit Departure:132.020:4E:E:DTW:DEP:D21:4E:4101:4177
+Detroit West Jet Departure:Detroit Departure:125.520:4W:W:DTW:DEP:D21:4W:4101:4177
+Detroit West Satellite: Detroit Approach:118.950:4Y:Y:DTW:APP:D21:4Y:4101:4177
+Detroit East Satellite: Detroit Approach:134.300:4D:D:DTW:APP:D21:4D:4101:4177
+Detroit North Satellite: Detroit Approach:127.500:4P:P:DTW:APP:D21:4P:4101:4177
+Detroit West Feeder:Detroit Approach:124.970:4V:V:DTW:APP:D21:4V:4101:4177
+Detroit East Feeder:Detroit Approach:126.220:4F:F:DTW:APP:D21:4F:4101:4177
+Detroit West Arrival:Detroit Approach:124.050:4A:A:DTW:APP:D21:4A:4101:4177
+Detroit East Arrival:Detroit Approach:125.150:4B:B:DTW:APP:D21:4B:4101:4177
+Pontiac Clearance:Pontiac Clearance:118.250:4PC:-:PTK:DEL:PTK:DEL:6001:6077
+Pontiac Ground:Pontiac Ground:121.900:4PG:-:PTK:GND:PTK:GND:6001:6077
+Pontiac Tower:Pontiac Tower:120.500:4PT:T:PTK:TWR:PTK:TWR:6001:6077
+Windsor Ground:Windsor Ground:121.700:4YG:T:CYQG:GND:CYQG:GND:5101:5177
+Windsor Tower:Windsor Tower:124.700:4YT:T:CYQG:TWR:CYQG:TWR:5101:5177
+Willow Run Ground:Willow Run Ground:119.970:4WG:-:YIP:GND:YIP:GND:5101:5177
+Willow Run Tower:Willow Run Tower:125.270:4WT:T:YIP:TWR:YIP:TWR:5101:5177
+;
+; CLE/CAK/MFD Positions
+;
+Akron-Canton Clearance:Akron-Canton Clearance:132.050:2AC:-:CAK:DEL:CAK:DEL:6001:6077
+Akron-Canton Ground:Akron-Canton Ground:121.700:2AG:-:CAK:GND:CAK:GND:6001:6077
+Akron-Canton Tower:Akron-Canton Tower:134.750:2AT:T:CAK:TWR:CAK:TWR:6001:6077
+Akron-Canton East Approach:Cleveland Approach:125.500:2K:K:CAK:APP:CAK:APP:6001:6077
+Akron-Canton West Approach:Cleveland Approach:118.600:2L:L:CAK:APP:CAK:APP:6001:6077
+County Ground:County Ground:121.850:2V:-:CGF:GND:CGF:GND:7401:7477
+County Tower:County Tower:118.500:2X:T:CGF:TWR:CGF:TWR:7401:7477
+Cleveland Clearance:Cleveland Clearance:125.050:2C:-:CLE:DEL:CLE:DEL:7401:7477
+Cleveland Ground:Cleveland Ground:121.700:2G:-:CLE:GND:CLE:GND:7401:7477
+Cleveland Tower:Cleveland Tower:124.500:2T:T:CLE:TWR:CLE:TWR:7401:7477
+Cleveland East Outer Approach:Cleveland Approach:124.000:2E:E:CLE:APP:CLE:2E:7401:7477
+Cleveland West Outer Approach:Cleveland Approach:126.550:2W:W:CLE:APP:CLE:2W:7401:7477
+Cleveland Inner Low Approach:Cleveland Approach:119.620:2A:A:CLE:APP:CLE:2A:7401:7477
+Cleveland Inner High Approach:Cleveland Approach:123.850:2H:H:CLE:APP:CLE:2H:7401:7477
+Cleveland North Departure:Cleveland Departure:128.250:2D:D:CLE:DEP:CLE:2D:7401:7477
+Cleveland South Departure:Cleveland Departure:135.870:2R:R:CLE:DEP:CLE:2R:7401:7477
+Cleveland North Satellite Approach:Cleveland Approach:125.350:2F:F:CLE:APP:CLE:2F:7401:7477
+Cleveland Sandusky Basin Approach:Cleveland Approach:126.350:2P:P:CLE:APP:CLE:2P:7401:7477
+Lakefront Ground:Lakefront Ground:121.900:2LG:T:BKL:GND:BKL:GND:7401:7477
+Lakefront Tower:Lakefront Tower:124.300:2LT:T:BKL:TWR:BKL:TWR:7401:7477
+Mansfield Ground:Mansfield Ground:121.800:2MG:-:MFD:GND:MFD:GND:5101:5177
+Mansfield Tower:Mansfield Tower:119.800:2MT:T:MFD:TWR:MFD:TWR:5101:5177
+Mansfield Approach:Cleveland Approach:124.200:2M:M:MFD:APP:MFD:APP:5101:5177
+;
+; PIT Positions
+;
+Allegheny Ground:Allegheny Ground:121.700:3AG:-:AGC:GND:AGC:GND:0701:0777
+Allegheny Tower:Allegheny Tower:121.100:3AT:T:AGC:TWR:AGC:TWR:0701:0777
+Beaver County Ground:Beaver County Ground:121.800:3BG:-:BVI:GND:BVI:GND:5101:5177
+Beaver County Tower:Beaver County Tower:120.300:3BT:T:BVI:TWR:BVI:TWR:5101:5177
+Pittsburgh Clearance:Pittsburgh Clearance:126.750:3C:-:PIT:DEL:PIT:DEL:0701:0777
+Pittsburgh South Ground:Pittsburgh Ground:121.900:3H:-:PIT:GND:PIT:GND:0701:0777
+Pittsburgh North Ground:Pittsburgh Ground:127.800:3G:-:PIT:GND:PIT:GND:0701:0777
+Pittsburgh Tower:Pittsburgh Tower:128.300:3T:T:PIT:TWR:PIT:TWR:0701:0777
+Pittsburgh Arrival North:Pittsburgh Approach:124.150:3B:B:PIT:APP:PIT:APP0701:0701:0777
+Pittsburgh Arrival South:Pittsburgh Approach:123.950:3D:D:PIT:APP:PIT:APP:0701:0777
+Pittsburgh Departure North: Pittsburgh Departure:124.750:3A:A:PIT:DEP:PIT:DEP:0701:0777
+Pittsburgh Departure South: Pittsburgh Departure:119.350:3S:S:PIT:DEP:PIT:DEP:0701:0777
+Pittsburgh Satellite Control: Pittsburgh Approach:125.270:3L:L:PIT:APP:PIT:APP0701:0701:0777
+Wheeling Ground:Wheeling Ground:121.750:3Y:-:HLG:GND:HLG:GND:5101:5177
+Wheeling Tower:Wheeling Tower:118.100:3Z:-:HLG:TWR:HLG:TWR:5101:5177
+;
+; BUF/ERI Positions 
+;
+Buffalo Clearance:Buffalo Clearance:124.700:1C:-:BUF:DEL:BUF:DEL:6001:6077
+Buffalo Ground:Buffalo Ground:133.200:1G:-:BUF:GND:BUF:GND:6001:6077
+Buffalo Tower:Buffalo Tower:120.500:1T:T:BUF:TWR:BUF:TWR:6001:6007
+Buffalo East Approach:Buffalo Approach:126.150:1E:E:BUF:APP:BUF:APP:6001:6077
+Buffalo West Approach:Buffalo Approach:126.500:1W:W:BUF:APP:BUF:APP:6001:6077
+Erie Clearance:Erie Clearance:126.800:1X:-:ERI:DEL:ERI:DEL:6001:6077
+Erie Ground:Erie Ground:121.900:1Y:-:ERI:GND:ERI:GND:6001:6077
+Erie Tower:Erie Tower:118.100:1Z:T:ERI:GND:ERI:GND:6001:6077
+Buffalo Approach (Erie TRSA): Buffalo Approach:121.000:1R:R:BUF:APP:BUF:APP:6001:6077
+Niagara Clearance:Niagara Clearance:119.250:1P:-:IAG:DEL:IAG:DEL:6001:6077
+Niagara Ground:Niagara Ground:121.700:1O:-:IAG:GND:IAG:GND:6001:6077
+Niagara Tower:Niagara Tower:118.500:1N:T:IAG:TWR:IAG:TWR:6001:6077
+;
+; Great Lakes Consolidated "East Wall" (FNT/LNN/MBS) Positions
+;
+Flint Clearance:Flint Clearance:121.750:5X:-:FNT:DEL:FNT:DEL:6001:6077
+Flint Ground:Flint Ground:121.900:5Y:-:FNT:GND:FNT:GND:6001:6077
+Flint Tower:Flint Tower:126.300:5Z:T:FNT:TWR:FNT:TWR:6001:6077
+Flint Approach South/East:Great Lakes Approach:118.800:5F:F:FNT:APP:FNT:5F:6001:6077
+Flint Approach North/West:Great Lakes Approach:128.550:5G:G:FNT:APP:FNT:5G:6001:6077
+Jackson Ground:Jackson Ground:121.900:5W:-:JXN:GND:JXN:GND:5101:5177
+Jackson Tower:Jackson Tower:128.470:5V:T:JXN:TWR:JXN:TWR:5101:5177
+Lansing Clearance:Lansing Clearance:123.670:5C:-:LAN:DEL:LAN:DEL:6001:6077
+Lansing Ground:Lansing Ground:121.900:5H:-:LAN:GND:LAN:GND:6001:6077
+Lansing Tower:Lansing Tower:119.900:5T:T:LAN:TWR:LAN:TWR:6001:6077
+Lansing Approach:Great Lakes Approach:118.650:5L:L:LAN:APP:LAN:APP:6001:6077
+Saginaw Clearance:Saginaw Clearance:121.850:5R:-:MBS:DEL:MBS:DEL:6001:6077
+Saginaw Ground:Saginaw Ground:121.700:5U:-:MBS:GND:MBS:GND:6001:6077
+Saginaw Tower:Saginaw Tower:120.100:5Q:T:MBS:TWR:MBS:TWR:6001:6077
+Saginaw South Approach:Great Lakes Approach:120.950:5S:S:MBS:APP:MBS:5S:6001:6077
+Saginaw North Approach:Great Lakes Approach:126.450:5N:N:MBS:APP:MBS:5N:6001:6077
+;
+; TOL Positions
+;
+Toledo Clearance:Toledo Clearance:121.750:6Z:-:TOL:DEL:TOL:DEL:6001:6077
+Toledo Ground:Toledo Ground:121.900:6Y:-:TOL:GND:TOL:GND:6001:6077
+Toledo Tower:Toledo Tower:118.100:6X:T:TOL:TWR:TOL:TWR:6001:6077
+Toledo East Approach:Toledo Approach:126.100:6F:E:TOL:APP:TOL:APP:6001:6077
+Toledo West Approach:Toledo Approach:134.350:6H:W:TOL:APP:TOL:APP:6001:6077
+;
+; CKB Positions
+;
+Clarksburg Ground:Clarksburg Ground:121.900:7G:-:CKB:GND:CKB:GND:5101:5177
+Clarksburg Tower:Clarksburg Tower:126.700:7T:T:CKB:TWR:CKB:TWR:5101:5177
+Clarksburg East Approach:Clarksburg Approach:121.150:7E:E:CKB:APP:CKB:APP:5101:5177
+Clarksburg West Approach:Clarksburg Approach:119.600:7W:W:CKB:APP:CKB:APP:5101:5177
+Morgantown Ground:Morgantown Ground:121.700:7N:-:MGW:GND:MGW:GND:5101:5177
+Morgantown Tower:Morgantown Tower:125.100:7M:T:MGW:TWR:MGW:TWR:5101:5177
+;
+; ROC Positions
+;
+Rochester Clearance:Rochester Clearance:118.800:9C:X:ROC:DEL:ROC:DEL:6001:6077
+Rochester Ground:Rochester Ground:121.700:9G:X:ROC:GND:ROC:GND:6001:6077
+Rochester Tower:Rochester Tower:118.300:9T:T:ROC:TWR:ROC:TWR:6001:6077
+Rochester Approach East:Rochester Approach:119.550:9E:E:ROC:APP:ROC:1E:6001:6077
+Rochester Approach West/Combined:Rochester Approach:123.700:9W:W:ROC:APP:ROC:1W:6001:6077
+;DEPRECATED - Rochester Approach Final:Rochester Approach:127.320:9F:F:ROC:APP:ROC:1F:6001:6077
+;
+; JST Positions
+;
+Johnstown Clearance:Johnstown Clearance:126.850:8C:-:JST:DEL:JST:DEL:5101:5177
+Johnstown Ground:Johnstown Ground:121.600:8G:-:JST:GND:JST:GND:5101:5177
+Johnstown Tower:Johnstown Tower:125.750:8T:T:JST:TWR:JST:TWR:5101:5177
+Johnstown Approach:Johnstown Approach:128.200:8E:E:JST:APP:JST:APP:5101:5177
+Palmer Ground:Palmer Ground:121.800:8Q:-:LBE:GND:LBE:GND:5101:5177
+Palmer Tower:Palmer Tower:125.000:8P:T:LBE:TWR:LBE:TWR:5101:5177
+Johnstown Approach (Palmer Area):Johnstown Approach:121.200:8W:W:JST:APP:JST:APP:5101:5177
+;
+; MTC Positions
+;
+Selfridge Ground:Selfridge Ground:128.300:5J:-:MTC:GND:MTC:GND:6001:6077
+Selfridge Tower:Selfridge Tower:120.150:5K:T:MTC:TWR:MTC:TWR:6001:6077
+Selfridge Approach:Selfridge Approach:119.600:5M:M:MTC:APP:MTC:APP:6001:6077
+;
+; YNG Positions
+;
+Youngstown Clearance:Youngstown Clearance:118.250:6E:-:YNG:DEL:YNG:DEL:6001:6077
+Youngstown Ground:Youngstown Ground:121.900:6D:-:YNG:GND:YNG:GND:6001:6077
+Youngstown Tower:Youngstown Tower:119.500:6B:T:YNG:TWR:YNG:TWR:6001:6077
+Youngstown Approach:Youngstown Approach:133.950:6A:A:YNG:APP:YNG:APP:6001:6077
+;
+; ***
+; *** Neighboring Facilities ***
+; ***
+;
+ZMP SECTORS
+;
+ZMP Traverse City Low Sector 02:Minneapolis Center:132.900:M02:C:MSP:CTR:ZMP:2:0000:0000
+ZMP Rhinelander Low Sector 04:Minneapolis Center:133.650:M04:C:MSP:CTR:ZMP:4:0000:0000
+ZMP Farmington Low Sector 06:Minneapolis Center:133.450:M06:C:MSP:CTR:ZMP:6:0000:0000
+ZMP Rochester Low Sector 07:Minneapolis Center:132.350:M07:C:MSP:CTR:ZMP:7:0000:0000
+ZMP Redwood Falls Low Sector 09:Minneapolis Center:127.100:M09:C:MSP:CTR:ZMP:9:0000:0000
+ZMP Princeton Low Sector 10:Minneapolis Center:121.050:M10:C:MSP:CTR:ZMP:10:0000:0000
+ZMP Alexandria High Sector 11:Minneapolis Center:133.400:M11:C:MSP:CTR:ZMP:11:0000:0000
+ZMP White Cloud High Sector 12:Minneapolis Center:126.370:M12:C:MSP:CTR:ZMP:12:0000:0000
+ZMP Iron Mountain High Sector 13:Minneapolis Center:133.450:M13:C:MSP:CTR:ZMP:13:0000:0000
+ZMP Mason City High Sector 17:Minneapolis Center:134.250:M17:C:MSP:CTR:ZMP:17:0000:0000
+ZMP Pierre High Sector 20:Minneapolis Center:125.100:M20:C:MSP:CTR:ZMP:20:0000:0000
+ZMP Jamestown Low Sector 24:Minneapolis Center:124.200:M24:C:MSP:CTR:ZMP:24:0000:0000
+ZMP Bemidji Low Sector 25:Minneapolis Center:134.750:M25:C:MSP:CTR:ZMP:25:0000:0000
+ZMP Omaha Low Sector 27:Minneapolis Center:119.600:M27:C:MSP:CTR:ZMP:27:0000:0000
+ZMP Des Moines High Sector 30:Minneapolis Center:135.770:M30:C:MSP:CTR:ZMP:30:0000:0000
+ZMP Pierre Low Sector 33:Minneapolis Center:125.100:M33:C:MSP:CTR:ZMP:33:0000:0000
+ZMP O'Neill Low Sector 37:Minneapolis Center:128.000:M37:C:MSP:CTR:ZMP:37:0000:0000
+ZMP Hastings High Sector 39:Minneapolis Center:134.250:M39:C:MSP:CTR:ZMP:39:0000:0000
+;
+ZAU SECTORS
+;
+ZAU Sparta Low Sector 22:Chicago Center:128.500:C22:C:CHI:CTR:ZAU:22:0000:0000
+ZAU Empire Super High Sector 23: Chicago Center:125.970:C23:C:CHI:CTR:ZAU:23:0000:0000
+ZAU Freemont High Sector 24:Chicago Center:132.270:C24:C:CHI:CTR:ZAU:24:0000:0000
+ZAU Pullman High Sector 25:Chicago Center:126.120:C25:C:CHI:CTR:ZAU:25:0000:0000
+ZAU KUBBS Low Sector 26:Chicago Center:133.200:C26:C:CHI:CTR:ZAU:26:0000:0000
+ZAU SQUIB Low Sector 27:Chicago Center:125.100:C27:C:CHI:CTR:ZAU:27:0000:0000
+ZAU Goshen Low Sector 31:Chicago Center:128.800:C31:C:CHI:CTR:ZAU:31:0000:0000
+ZAU Kokomo Low Sector 32:Chicago Center:120.970:C32:C:CHI:CTR:ZAU:32:0000:0000
+ZAU BURBN Super High Sector 33:Chicago Center:126.320:C33:C:CHI:CTR:ZAU:33:0000:0000
+ZAU LOGAN High Sector 34:Chicago Center:125.370:C34:C:CHI:CTR:ZAU:34:0000:0000
+ZAU BEARZ Low Sector 35:Chicago Center:134.870:C35:C:CHI:CTR:ZAU:35:0000:0000
+ZAU Fort Wayne High Sector 36:Chicago Center:124.820:C36:C:CHI:CTR:ZAU:36:0000:0000
+ZAU Wolf Lake Low Sector 37:Chicago Center:119.850:C37:C:CHI:CTR:ZAU:37:0000:0000
+ZAU NEWTT Low Sector 43:Chicago Center:119.950:C43:C:CHI:CTR:ZAU:43:0000:0000
+ZAU Peotone Low Sector 44:Chicago Center:120.120:C44:C:CHI:CTR:ZAU:44:0000:0000
+ZAU Roberts High Sector 45:Chicago Center:134.020:C45:C:CHI:CTR:ZAU:45:0000:0000
+ZAU Boiler High Sector 46:Chicago Center:121.270:C46:C:CHI:CTR:ZAU:46:0000:0000
+ZAU Chanute Super High Sector 47:Chicago Center:127.320:C47:C:CHI:CTR:ZAU:47:0000:0000
+ZAU Streator Low Sector 50:Chicago Center:123.750:C50:C:CHI:CTR:ZAU:50:0000:0000
+ZAU PLANO Low Sector 51:Chicago Center:135.150:C51:C:CHI:CTR:ZAU:51:0000:0000
+ZAU Bradford High Sector 52:Chicago Center:132.220:C52:C:CHI:CTR:ZAU:52:0000:0000
+ZAU Burlington Low Sector 55:Chicago Center:118.750:C55:C:CHI:CTR:ZAU:55:0000:0000
+ZAU Ottumwa Low Sector 56:Chicago Center:132.800:C56:C:CHI:CTR:ZAU:56:0000:0000
+ZAU Danville Low Sector 57:Chicago Center:135.750:C57:C:CHI:CTR:ZAU:57:0000:0000
+ZAU Lincoln Low Sector 58:Chicago Center:119.220:C58:C:CHI:CTR:ZAU:58:0000:0000
+ZAU Badger High Sector 60:Chicago Center:126.870:C60:C:CHI:CTR:ZAU:60:0000:0000
+ZAU Horicon Super High Sector 61:Chicago Center:121.370:C61:C:CHI:CTR:ZAU:61:0000:0000
+ZAU Harley Low Sector 62:Chicago Center:123.820:C62:C:CHI:CTR:ZAU:62:0000:0000
+ZAU Dubuque Low Sector 63:Chicago Center:133.950:C63:C:CHI:CTR:ZAU:63:0000:0000
+ZAU Lone Rock Low Sector 64:Chicago Center:133.300:C64:C:CHI:CTR:ZAU:64:0000:0000
+ZAU Waterloo Super High Sector 71:Chicago Center:132.620:C71:C:CHI:CTR:ZAU:71:0000:0000
+ZAU FARMM Low Sector 74:Chicago Center:133.350:C74:C:CHI:CTR:ZAU:74:0000:0000
+ZAU COTON High Sectoor 75:Chicago Center:118.420:C75:C:CHI:CTR:ZAU:75:0000:0000
+ZAU Arlington High Sector 76:Chicago Center:125.220:C76:C:CHI:CTR:ZAU:76:0000:0000
+ZAU MALTA Low Sector 77:Chicago Center:127.070:C77:C:CHI:CTR:ZAU:77:0000:0000
+ZAU KELOG Low Sector 80:Chicago Center:127.550:C80:C:CHI:CTR:ZAU:80:0000:0000
+ZAU CRIBB Low Sector 81:Chicago Center:120.350:C81:C:CHI:CTR:ZAU:81:0000:0000
+ZAU SWEET Low Sector 82:Chicago Center:126.420:C82:C:CHI:CTR:ZAU:82:0000:0000
+ZAU Joliet High Sector 83:Chicago Center:118.220:C83:C:CHI:CTR:ZAU:83:0000:0000
+ZAU McCook Super High Sector 84:Chicago Center:126.270:C84:C:CHI:CTR:ZAU:84:0000:0000
+ZAU LaGrange Super High Sector 85:Chicago Center:120.220:C85:C:CHI:CTR:ZAU:85:0000:0000
+ZAU Keeler High Sector 88:Chicago Center:127.620:C88:C:CHI:CTR:ZAU:88:0000:0000
+ZAU Gipper High Sector 89:Chicago Center:126.470:C89:C:CHI:CTR:ZAU:89:0000:0000
+ZAU LOWLI High Sector 90:Chicago Center:128.520:C90:C:CHI:CTR:ZAU:90:0000:0000
+ZAU Hanna City Super High Sector 91:Chicago Center:134.320:C91:C:CHI:CTR:ZAU:91:0000:0000
+ZAU HAWKS High Sector 92:Chicago Center:124.720:C92:C:CHI:CTR:ZAU:92:0000:0000
+ZAU Iowa City High Sector 94:Chicago Center:125.570:C94:C:CHI:CTR:ZAU:94:0000:0000
+ZAU Washington Super High Sector 95:Chicago Center:135.970:C95:C:CHI:CTR:ZAU:95:0000:0000
+;
+ZAU TRACONS
+;
+Great Lakes Bells Sector (ZAU):Great Lakes Approach:119.200:C1E:E:AZO:APP:AZO:E:0000:0000
+Great Lakes Griffin Sector (ZAU):Great Lakes Approach:128.400:C1G:G:AZO:APP:AZO:G:0000:0000
+Great Lakes Bronco Sector (ZAU):Great Lakes Approach:121.200:C1R:R:AZO:APP:AZO:R:0000:0000
+Great Lakes Lumbertown Sector (ZAU):Great Lakes Approach:119.800:C1N:N:AZO:APP:AZO:N:0000:0000
+Great Lakes Whitecap Sector (ZAU):Great Lakes Approach:124.600:C1W:W:AZO:APP:AZO:W:0000:0000
+Great Lakes Shoreline Sector (ZAU):Great Lakes Approach:133.820:C1S:S:AZO:APP:AZO:S:0000:0000
+Fort Wayne East Sector (ZAU):Fort Wayne Approach:127.200:C2E:E:FWA:APP:FWA:E:0000:0000
+Fort Wayne West Sector (ZAU):Fort Wayne Approach:132.150:C2W:W:FWA:APP:FWA:W:0000:0000
+;
+ZID SECTORS
+;
+ZID Evansville Low Sector 17:Indianapolis Center:128.300:I17:C:IND:CTR:ZID:17:0000:0000
+ZID Nabb Low Sector 18:Indianapolis Center:124.770:I18:C:IND:CTR:ZID:18:0000:0000
+ZID New Hope Low Sector 19:Indianapolis Center:121.170:I19:C:IND:CTR:ZID:19:0000:0000
+ZID Lexington Low Sector 20:Indianapolis Center:126.370:I20:C:IND:CTR:ZID:20:0000:0000
+ZID London Low Sector 21:Indianapolis Center:124.620:I21:C:IND:CTR:ZID:21:0000:0000
+ZID Covington Low Sector 22:Indianapolis Center:123.920:I22:C:IND:CTR:ZID:22:0000:0000
+ZID York Low Sector 23:Indianapolis Center:134.000:I23:C:IND:CTR:ZID:23:0000:0000
+ZID Parkersburg Low Sector 24:Indianapolis Center:125.550:I24:C:IND:CTR:ZID:24:0000:0000
+ZID Hazard Low Sector 25:Indianapolis Center:126.570:I25:C:IND:CTR:ZID:25:0000:0000
+ZID River Low Sector 26:Indianapolis Center:124.220:I26:C:IND:CTR:ZID:26:0000:0000
+ZID Columbus Low Sector 30:Indianapolis Center:124.800:I30:C:IND:CTR:ZID:30:0000:0000
+ZID LYTLE Low Sector 31:Indianapolis Center:120.470:I31:C:IND:CTR:ZID:31:0000:0000
+ZID Rosewood Low Sector 32:Indianapolis Center:128.070:I32:C:IND:CTR:ZID:32:0000:0000
+ZID Muncie Low Sector 33:Indianapolis Center:124.520:I33:C:IND:CTR:ZID:33:0000:0000
+ZID Shelbyville Low Sector 34:Indianapolis Center:119.550:I34:C:IND:CTR:ZID:34:0000:0000
+ZID Terre Haute Low Sector 35:Indianapolis Center:132.200:I35:C:IND:CTR:ZID:35:0000:0000
+ZID Madison High Sector 66:Indianapolis Center:128.370:I66:C:IND:CTR:ZID:66:0000:0000
+ZID New Pike Low Sector 69:Indianapolis Center:135.570:I69:C:IND:CTR:ZID:69:0000:0000
+ZID Rushville High Sector 75:Indianapolis Center:125.120:I75:C:IND:CTR:ZID:75:0000:0000
+ZID Batesville Ultra High Sector 76:Indianapolis Center:134.700:I76:C:IND:CTR:ZID:76:0000:0000
+ZID University High Sector 77:Indianapolis Center:125.070:I77:C:IND:CTR:ZID:77:0000:0000
+ZID Springfield High Sector 78:Indianapolis Center:135.800:I78:C:IND:CTR:ZID:78:0000:0000
+ZID Bobcat High Sector 79:Indianapolis Center:135.120:I79:C:IND:CTR:ZID:79:0000:0000
+ZID King High Sector 80:Indianapolis Center:134.170:I80:C:IND:CTR:ZID:80:0000:0000
+ZID Pocket City Sector 81:Indianapolis Center:132.520:I81:C:IND:CTR:ZID:81:0000:0000
+ZID Louisville High Sector 82:Indianapolis Center:133.050:I82:C:IND:CTR:ZID:82:0000:0000
+ZID Falmouth High Sector 83:Indianapolis Center:128.220:I83:C:IND:CTR:ZID:83:0000:0000
+ZID Rebel High Sector 84:Indianapolis Center:134.670:I84:C:IND:CTR:ZID:84:0000:0000
+ZID Charleston High Sector 85:Indianapolis Center:119.520:I85:C:IND:CTR:ZID:85:0000:0000
+ZID Beckley High Sector 86:Indianapolis Center:124.570:I86:C:IND:CTR:ZID:86:0000:0000
+ZID Appleton High Sector 87:Indianapolis Center:132.820:I87:C:IND:CTR:ZID:87:0000:0000
+ZID Dayton High Sector 88:Indianapolis Center:120.570:I88:C:IND:CTR:ZID:88:0000:0000
+ZID Indianapolis High Sector 89:Indianapolis Center:133.420:I89:C:IND:CTR:ZID:89:0000:0000
+ZID Hoosier High Sector 90:Indianapolis Center:120.870:I90:C:IND:CTR:ZID:90:0000:0000
+ZID Impel Ultra High Sector 91:Indianapolis Center:127.020:I91:C:IND:CTR:ZID:91:0000:0000
+ZID Mystic Ultra High Sector 92:Indianapolis Center:134.270:I92:C:IND:CTR:ZID:92:0000:0000
+ZID Dacos Ultra High Sector 93:Indianapolis Center:123.770:I93:C:IND:CTR:ZID:93:0000:0000
+ZID Somerset Ultra High Sector 94:Indianapolis Center:126.920:I94:C:IND:CTR:ZID:94:0000:0000
+ZID Henderson Ultra High Sector 95:Indianapolis Center:120.270:I95:C:IND:CTR:ZID:95:0000:0000
+ZID Bluefield Ultra High Sector 96:Indianapolis Center:134.220:I96:C:IND:CTR:ZID:96:0000:0000
+ZID Lockbourne Ultra High Sector 97:Indianapolis Center:133.770:I97:C:IND:CTR:ZID:97:0000:0000
+ZID Patterson Ultra High Sector 98:Indianapolis Center:128.775:I98:C:IND:CTR:ZID:98:0000:0000
+ZID Wabash Ultra High Sector 99:Indianapolis Center:132.770:I99:C:IND:CTR:ZID:99:0000:0000
+;
+ZID TRACONS
+;
+Columbus Feeder North (ZID):Columbus Approach:125.950:I2N:N:CMH:APP:CMH:N:0000:0000
+Columbus Feeder South (ZID):Columbus Approach:134.000:I2S:S:CMH:APP:CMH:S:0000:0000
+Columbus Final Radar (ZID):Columbus Approach:118.200:I2F:F:CMH:APP:CMH:F:0000:0000
+Dayton Feeder West (ZID):Columbus Approach:118.420:I2W:W:CMH:APP:CMH:W:0000:0000
+Dayton Feeder East (ZID):Columbus Approach:118.850:I2E:E:CMH:APP:CMH:E:0000:0000
+;
+ZDC Sectors
+;
+ZID Elkins (DC Metro) Sector 01:Washington Center:128.600:D01:C:DC:CTR:ZDC:1:0000:0000
+ZID Casanova Low Sector 02:Washington Center:133.200:D02:C:DC:CTR:ZDC:2:0000:0000
+ZID BRICE High Sector 03:Washington Center:118.020:D03:C:DC:CTR:ZDC:3:0000:0000
+ZID Pinion High Sector 04:Washington Center:133.970:D04:C:DC:CTR:ZDC:4:0000:0000
+ZID Linden Low Sector 05:Washington Center:133.550:D05:C:DC:CTR:ZDC:5:0000:0000
+ZID Hagerstown Low Sector 06:Washington Center:134.150:D06:C:DC:CTR:ZDC:6:0000:0000
+ZID DIXON Super High Sector 09:Washington Center:118.825:D09:C:DC:CTR:ZDC:9:0000:0000
+ZID Bay High Sector 10:Washington Center:132.270:D10:C:DC:CTR:ZDC:10:0000:0000
+ZID Calvert Low Sector 11:Washington Center:133.900:D11:C:DC:CTR:ZDC:11:0000:0000
+ZID Brooke High Sector 12:Washington Center:126.870:D12:C:DC:CTR:ZDC:12:0000:0000
+ZID Irons Low Sector 14:Washington Center:132.950:D14:C:DC:CTR:ZDC:14:0000:0000
+ZID Blue Ridge Low Sector 15:Washington Center:133.650:D15:C:DC:CTR:ZDC:15:0000:0000
+ZID Hopewell Low Sector 16:Washington Center:121.870:D16:C:DC:CTR:ZDC:16:0000:0000
+ZID SWANN Low Sector 17:Washington Center:134.500:D17:C:DC:CTR:ZDC:17:0000:0000
+ZID DuPont Low Sector 18:Washington Center:132.520:D18:C:DC:CTR:ZDC:18:0000:0000
+ZID Woodstown (Big Apple) Sector 19:Washington Center:125.450:D19:C:DC:CTR:ZDC:19:0000:0000
+ZID Blackstone Sector 20:Washington Center:127.750:D20:C:DC:CTR:ZDC:20:0000:0000
+ZID Dominion Low Sector 21:Washington Center:112.750:D21:C:DC:CTR:ZDC:21:0000:0000
+ZID South Boston Low Sector 22:Washington Center:124.050:D22:C:DC:CTR:ZDC:22:0000:0000
+ZID Cape Charles Low Sector 23:Washington Center:132.550:D23:C:DC:CTR:ZDC:23:0000:0000
+ZID Cofield Low Sector 24:Washington Center:124.720:D24:C:DC:CTR:ZDC:24:0000:0000
+ZID New Bern (Snowbird) Sector 25:Washington Center:135.500:D25:C:DC:CTR:ZDC:25:0000:0000
+ZID Sampson Low Sector 26:Washington Center:135.300:D26:C:DC:CTR:ZDC:26:0000:0000
+ZID Liberty Low Sector 27:Washington Center:135.200:D27:C:DC:CTR:ZDC:27:0000:0000
+ZID Rocky Mount Low Sector 28:Washington Center:118.470:D28:C:DC:CTR:ZDC:28:0000:0000
+ZID Hot Springs Low Sector 29:Washington Center:134.400:D29:C:DC:CTR:ZDC:29:0000:0000
+ZID Valley Low Sector 30:Washington Center:127.920:D30:C:DC:CTR:ZDC:30:0000:0000
+ZID Azalea Low Sector 31:Washington Center:135.400:D31:C:DC:CTR:ZDC:31:0000:0000
+ZID Gordonsville (CLT/ATL) Sector 32:Washington Center:133.720:D32:C:DC:CTR:ZDC:32:0000:0000
+ZID Franklin Low Sector 33:Washington Center:132.020:D33:C:DC:CTR:ZDC:33:0000:0000
+ZID Norfolk High Sector 34:Washington Center:133.820:D34:C:DC:CTR:ZDC:34:0000:0000
+ZID Wilmington High Sector 35:Washington Center:124.020:D35:C:DC:CTR:ZDC:35:0000:0000
+ZID Raleigh (DC Metro) Sector 36:Washington Center:118.920:D36:C:DC:CTR:ZDC:36:0000:0000
+ZID Marlinton High Sector 37:Washington Center:133.020:D37:C:DC:CTR:ZDC:37:0000:0000
+ZID Tar River High Sector 38:Washington Center:132.220:D38:C:DC:CTR:ZDC:38:0000:0000
+ZID Snow Hill Super High Sector 39:Washington Center:121.370:D39:C:DC:CTR:ZDC:39:0000:0000
+ZID Yorktown Super High Sector 50:Washington Center:120.750:D50:C:DC:CTR:ZDC:50:0000:0000
+ZID Casino Low Sector 51:Washington Center:127.700:D51:C:DC:CTR:ZDC:51:0000:0000
+ZID Tech High Sector 52:Washington Center:133.570:D52:C:DC:CTR:ZDC:52:0000:0000
+ZID Kenton Low Sector 53:Washington Center:127.270:D53:C:DC:CTR:ZDC:53:0000:0000
+ZID Salisbury (Philly) Sector 54:Washington Center:120.970:D54:C:DC:CTR:ZDC:54:0000:0000
+ZID Coyle Sector 58:Washington Center:121.020:D58:C:DC:CTR:ZDC:58:0000:0000
+ZID Sea Isle High 59:Washington Center:133.120:D59:C:DC:CTR:ZDC:59:0000:0000
+ZID Montebello Sector 60:Washington Center:121.670:D60:C:DC:CTR:ZDC:60:0000:0000
+ZID Shenandoah Super High Sector 72:Washington Center:134.620:D72:C:DC:CTR:ZDC:72:0000:0000
+;
+ZNY AREA A
+;
+ZNY South Sector:New York Center:133.470:NA2:C:NY:CTR:ZNY:A2:0000:0000
+ZNY Westminster Sector 9:New York Center:134.320:N09:C:NY:CTR:ZNY:9:0000:0000
+ZNY Harrisburg Sector 10:New York Center:133.470:N10:C:NY:CTR:ZNY:10:0000:0000
+ZNY HYPER Sector 11:New York Center:132.500:N11:C:NY:CTR:ZNY:11:0000:0000
+ZNY Modena Sector 25:New York Center:135.450:N25:C:NY:CTR:ZNY:25:0000:0000
+ZNY Lancaster Sector 26:New York Center:133.670:N26:C:NY:CTR:ZNY:26:0000:0000
+ZNY Middletown Sector 27:New York Center:132.320:N27:C:NY:CTR:ZNY:27:0000:0000
+;
+ZNY AREA B
+;
+ZNY Central Sector:New York Center:125.320:NB4:C:NY:CTR:ZNY:B4:0000:0000
+ZNY PARKE Sector 39:New York Center:132.100:N39:C:NY:CTR:ZNY:39:0000:0000
+ZNY East Texas Sector 42:New York Center:127.170:N42:C:NY:CTR:ZNY:42:0000:0000
+ZNY Yardley Sector 55:New York Center:134.600:N55:C:NY:CTR:ZNY:55:0000:0000
+ZNY Kennedy Sector 56:New York Center:125.320:N56:C:NY:CTR:ZNY:56:0000:0000
+ZNY DIXIE Sector 68:New York Center:118.970:N68:C:NY:CTR:ZNY:68:0000:0000
+;
+ZNY AREA C
+;
+ZNY North Sector:New York Center:132.170:NC1:C:NY:CTR:ZNY:C1:0000:0000
+ZNY Elmira Sector 34:New York Center:132.170:N34:C:NY:CTR:ZNY:34:0000:0000
+ZNY Huguenot Sector 35:New York Center:132.600:N35:C:NY:CTR:ZNY:35:0000:0000
+ZNY Sparta Sector 36:New York Center:133.150:N36:C:NY:CTR:ZNY:36:0000:0000
+ZNY Stony Fork Sector 49:New York Center:121.320:N49:C:NY:CTR:ZNY:49:0000:0000
+ZNY Binghamton Sector 50:New York Center:133.350:N50:C:NY:CTR:ZNY:50:0000:0000
+ZNY Lake Henry Sector 51:New York Center:134.450:N51:C:NY:CTR:ZNY:51:0000:0000
+;
+ZNY AREA D
+;
+ZNY West Center:New York Center:123.620:ND8:C:NY:CTR:ZNY:D8:0000:0000
+ZNY Philipsburg Sector 73:New York Center:132.870:N73:C:NY:CTR:ZNY:73:0000:0000
+ZNY Broadway Sector 74:New York Center:133.500:N74:C:NY:CTR:ZNY:74:0000:0000
+ZNY Milton Sector 75:New York Center:128.570:N75:C:NY:CTR:ZNY:75:0000:0000
+ZNY Williamsport Sector 91:New York Center:134.800:N91:C:NY:CTR:ZNY:91:0000:0000
+ZNY Pottstown Sector 92:New York Center:124.620:N92:C:NY:CTR:ZNY:92:0000:0000
+ZNY Swissdale Sector 93:New York Center:123.620:N93:C:NY:CTR:ZNY:93:0000:0000
+;
+ZNY AREA E
+;
+ZNY East Sector:New York Center:128.300:E1:C:NY:CTR:ZNY:E1:0000:0000
+ZNY MANTA Sector 66:New York Center:128.300:N66:C:NY:CTR:ZNY:66:0000:0000
+ZNY CHAMP Sector 87:New York Center:122.600:N87:C:NY:CTR:ZNY:87:0000:0000
+ZNY BACUS Sector 88:New York Center:122.620:N88:C:NY:CTR:ZNY:88:0000:0000
+ZNY KRAFT Sector 89:New York Center:122.700:N89:C:NY:CTR:ZNY:89:0000:0000
+ZNY GRATX Sector 90:New York Center:122.720:N90:C:NY:CTR:ZNY:90:0000:0000
+ZNY PAEPR Sector 82:New York Center:126.020:N82:C:NY:CTR:ZNY:82:0000:0000
+ZNY HANRI Sector 83:New York Center:133.520:N83:C:NY:CTR:ZNY:83:0000:0000
+;
+ZNY TRACONS
+;
+MDT TRACON Southwest (K) (ZAU):Harrisburg Approach:124.100:N1K:K:MDT:APP:MDT:K:0000:0000
+MDT TRACON Southeast (S) (ZAU):Harrisburg Approach:126.450:N1S:S:MDT:APP:MDT:S:0000:0000
+MDT TRACON North (G) (ZAU):Harrisburg Approach:118.250:N1G:G:MDT:APP:MDT:G:0000:0000
+ELM TRACON South (S) (ZAU):Elmira Approach:119.450:N2S:S:ELM:APP:ELM:S:0000:0000
+ELM TRACON North (N) (ZAU):Elmira Approach:118.150:N2N:N:ELM:APP:ELM:N:0000:0000
+;
+ZBW SECTORS
+;
+ZBW Milnocket High Sector 01:Boston Center:128.050:B01:C:BOS:CTR:ZBW:1:0000:0000
+ZBW Augusta High Sector 02:Boston Center:134.950:B02:C:BOS:CTR:ZBW:2:0000:0000
+ZBW Stewart Low Sector 05:Boston Center:134.300:B05:C:BOS:CTR:ZBW:5:0000:0000
+ZBW Pawling Low Sector 06:Boston Center:128.100:B06:C:BOS:CTR:ZBW:6:0000:0000
+ZBW Chester Low Sector 07:Boston Center:127.650:B07:C:BOS:CTR:ZBW:7:0000:0000
+ZBW Watertown Low Sector 08:Boston Center:135.250:B08:C:BOS:CTR:ZBW:8:0000:0000
+ZBW Utica High Sector 09:Boston Center:123.870:B09:C:BOS:CTR:ZBW:9:0000:0000
+ZBW Rockdale High Sector 10:Boston Center:124.120:B10:C:BOS:CTR:ZBW:10:0000:0000
+ZBW Surry Low Sector 15:Boston Center:124.750:B15:C:BOS:CTR:ZBW:15:0000:0000
+ZBW Parso Low Sector 16:Boston Center:128.200:B16:C:BOS:CTR:ZBW:16:0000:0000
+ZBW Nantucket Combined Sector 17:Boston Center:133.450:B17:C:BOS:CTR:ZBW:17:0000:0000
+ZBW Cape Combined Sector 18:Boston Center:128.750:B18:C:BOS:CTR:ZBW:18:0000:0000
+ZBW Danbury Low Sector 19:Boston Center:134.000:B19:C:BOS:CTR:ZBW:19:0000:0000
+ZBW Kingston High Sector 20:Boston Center:125.570:B20:C:BOS:CTR:ZBW:20:0000:0000
+ZBW Canan Low Sector 21:Boston Center:132.650:B21:C:BOS:CTR:ZBW:21:0000:0000
+ZBW Albany Low Sector 22:Boston Center:121.350:B22:C:BOS:CTR:ZBW:22:0000:0000
+ZBW Hancock Low Sector 23:Boston Center:133.250:B23:C:BOS:CTR:ZBW:23:0000:0000
+ZBW Delancey High Sector 24:Boston Center:127.370:B24:C:BOS:CTR:ZBW:24:0000:0000
+ZBW Hampton High Sector 31:Boston Center:124.520:B31:C:BOS:CTR:ZBW:31:0000:0000
+ZBW Erick Low Sector 32:Boston Center:132.300:B32:C:BOS:CTR:ZBW:32:0000:0000
+ZBW Sardi Low Sector 33:Boston Center:135.800:B33:C:BOS:CTR:ZBW:33:0000:0000
+ZBW Providence Low Sector 34:Boston Center:124.850:B34:C:BOS:CTR:ZBW:34:0000:0000
+ZBW Gardner Low Sector 36:Boston Center:123.750:B36:C:BOS:CTR:ZBW:36:0000:0000
+ZBW Concord Low Sector 37:Boston Center:134.700:B37:C:BOS:CTR:ZBW:37:0000:0000
+ZBW Athens High Sector 38:Boston Center:135.320:B38:C:BOS:CTR:ZBW:38:0000:0000
+ZBW Cambridge High Sector 39:Boston Center:128.320:B39:C:BOS:CTR:ZBW:39:0000:0000
+ZBW Boston High Sector 46:Boston Center:126.220:B46:C:BOS:CTR:ZBW:46:0000:0000
+ZBW Bosox Low Sector 47:Boston Center:133.420:B47:C:BOS:CTR:ZBW:47:0000:0000
+ZBW Montpelier Combined Sector 52:Boston Center:135.700:B52:C:BOS:CTR:ZBW:52:0000:0000
+ZBW Plattsburgh High Sector 53:Boston Center:118.820:B53:C:BOS:CTR:ZBW:53:0000:0000
+;
+ZBW TRACON
+;
+Syracuse Approach (South Radar) (ZBW):Syracuse Approach:126.120:B1A:S:SYR:APP:SYR:S:0000:0000
+Syracuse Approach (North Radar) (ZBW):Syracuse Approach:134.270:B1B:N:SYR:APP:SYR:N:0000:0000
+;
+ZYZ SECTORS
+;
+ZYZ Toronto Centralia Sector:Toronto Centre:125.770:CE:C:TOR:CTR:ZYZ:CE:0000:0000
+ZYZ Toronto Lucan Sector:Toronto Centre:135.820:LU:C:TOR:CTR:ZYZ:LU:0000:0000
+ZYZ Toronto Midland Sector:Toronto Centre:124.370:MI:C:TOR:CTR:ZYZ:MI:0000:0000
+ZYZ Toronto Wiarton Sector:Toronto Centre:132.570:VV:C:TOR:CTR:ZYZ:VV:0000:0000
+ZYZ Toronto Sault Ste Marie High Sector:Toronto Centre:124.070:SH:C:TOR:CTR:ZYZ:SH:0000:0000
+ZYZ Toronto Killaloe Sector:Toronto Centre:121.220:XI:C:TOR:CTR:ZYZ:XI:0000:0000
+ZYZ Toronto Picton Sector:Toronto Centre:124.670:PI:C:TOR:CTR:ZYZ:PI:0000:0000
+ZYZ Toronto Barrie Sector:Toronto Centre:134.570:BA:C:TOR:CTR:ZYZ:BA:0000:0000
+ZYZ Toronto London Sector:Toronto Centre:135.300:KF:C:TOR:CTR:ZYZ:KF:0000:0000
+ZYZ Toronto Hamilton Sector:Toronto Centre:128.270:HM:C:TOR:CTR:ZYZ:HM:0000:0000
+ZYZ Toronto Grimsby Sector:Toronto Centre:133.300:GR:C:TOR:CTR:ZYZ:GR:0000:0000
+ZYZ Toronto Simcoe Sector:Toronto Centre:127.000:SI:C:TOR:CTR:ZYZ:SI:0000:0000
+ZYZ Toronto East Radar Sector:Toronto Centre:124.920:ER:C:TOR:CTR:ZYZ:ER:0000:0000
+ZYZ Toronto North Bay Sector:Toronto Centre:127.250:YB:C:TOR:CTR:ZYZ:YB:0000:0000
+ZYZ Toronto Sault Ste Marie Low Sector:Toronto Centre:132.650:SL:C:TOR:CTR:ZYZ:SL:0000:0000
+ZYZ Toronto Cobalt Sector:Toronto Centre:133.050:CB:C:TOR:CTR:ZYZ:CB:0000:0000
+ZYZ Toronto Timmins Sector:Toronto Centre:128.300:TS:C:TOR:CTR:ZYZ:TS:0000:0000
+ZYZ Toronto Oakville Sector:Toronto Centre:134.920:OV:C:TOR:CTR:ZYZ:OV:0000:0000
+;
+ZYZ TRACON
+;
+Toronto 1 Approach (ZYZ):Toronto Arrival:132.800:Y1A:A:CYYZ:APP:CYYZ:1A:0000:0000
+Toronto 2 Approach (ZYZ):Toronto Arrival:124.470:Y2A:A:CYYZ:APP:CYYZ:2A:0000:0000
+Toronto 3 Approach (ZYZ):Toronto Arrival:125.400:Y3A:A:CYYZ:APP:CYYZ:3A:0000:0000
+Toronto North Departure (ZYZ):Toronto Departure:127.570:YND:D:CYYZ:DEP:CYYZ:ND:0000:0000
+Toronto South Departure (ZYZ):Toronto Departure:128.800:YSD:D:CYYZ:DEP:CYYZ:SD:0000:0000
+Toronto East Terminal (ZYZ):Toronto Terminal:128.270:YES:S:CYYZ:DEP:CYYZ:ES:0000:0000
+Toronto West Terminal (ZYZ):Toronto Terminal:119.300:YWS:S:CYYZ:DEP:CYYZ:WS:0000:0000
+; 
+; **** SPECIALS ***
+;
+;
+; ZOB Staff Positions
+;
+Air Traffic Manager:-:199.998:ATM:A:ZOB:ATM:ZOB:ATM:0000:0000
+Deputy Air Traffic Manager:-:199.998:DM:D:ZOB:DATM:ZOB:DATM:0000:0000
+Training Administrator:-:199.998:TA:A:ZOB:TA:ZOB:TA:0000:0000
+Event Coordinator:-:199.998:EC:E:ZOB:EC:ZOB:EC:0000:0000
+Facility Engineer:-:199.998:FE:F:ZOB:FE:ZOB:FE:0000:0000
+Assistant Facility Engineer:-:199.998:AFE:N:ZOB:AFE:ZOB:AFE:0000:0000
