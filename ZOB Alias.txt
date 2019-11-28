@@ -50,6 +50,9 @@ VERSION 1810
 
 VERSION 1901
 - Added new PDC commands
+
+VERSION 1913
+- Corrected CLE maps in maps shortcuts
 ====================================================================================
 GENERIC CLEARANCE:
 ====================================================================================
@@ -441,7 +444,7 @@ PIT CROSSINGS:
 ====================================================================================
 LOA CROSSINGS:
 ====================================================================================
-.emmma Cross EMMMA at and maintain FL320..
+.emmma Cross EMMMA at and maintain FL320.
 .bagel Cross BAGEL at and maintain FL200.
 .bucko Cross BUCKO at and maintain FL310.
 .lundy Cross LUNDY at and maintain FL290.
@@ -465,8 +468,8 @@ OTHER:
 .mapsno .nodiagrams
 .mapsnone .nodiagrams
 .nomaps .nodiagrams
-.mapsne .fd - RWY 5|- RWY 6|- NORTH ARRIVAL|- RWY 10|- RWY 10R-6|- RWY 4
-.mapssw .fd - RWY 23|- RWY 24|- SOUTH ARRIVAL|- RWY 28|- RWY 28L-24|- RWY 22
+.mapsne .fd - RWY 5|- CLE RWY 6|- NORTH ARRIVAL|- RWY 10|- RWY 10R-6|- RWY 4
+.mapssw .fd - RWY 23|- CLE RWY 24|- SOUTH ARRIVAL|- RWY 28|- RWY 28L-24|- RWY 22
 .mapsclassb .fd + CLE CLASS B|+ D21 CLASS B|+ PIT CLASS B
 .mapsminors .fd - ERI AIRSPACE|- FNT AIRSPACE|- YNG AIRSPACE
 .mapsmva .fd - BUF MVA|- CLE MVA|- D21 MVA|- ERI MVA|- LAN MVA|- PIT MVA|- ROC MVA|- YNG MVA
