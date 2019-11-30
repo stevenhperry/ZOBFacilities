@@ -53,6 +53,11 @@ VERSION 1901
 
 VERSION 1913
 - Corrected CLE maps in maps shortcuts
+- removed procedure specific aliases
+- added .ccv (cleared, climb via) and .ccvx (cleared, climb via, except) clearances
+- added .dv (descend via) and .dvd (descend via, direction) clearances
+- corrected landing clearance to give arrival airport wind.
+- minor cleanup
 ====================================================================================
 GENERIC CLEARANCE:
 ====================================================================================
@@ -66,8 +71,10 @@ GENERIC CLEARANCE:
 .cdt cleared to $arr airport. $1 departure, $2 transition, then as filed.
 .cdrv cleared to $arr airport via radar vectors $1, then as filed.
 .cdct cleared to $arr airport via direct $1, then as filed.
+.ccv cleared to $arr airport via $1 departure, $2 transition, then as filed. Climb via SID. Departure frequency $freq($3), squawk $squawk.
+.ccvx cleared to $arr airport via $1 departure, $2 transition, then as filed. Climb via SID, EXCEPT maintain $3. Departure frequency $freq($4), squawk $squawk.
 
-.clra cleared to $arr airport; present position direct $1 $2 $3 $4 $5 $6. Maintain $alt.
+.clra cleared to $arr airport via direct $1 $2 $3 $4 $5 $6. Maintain $alt.
 
 .route Are you able to accept the following amendment to your route:
 .xpdc you will receive your clearance via PDC over private message. Readback is not required.
@@ -80,6 +87,7 @@ GENERIC CLEARANCE:
 .m maintain $1, expect $cruise 10 minutes after departure. Departure frequency $freq($2), squawk $squawk.
 .mo maintain $1, expect $cruise 10 minutes after departure. Departure is offline, squawk $squawk.
 .mz maintain $cruise, departure frequency $freq($1), squawk $squawk.
+
 
 ====================================================================================
 PRE-DEPARTURE CLEARANCE:
@@ -130,61 +138,6 @@ VFR CLEARANCE:
 .lvyngtrsa leaving the Youngstown TRSA,
 
 ====================================================================================
-DTW CLEARANCE (JETS +100):
-====================================================================================
-.pistn cleared to $arr airport via STCLR1 direct PISTN, then as filed. Maintain 10,000, expect $cruise 10 min after departure. Departure frequency $freq($1), squawk $squawk.
-.maars cleared to $arr airport via STCLR1 direct MAARS, then as filed. Maintain 10,000, expect $cruise 10 min after departure. Departure frequency $freq($1), squawk $squawk.
-.scorr cleared to $arr airport via STCLR1 direct SCORR, then as filed. Maintain 10,000, expect $cruise 10 min after departure. Departure frequency $freq($1), squawk $squawk.
-.barii cleared to $arr airport via BARII1 departure, AYRTN transition, then as filed. Climb via SID except maintain 10000. Departure frequency $freq($1), squawk $squawk.
-.ccobb cleared to $arr airport via CCOBB1 departure, BLURZ transition, then as filed. Climb via SID except maintain 10000. Departure frequency $freq($1), squawk $squawk.
-.clvin cleared to $arr airport via CLVIN1 departure, STAZE transition, then as filed. Climb via SID except maintain 10000. Departure frequency $freq($1), squawk $squawk.
-.hhowe cleared to $arr airport via HHOWE1 departure, $1 transition, then as filed. Climb via SID except maintain 10000. Departure frequency $freq($2), squawk $squawk.
-.kayln cleared to $arr airport via KAYLN1 departure, $1 transition, then as filed. Climb via SID except maintain 10000. Departure frequency $freq($2), squawk $squawk.
-.lidds cleared to $arr airport via LIDDS1 departure, GRIVY transition, then as filed. Climb via SID except maintain 10000. Departure frequency $freq($1), squawk $squawk.
-.miggy cleared to $arr airport via MIGGY1 departure, $1 transition, then as filed. Climb via SID except maintain 10000. Departure frequency $freq($2), squawk $squawk.
-.pavyl cleared to $arr airport via PAVYL1 departure, $1 transition, then as filed. Climb via SID except maintain 10000. Departure frequency $freq($2), squawk $squawk.
-.sndrs cleared to $arr airport via SNDRS1 departure, $1 transition, then as filed. Climb via SID except maintain 10000. Departure frequency $freq($2), squawk $squawk.
-.trmml cleared to $arr airport via TRMML1 departure, GNZOE transition, then as filed. Climb via SID except maintain 10000. Departure frequency $freq($1), squawk $squawk.
-.zettr cleared to $arr airport via ZETTR1 departure, $1 transition, then as filed. Climb via SID except maintain 10000. Departure frequency $freq($2), squawk $squawk.
-
-====================================================================================
-CLE CLEARANCE (JETS):
-====================================================================================
-.fails cleared to $arr airport via direct FAILS, then as filed. Maintain 5,000, expect $cruise 10 minutes after departure. Departure frequency $freq($1), squawk $squawk.
-.herak cleared to $arr airport via direct Dryer VOR, direct HERAK, then as filed. Maintain 5,000, expect $cruise 10 minutes after departure. Departure frequency $freq($2), squawk $squawk.
-.cavvs cleared to $arr airport via CAVVS1 departure, Appleton transition, then as filed. Climb via SID expect maintain 5000. Departure frequency $freq($1), squawk $squawk.
-.gtlke cleared to $arr airport via GTLKE2 departure, $1 transition, then as filed. Climb via SID expect maintain 5000. Departure frequency $freq($2), squawk $squawk.
-.kkids cleared to $arr airport via KKIDS1 departure, $1 transition, then as filed. Climb via SID expect maintain 5000. Departure frequency $freq($2), squawk $squawk.
-.pflyd cleared to $arr airport via PFLYD1 departure, $1 transition, then as filed. Climb via SID expect maintain 5000. Departure frequency $freq($2), squawk $squawk.
-.zaapa cleared to $arr airport via ZAAPA2 departure, $1 transition, then as filed. Climb via SID expect maintain 5000. Departure frequency $freq($2), squawk $squawk.
-
-====================================================================================
-CLE CLEARANCE (PROPS):
-====================================================================================
-.pfails cleared to $arr airport via radar vectors FAILS, then as filed. Maintain 5,000, expect $cruise 10 minutes after departure. Departure frequency $freq($1), squawk $squawk.
-.pherak cleared to $arr airport via radar vectors Dryer VOR, direct HERAK, then as filed. Maintain 5,000, expect $cruise 10 minutes after departure. Departure frequency $freq($1), squawk $squawk.
-
-====================================================================================
-PIT CLEARANCE (JETS):
-====================================================================================
-.pit5 cleared to $arr airport; Pittsburgh Four departure, radar vectors $1, then as filed. Maintain 5,000, expect $cruise 10 minutes after departure. Departure frequency $freq($2), squawk $squawk.
-
-====================================================================================
-PIT CLEARANCE (PROPS):
-====================================================================================
-.ppit5 cleared to $arr airport; Pittsburgh Four departure, radar vectors $1, then as filed. Maintain 4,000, expect $cruise 10 minutes after departure. Departure frequency $freq($2), squawk $squawk.
-
-====================================================================================
-BUF CLEARANCE:
-====================================================================================
-.buf7 cleared to $arr airport; Buffalo Seven departure, radar vectors $1, then as filed. Maintain 10,000, expect $cruise 10 minutes after departure. Departure frequency $freq($2), squawk $squawk.
-
-====================================================================================
-ROC CLEARANCE:
-====================================================================================
-.xerox6 cleared to $arr airport; XEROX Six departure, radar vectors $1, then as filed. Maintain 10,000, expect $cruise 10 minutes after departure. Departure frequency $freq($2), squawk $squawk.
-
-====================================================================================
 GROUND:
 ====================================================================================
 .push pushback and start at pilot's risk, advise ready to taxi.
@@ -218,7 +171,7 @@ LOCAL:
 .to@ wind $wind($dep), runway $1 at $2, cleared for takeoff.
 .tohdg wind $wind($dep), fly heading $1, runway $2, cleared for takeoff.
 .tornav wind $wind($dep), RNAV $1, runway $2, cleared for takeoff.
-.land wind $wind($dep), runway $1, cleared to land.
+.land wind $wind($arr), runway $1, cleared to land.
 .cont runway $1, continue. Traffic holding position.
 .expland Expect landing clearance on a $1 mile final.
 .turb caution wake turbulence.
@@ -302,6 +255,8 @@ RADAR:
 .x@a cross $1 at or above $2
 .x@m cross $1 at and maintain $2
 .dpd descend at pilot's discretion, maintain $1
+.dv Descend via the $1 arrival.  $arr altimeter $altim($arr).
+.dvd Descend via the $1 arrival.  $arr altimeter $altim($arr).  $arr landing $2
 
 .si say airspeed
 .sm say Mach number
@@ -376,55 +331,7 @@ MISC:
 .pitatis Pittsburgh ATIS $1 now current. Winds $wind(KPIT), Altimeter $altim(KPIT).
 .cleatis Cleveland Hopkins ATIS $1 now current. Winds $wind(KCLE), Altimeter $altim(KCLE).
 .dtwatis Detroit Metro ATIS $1 now current. Winds $wind(KDTW), Altimeter $altim(KDTW).
-====================================================================================
-DTW RNAV STARS:
-====================================================================================
-.crakn Descend via the CRAKN1 arrival. DTW altimeter $altim(kdtw).
-.htrod Descend via the HTROD1 arrival. DTW altimeter $altim(kdtw).
-.cuugr Descend via the CUUGR1 arrival. DTW altimeter $altim(kdtw).
-.tpgun Descend via the TPGUN1 arrival. DTW altimeter $altim(kdtw).
-.grayt Descend via the GRAYT1 arrival. DTW altimeter $altim(kdtw).
-.layks Descend via the LAYKS1 arrival. DTW altimeter $altim(kdtw).
-.klynk Descend via the KLYNK1 arrival. DTW altimeter $altim(kdtw).
-.bonzz Descend via the BONZZ1 arrival. DTW altimeter $altim(kdtw).
-.wngnt Descend via the WNGNT1 arrival. DTW altimeter $altim(kdtw).
-.ferrl Descend via the FERRL1 arrival. DTW altimeter $altim(kdtw).
-.hanbl Descend via the HANBL1 arrival. DTW altimeter $altim(kdtw).
-.hayll Descend via the HAYLL2 arrival. DTW altimeter $altim(kdtw).
-.kkiss Descend via the KKISS1 arrival. DTW altimeter $altim(kdtw).
-.lectr Descend via the LECTR1 arrival. DTW altimeter $altim(kdtw).
-.rkcty Descend via the RKCTY1 arrival. DTW altimeter $altim(kdtw).
-.vctrz Descend via the VCTRZ1 arrival. DTW altimeter $altim(kdtw).
 
-====================================================================================
-Detroit Area RNAV STARS:
-====================================================================================
-.forey Cross SWETY at or above 4000. $arr altimeter $altim($arr).
-.giggy Cross GIGGY at or above 4000. $arr altimeter $altim($arr).
-.oklnd Cross OKLND at or above 4000. $arr altimeter $altim($arr).
-.pette Cross SYREN at or above 4000. $arr altimeter $altim($arr).
-.rralf Cross PICTR at or above 4000. $arr altimeter $altim($arr).
-
-====================================================================================
-CLE RNAV STARS:
-====================================================================================
-.roknn Descend via the ROKNN1 arrival. CLE altimeter $altim(kcle).
-.rolln Descend via the ROLLN1 arrival. CLE altimeter $altim(kcle).
-.trybe Descend via the TRYBE2 arrival. CLE altimeter $altim(kcle).
-.brwnz Descend via the BRWNZ1 arrival. CLE altimeter $altim(kcle).
-====================================================================================
-CLE CROSSINGS:
-====================================================================================
-.himez Cross HIMEZ at and maintain 10,000. CLE altimeter $altim(kcle).
-.phimez Cross HIMEZ at and maintain 9,000. CLE altimeter $altim(kcle).
-.keatn Cross KEATN at and maintain 10,000. CLE altimeter $altim(kcle).
-.pkeatn Cross KEATN at and maintain 9,000. CLE altimeter $altim(kcle).
-.zaber Cross ZABER at and maintain 10,000. CLE altimeter $altim(kcle).
-.pzaber Cross ZABER at and maintain 9,000. CLE altimeter $altim(kcle).
-.cxr Cross Chardon at and maintain 10,000. CLE altimeter $altim(kcle).
-.pcxr Cross Chardon at and maintain 9,000. CLE altimeter $altim(kcle).
-.fails1 Cross FAILS at and maintain 7,000. $arr altimeter $altim($arr).
-.pfails1 Cross FAILS at and maintain 5,000. $arr altimeter $altim($arr).
 
 ====================================================================================
 PIT CROSSINGS:
