@@ -1,3 +1,5 @@
+#define AQUA 16776960
+#define MAROON 128
 #define ARTCCH 8421376 
 #define ARTCCL 325441
 ;GEO
@@ -29,3 +31,4 @@ W080.40.28.760
 ;
 ;
 ; ****
+
