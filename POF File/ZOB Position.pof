@@ -169,7 +169,7 @@ Erie Ground:Erie Ground:121.900:1Y:-:ERI:GND:ERI:GND:6001:6077
 Erie Tower:Erie Tower:118.100:1Z:T:ERI:TWR:ERI:TWR:6001:6077
 Buffalo Approach (Erie TRSA): Buffalo Approach:121.000:1R:R:BUF:APP:BUF:1R:6001:6077
 Niagara Clearance:Niagara Clearance:119.250:1P:-:IAG:DEL:IAG:DEL:6001:6077
-Niagara Ground:Niagara Ground:121.700:1O:-:IAG:GND:IAG:GND:6001:6077
+Niagara Ground:Niagara Ground:125.300:1O:-:IAG:GND:IAG:GND:6001:6077 ;updated 2002
 Niagara Tower:Niagara Tower:118.500:1N:T:IAG:TWR:IAG:TWR:6001:6077
 ;
 ; Great Lakes Consolidated "East Wall" (FNT/LNN/MBS) Positions
