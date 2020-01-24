@@ -208,11 +208,11 @@ Morgantown Tower:Morgantown Tower:125.100:7M:T:MGW:TWR:MGW:TWR:5101:5177
 ;
 ; ROC Positions
 ;
-Rochester Clearance:Rochester Clearance:118.800:1C:X:ROC:DEL:ROC:DEL:6001:6077
-Rochester Ground:Rochester Ground:121.700:1G:X:ROC:GND:ROC:GND:6001:6077
-Rochester Tower:Rochester Tower:118.300:1T:T:ROC:TWR:ROC:TWR:6001:6077
-Rochester Approach East:Rochester Approach:119.550:1E:E:ROC:APP:ROC:1E:6001:6077
-Rochester Approach West/Combined:Rochester Approach:123.700:1W:W:ROC:APP:ROC:1W:6001:6077
+Rochester Clearance:Rochester Clearance:118.800:9C:-:ROC:DEL:ROC:DEL:6001:6077
+Rochester Ground:Rochester Ground:121.700:9G:-:ROC:GND:ROC:GND:6001:6077
+Rochester Tower:Rochester Tower:118.300:9T:T:ROC:TWR:ROC:TWR:6001:6077
+Rochester Approach East:Rochester Approach:119.550:9E:E:ROC:APP:ROC:9E:6001:6077
+Rochester Approach West/Combined:Rochester Approach:123.700:9W:W:ROC:APP:ROC:9W:6001:6077
 ;
 ; JST Positions
 ;
