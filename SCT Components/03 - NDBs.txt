@@ -118,6 +118,7 @@ DKK 999.999 N042.29.25.440 W079.16.26.770 ;DKK DME (was VOR/DME) for flight plan
 ASP 999.999 N044.26.56.861 W083.23.39.420 ;ASP DME for flight plan processing purposes
 GRV 999.999 N039.38.06.112 W079.03.01.900 ;GRV DME for flight plan processing purposes
 ECK 999.999 N043.15.21.188 W082.43.04.546 ;ECK TACAN for flight plan processing purposes
+TVT 999.999 N040.27.29.037 W082.07.36.524 ;TVT VOR/DME (decomissioned) for flight plan processing purposes
 
 
 ; ****
