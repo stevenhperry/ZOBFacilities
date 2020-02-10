@@ -113,6 +113,14 @@ YN 338.000 N041.12.01.884 W080.35.46.274
 ZHA 397.000 N043.11.38.700 W080.01.38.500
 ZHM 266.000 N043.08.39.300 W079.47.35.500
 ZR 404.000 N042.56.26.113 W082.14.00.653
+
+DKK 999.999 N042.29.25.440 W079.16.26.770 ;DKK DME (was VOR/DME) for flight plan processing purposes
+ASP 999.999 N044.26.56.861 W083.23.39.420 ;ASP DME for flight plan processing purposes
+GRV 999.999 N039.38.06.112 W079.03.01.900 ;GRV DME for flight plan processing purposes
+ECK 999.999 N043.15.21.188 W082.43.04.546 ;ECK TACAN for flight plan processing purposes
+TVT 999.999 N040.27.29.037 W082.07.36.524 ;TVT VOR/DME (decomissioned) for flight plan processing purposes
+
+
 ; ****
 ;
 ;

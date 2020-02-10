@@ -1,3 +1,12 @@
+The sector file is split into discrete sections for ease of maintenance.  These txt files are numbered to allow for programmatic assembly.  Do not change the ## prefixes!
+
+Reassembling the whole thing is accomplished by command line.  Navigate to the folder (use the cd command) and then use this string to combine all .txt files into an example.sct2
+
+copy *.txt example.sct2
+
+
+
+
 http://www.myfsim.com/sectorfilecreation/index.php - pull
 
 https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/dtpp/search/advanced/ - FAA's digital terminal procedures
@@ -8,3 +17,11 @@ https://sites.google.com/site/vatsimtools/sected
 
 
 http://gng.aero-nav.com/ - haven't messed with this one very much.  - SHP 8/7/19
+
+http://www1.metacraft.com/VRC/docs/doc.php?page=appendix_g - VRC Sector file formatting requirements.
+
+
+Excel formulae for converting decimal lat/lon to VRC format.  B2 is Latitude Cell.  C2 is Longitude cell.
+=CONCAT(IF(B2<0," S"," N"),TEXT(ROUNDDOWN(ABS(B2),0),"000"),".",TEXT(ROUNDDOWN(ABS((B2-ROUNDDOWN(B2,0))*60),0),"00"),".",TEXT(TRUNC((ABS((B2-ROUNDDOWN(B2,0))*60)-ROUNDDOWN(ABS((B2-ROUNDDOWN(B2,0))*60),0))*60,2),"00.000"),"")
+=CONCAT(IF(C2<0," W"," E"),TEXT(ROUNDDOWN(ABS(C2),0),"000"),".",TEXT(ROUNDDOWN(ABS((C2-ROUNDDOWN(C2,0))*60),0),"00"),".",TEXT(TRUNC((ABS((C2-ROUNDDOWN(C2,0))*60)-ROUNDDOWN(ABS((C2-ROUNDDOWN(C2,0))*60),0))*60,2),"00.000"),"")
+
